@@ -262,18 +262,18 @@ body {
   padding: 12px 0;
 }
 .tabs {
-  display: inline-flex; gap: 4px; padding: 5px;
-  background: var(--line-soft); border: 1px solid var(--line); border-radius: 13px;
+  display: inline-flex; gap: 5px; padding: 5px;
+  background: var(--surface); border: 2px solid var(--accent); border-radius: 13px;
 }
 .tab {
   font: inherit; font-size: 14px; font-weight: 600; white-space: nowrap; cursor: pointer;
-  color: var(--ink-soft); background: transparent; border: none;
+  color: var(--accent); background: transparent; border: none;
   border-radius: 9px; padding: 9px 18px;
 }
-.tab:hover { color: var(--ink); }
+.tab:hover { color: var(--ink); background: color-mix(in srgb, var(--accent) 12%, transparent); }
 .tab.active {
-  color: var(--ink); font-weight: 700; background: var(--surface);
-  box-shadow: 0 1px 3px rgba(20,30,45,.12);
+  color: var(--accent-ink); font-weight: 700; background: var(--accent);
+  box-shadow: 0 1px 3px rgba(20,30,45,.15);
 }
 
 .panel { display: none; padding-top: 22px; }
