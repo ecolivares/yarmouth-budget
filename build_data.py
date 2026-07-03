@@ -73,17 +73,40 @@ def build():
         })
     school.sort(key=lambda s: -s["fy27"])
 
-    # ---- scenarios ----
+    # ---- scenarios (enriched with side / target / impact for the UI) ----
+    def classify_target(group, scen):
+        s = scen.lower()
+        if group == "Revenue":
+            return "revenue"
+        if group == "Compensation":
+            return "both"          # town + school payrolls
+        if "school" in s or "athletic" in s:
+            return "schools"
+        return "municipal"
+
+    def impact_tier(home):
+        h = abs(home)
+        if h >= 100:
+            return "high"
+        if h >= 30:
+            return "moderate"
+        return "small"
+
     scenarios = []
     for r in load("scenarios.csv"):
+        home = int(num(r["home_500k_impact"]))
+        typ = r["type"]
         scenarios.append({
             "group": r["group"],
             "scenario": r["scenario"],
             "annual": int(num(r["annual_dollars"])),
-            "type": r["type"],
+            "type": typ,
+            "side": "revenue" if typ == "revenue" else "cut",
+            "target": classify_target(r["group"], r["scenario"]),
+            "impact": impact_tier(home),
             "feasibility": r["feasibility"],
             "rate": float(r["rate_impact"]),
-            "home": int(num(r["home_500k_impact"])),
+            "home": home,
             "note": r["note"],
         })
 

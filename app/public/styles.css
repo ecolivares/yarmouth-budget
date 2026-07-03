@@ -77,8 +77,6 @@ body {
   background: var(--surface);
   border-bottom: 1px solid var(--line);
   padding: 18px 0;
-  position: sticky; top: 0; z-index: 20;
-  backdrop-filter: saturate(1.2);
 }
 .brand { display: flex; align-items: center; gap: 14px; }
 .brand-mark { font-size: 34px; line-height: 1; }
@@ -237,3 +235,99 @@ body {
   .card { padding: 18px 16px; }
   .bubble { max-width: 90%; }
 }
+
+/* ================= TABBED LAYOUT (v2) ================= */
+.summary-strip {
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  padding: 16px 0;
+}
+.summary-strip .stat-row { margin: 0; }
+
+.tabbar {
+  position: sticky; top: 0; z-index: 30;
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  backdrop-filter: saturate(1.4) blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.tabbar-inner { display: flex; align-items: center; gap: 16px; }
+.tabbar-label {
+  font-size: 12px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase;
+  color: var(--ink-faint); white-space: nowrap;
+}
+.tabs { display: flex; gap: 4px; overflow-x: auto; }
+.tab {
+  font: inherit; font-size: 14px; font-weight: 600; white-space: nowrap;
+  background: none; border: none; cursor: pointer; color: var(--ink-soft);
+  padding: 14px 14px 12px; border-bottom: 2.5px solid transparent;
+}
+.tab:hover { color: var(--ink); }
+.tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+.panel { display: none; padding-top: 22px; }
+.panel.active { display: block; }
+.panel > .card:first-child, .panel > .panel-note:first-child { margin-top: 0; }
+.panel-note { color: var(--ink-soft); font-size: 14px; margin: 0 2px 6px; max-width: 74ch; }
+
+/* segmented cuts/revenue */
+.segmented {
+  display: inline-flex; background: var(--line-soft); border: 1px solid var(--line);
+  border-radius: 11px; padding: 4px; gap: 4px; margin-bottom: 16px;
+}
+.seg {
+  font: inherit; font-size: 14px; font-weight: 600; cursor: pointer;
+  border: none; background: none; color: var(--ink-soft);
+  padding: 8px 16px; border-radius: 8px;
+}
+.seg:hover { color: var(--ink); }
+.seg.active { background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
+
+/* filter chip rows */
+.filters { display: flex; flex-direction: column; gap: 10px; margin-bottom: 6px; }
+.chip-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.chip-label {
+  font-size: 12px; font-weight: 600; color: var(--ink-faint); text-transform: uppercase;
+  letter-spacing: .03em; margin-right: 4px; min-width: 118px;
+}
+.fchip {
+  font: inherit; font-size: 12.5px; cursor: pointer; padding: 6px 13px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink-soft);
+}
+.fchip:hover { border-color: var(--accent); color: var(--accent); }
+.fchip.active { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+
+.view-note {
+  font-size: 13px; color: var(--ink-soft); background: var(--line-soft);
+  border: 1px solid var(--line); border-radius: 10px; padding: 11px 14px; margin: 16px 0 4px;
+}
+.view-note:empty { display: none; }
+.empty { color: var(--ink-faint); font-size: 14px; padding: 20px 0; }
+
+/* impact tiers */
+.tier { margin-top: 22px; }
+.tier-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.tier-title { font-size: 15px; font-weight: 700; letter-spacing: -.01em; }
+.tier-desc { font-size: 12.5px; color: var(--ink-faint); }
+.tier-count {
+  margin-left: auto; font-size: 12px; font-weight: 600; color: var(--ink-soft);
+  background: var(--line-soft); border: 1px solid var(--line); border-radius: 999px; padding: 2px 9px;
+}
+
+/* target badge on cards */
+.scen-top { display: flex; gap: 6px; flex-wrap: wrap; }
+.tbadge {
+  font-size: 10.5px; font-weight: 700; letter-spacing: .03em; text-transform: uppercase;
+  padding: 3px 8px; border-radius: 6px; color: #fff;
+}
+.tbadge.t-edu { background: var(--edu); }
+.tbadge.t-muni { background: var(--muni); }
+.tbadge.t-both { background: linear-gradient(90deg, var(--edu), var(--muni)); }
+.tbadge.t-rev { background: var(--good); }
+.tbadge.t-once { background: var(--county); }
+
+/* suggestion buttons in chat */
+.chip-btn {
+  font: inherit; font-size: 12.5px; padding: 7px 12px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink-soft);
+}
+.chip-btn:hover { border-color: var(--accent); color: var(--accent); }

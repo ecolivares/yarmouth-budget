@@ -1,90 +1,109 @@
-# Yarmouth, ME Town Budget — Master Dataset & Analysis
+# Yarmouth Budget Explorer
 
-Reads four years of Yarmouth town & school budget books (FY2024–FY2027 draft)
-plus the detailed FY27 school budget, parses them into a validated master
-dataset, and explores spend, growth, revenue, and property-tax cut scenarios.
+**A public web tool that explains the Town of Yarmouth, Maine budget and lets
+residents test property-tax-cut scenarios against the real, validated numbers.**
 
-**Phase 1 (this repo):** build + validate the dataset, exploratory analysis,
-canned tax-cut scenarios.
-**Phase 2 (not started):** turn it into an interactive LLM-driven artifact.
+It answers the question every taxpayer actually has — *"what would it take to
+lower my bill, and by how much?"* — by turning four years of town & school budget
+books into a validated dataset, then wrapping it in:
 
-## Source documents (`*.pdf`)
-| File | Role |
-|---|---|
-| `FY24 Town & School Budget …06.06.23.pdf` | FY2024 approved book |
-| `2024-2025 …06.04.24.pdf` | FY2025 approved book |
-| `2025-2026 …06.10.25.pdf` | FY2026 approved book |
-| `2026-2027 DRAFT …04.09.26 Citizens 05.04.26.pdf` | FY2027 **draft** book (primary) |
-| `FY27 Full School Budget lvl 4.pdf` | FY27 detailed school budget (function/line level) |
-| `FY27 Budget Presentation 4.26.26.pdf` | Citizen presentation (slightly later iteration) |
+- a **tabbed explainer** (where the FY27 money goes, and how a cut becomes a tax change),
+- an **interactive scenario explorer** (cuts vs. new revenue, organized by what they
+  touch — schools or town — and how much they'd move your bill), and
+- an **"Ask the budget" chat** that evaluates any custom idea against the dataset,
+  powered by the Anthropic API.
 
-Note: fiscal years end in June. "FY27" = July 2026–June 2027. The FY27 figures
-are a **draft**; the 04.09 book and the 4.26 presentation differ slightly
-(e.g. municipal $19.561M vs $19.626M; rate $15.25 vs $15.30). This dataset is
-built on the **04.09 "Citizens" draft book**.
+> ⚠️ FY2027 figures are a **draft**. This is a civic tool, not an official Town of
+> Yarmouth resource, and AI answers can be wrong — verify against the official
+> budget book before quoting.
 
-## Pipeline (run in order)
+---
+
+## Repo layout
+
 ```
-python3 parse_budget.py   # PDFs → data/line_items_long.csv   (municipal GL detail)
-python3 build_summary.py  # → data/summary_long.csv           (GF / tax-rate roll-up)
-python3 build_master.py   # → data/master_*.csv               (wide + dept + category)
-python3 build_school.py   # → data/school_functions.csv       (education by function)
-python3 build_school_detail.py # → data/school_line_items.csv (education object-line detail)
-python3 analyze.py        # → analysis/findings.txt           (exploration + scenarios)
+app/                     # the deployable web app (Vercel — see app/README.md)
+  public/                #   static front-end (no build step)
+    index.html, styles.css, app.js
+    data.js              #   embedded dataset (generated)
+  api/chat.js            #   Edge proxy: holds the Anthropic key, streams answers
+  api/_budget-data.js    #   embedded dataset for the chat system prompt (generated)
+
+build_data.py            # regenerates app/public/data.js + app/api/_budget-data.js from data/
+data/                    # the validated Phase-1 datasets (CSV) — source of truth
+*.pdf                    # the source budget books (public town documents)
+parse_budget.py … analyze.py   # the parsing/validation pipeline (Phase 1)
+build_scenarios.py       # builds data/scenarios.csv (the modeled cut/revenue ideas)
+FINDINGS.md              # narrative analysis of the numbers
+extracted/               # raw text dumps of each PDF (pypdf)
 ```
-`extracted/` holds the raw text dump of each PDF (via `pypdf`).
 
-## Datasets (`data/`)
-- **`line_items_long.csv`** — one row per (book, account, fiscal_year, measure).
-  `measure` ∈ {budget, actual}; `section` ∈ {expenditure, revenue};
-  `fund` ∈ {municipal, county}. The tidy source of truth for municipal detail.
-- **`master_line_items.csv`** — one row per GL account, wide:
-  `budget_2024..2027`, `actual_2023..2025`, plus `department`, `category`.
-- **`master_by_department.csv`** / **`master_by_category.csv`** — roll-ups.
-- **`summary_long.csv`** — headline General Fund / tax-rate metrics per year
-  (appropriations, revenues, levy, tax base, rate).
-- **`school_functions.csv`** — FY27 education split into ~20 functions
-  (actuals FY23–25, budget FY26–27).
-- **`school_line_items.csv`** — FY27 education at the **object-line level**
-  (1,218 lines: program × building × object code), tagged with district
-  `function` and `spend_category` (Salaries, Benefits, Supplies, …). Sums to the
-  education grand total and reconciles to every function in `school_functions.csv`.
+The web app and the chat read the **same** generated dataset, so the page and the
+assistant can never disagree. Regenerate both after any data change:
 
-## Scope & granularity
-- **Municipal** spending/revenue is parsed at the **GL line-item** level
-  (≈340 expenditure + ≈30 revenue accounts).
-- **Education** is a lump sum in the town books; the FY27 school PDF adds
-  **function-level** detail (Regular Program, Special Ed, O&M, Transportation…).
-  Prior-year school detail exists only as actuals, not approved budgets.
-- **County tax** is a single assessed pass-through line (town can't set it).
+```bash
+python3 build_data.py
+```
 
-## Validation (all pass to the dollar, ±$1–3 rounding)
-The parser is checked against the budgets' own published control totals:
-- Municipal expenditure total, each year → page-2 MUNICIPAL line. ✅
-- Municipal revenue total → published "Total (Non-Educational)". ✅
-- Six municipal **category** roll-ups → page-18 category totals. ✅
-- Summary identities: Σ(muni+edu+county)=total expenses; expenses−revenues=levy;
-  levy−reimbursements=net tax. ✅
-- School function sum = GRAND TOTAL = $44,111,921.03 = published education. ✅
-- School **object-line** detail (1,218 lines) sums to the grand total AND
-  reconciles to all 20 function totals to the cent. ✅
+---
 
-### Parsing gotchas handled (see code comments)
-- Column schema differs per book (some include Actuals); revenue schema differs
-  from expenditure in the two older books; FY24-book revenue has no GL codes
-  (recovered from the FY25 book instead).
-- Page-6 expenditures lack a section header → classify by object code
-  (4xxxx=revenue, 5xxxx=expenditure), not by header.
-- Trailing two columns are always `$change`,`%change` — peeled from the right so
-  a PDF-collapsed blank (oldest year) can't be mistaken for a value.
-- Object codes are **not unique** within a department and drift across books →
-  line-item identity includes the name; roll-ups sum all rows so totals are safe.
+## The dataset (Phase 1)
 
-## Tax mechanics (FY27)
-Tax base $3.221B, rate $15.25/$1,000, standard example home $500,000 → $7,625/yr.
-**Conversion factor:** every **$1,000,000** cut from appropriations lowers the
-rate **$0.31/$1,000** and the $500k home's bill **$155/year**.
-⚠️ The FY25→FY26 rate drop ($25.67→$14.55) is a **revaluation** (base ~doubled),
-not a cut — compare the **levy**, not the rate, across that boundary.
+Four town & school budget books (FY2024 approved → FY2027 draft) plus the detailed
+FY27 school budget, parsed to a validated master dataset. Everything validates to
+the dollar against the budgets' own published control totals.
 
-See `FINDINGS.md` for the narrative analysis and scenario table.
+- **Municipal** spending/revenue at the **GL line-item** level (~340 expenditure + ~30 revenue accounts).
+- **Education** as function-level detail from the FY27 school book (the town books carry it as a lump sum);
+  the level-4 school budget is parsed to the **object-line** level (1,218 lines) and reconciles to the cent.
+- **County tax** is a single assessed pass-through the town can't set.
+
+Key CSVs in `data/`: `summary_long.csv` (headline GF / levy / rate metrics),
+`master_by_category.csv` & `school_functions.csv` (roll-ups),
+`scenarios.csv` (the modeled cut/revenue ideas), plus the detailed line-item files.
+See **`FINDINGS.md`** for the narrative.
+
+### Numbers worth knowing (FY27)
+
+- General Fund **~$65.6M** — **67%** education, **30%** municipal, **3%** county.
+- The property-tax **levy is growing ~7.5%/yr**, faster than spending, because non-tax
+  revenue covers a shrinking share.
+- **Revaluation trap:** the rate fell $25.67 → $14.55 between FY25 and FY26 because the
+  taxable base ~doubled — *not* a tax cut. Compare the **levy**, never the rate, across that boundary.
+- ~**83%** of the school budget is salaries + benefits — the central constraint on cutting.
+- **Conversion factor:** every **$1,000,000** cut ≈ **−$0.31** on the rate ≈ **−$155/year**
+  on a $500k home (whose FY27 bill is ~$7,625).
+
+### Pipeline (Phase 1, run in order)
+
+```
+python3 parse_budget.py        # PDFs → data/line_items_long.csv (municipal GL detail)
+python3 build_summary.py       # → data/summary_long.csv
+python3 build_master.py        # → data/master_*.csv
+python3 build_school.py        # → data/school_functions.csv
+python3 build_school_detail.py # → data/school_line_items.csv
+python3 build_scenarios.py     # → data/scenarios.csv
+python3 analyze.py             # → analysis/findings.txt
+python3 build_data.py          # → app/public/data.js + app/api/_budget-data.js
+```
+
+---
+
+## Running & deploying the app
+
+- **Live-preview locally:** `cd app && vercel dev` (needs the Vercel CLI + `app/.env.local`
+  with `ANTHROPIC_API_KEY`). Static-only preview without chat: `cd app/public && python3 -m http.server`.
+- **Deploy:** push this repo to GitHub → import to Vercel → **set Root Directory to `app`** →
+  add the `ANTHROPIC_API_KEY` env var. Full instructions, cost guardrails (spend cap,
+  rate limiting, access word), and the model knob are in **[`app/README.md`](app/README.md)**.
+
+---
+
+## Data provenance
+
+Source books: `FY24 …06.06.23.pdf`, `2024-2025 …06.04.24.pdf`, `2025-2026 …06.10.25.pdf`,
+`2026-2027 DRAFT …04.09.26 Citizens 05.04.26.pdf`, and `FY27 Full School Budget lvl 4.pdf`.
+Fiscal years end in June ("FY27" = July 2026–June 2027). The dataset is built on the
+**04.09 "Citizens" draft** book; the later 4.26 presentation differs slightly.
+
+*Not affiliated with the Town of Yarmouth.*

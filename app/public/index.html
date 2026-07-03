@@ -21,95 +21,126 @@
     </div>
   </header>
 
+  <!-- ALWAYS-VISIBLE FY27 SUMMARY -->
+  <div class="summary-strip">
+    <div class="wrap">
+      <div class="stat-row" id="statRow"><!-- filled by app.js --></div>
+    </div>
+  </div>
+
+  <!-- TABS -->
+  <nav class="tabbar" id="tabbar">
+    <div class="wrap tabbar-inner">
+      <span class="tabbar-label">FY2027 budget</span>
+      <div class="tabs" role="tablist">
+        <button class="tab" data-tab="overview" role="tab">Budget at a glance</button>
+        <button class="tab active" data-tab="scenarios" role="tab">Cut &amp; revenue scenarios</button>
+        <button class="tab" data-tab="chat" role="tab">Ask the budget</button>
+      </div>
+    </div>
+  </nav>
+
   <main class="wrap">
 
-    <!-- HERO / HEADLINE NUMBERS -->
-    <section class="hero">
-      <div class="stat-row" id="statRow"><!-- filled by app.js --></div>
-      <p class="hero-note" id="heroNote"></p>
-    </section>
+    <!-- ===================== OVERVIEW ===================== -->
+    <section class="panel" id="panel-overview" role="tabpanel">
+      <p class="panel-note" id="heroNote"></p>
 
-    <!-- MECHANICS -->
-    <section class="card mechanics" id="mechanics">
-      <h2>How a cut becomes a tax change</h2>
-      <div class="mech-grid">
-        <div class="mech-lead" id="mechLead"></div>
-        <div class="callout warn">
-          <strong>⚠️ Watch the levy, not the rate.</strong>
-          <p>The tax <em>rate</em> fell from $25.67 to $14.55 between FY25 and FY26 — that was a
-          <strong>revaluation</strong> (the town's taxable value roughly doubled), <em>not</em> a tax cut.
-          The amount actually raised from property taxes (the <em>levy</em>) rose every single year.
-          Always compare the levy across that boundary.</p>
+      <div class="card mechanics">
+        <h2>How a cut becomes a tax change</h2>
+        <div class="mech-grid">
+          <div class="mech-lead" id="mechLead"></div>
+          <div class="callout warn">
+            <strong>⚠️ Watch the levy, not the rate.</strong>
+            <p>The tax <em>rate</em> fell from $25.67 to $14.55 between FY25 and FY26 — that was a
+            <strong>revaluation</strong> (the town's taxable value roughly doubled), <em>not</em> a tax cut.
+            The amount actually raised from property taxes (the <em>levy</em>) rose every single year.
+            Always compare the levy across that boundary.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Where the FY27 money goes</h2>
+        <p class="section-sub">General Fund, <span id="gfTotal"></span> total. Schools are two-thirds of it —
+          any large tax change runs through them.</p>
+        <div class="composition" id="composition"></div>
+        <div class="split-cols">
+          <div>
+            <h3>Inside the school budget (FY27)</h3>
+            <div class="bars" id="schoolBars"></div>
+            <p class="fine">~83% of the school budget is staff pay &amp; benefits — the central constraint on cutting.</p>
+          </div>
+          <div>
+            <h3>Inside the municipal budget (FY27)</h3>
+            <div class="bars" id="muniBars"></div>
+            <p class="fine">County tax is a pass-through the town can't set.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- COMPOSITION -->
-    <section class="card">
-      <h2>Where the FY27 money goes</h2>
-      <p class="section-sub">General Fund, <span id="gfTotal"></span> total. Schools are two-thirds of it —
-        any large tax change runs through them.</p>
-      <div class="composition" id="composition"></div>
-      <div class="split-cols">
-        <div>
-          <h3>Inside the school budget (FY27)</h3>
-          <div class="bars" id="schoolBars"></div>
-          <p class="fine">~83% of the school budget is staff pay &amp; benefits — the central constraint on cutting.</p>
+    <!-- ===================== SCENARIOS ===================== -->
+    <section class="panel active" id="panel-scenarios" role="tabpanel">
+      <div class="card">
+        <p class="section-sub">Every idea below is a real budget line (or a realistic estimate) converted to its
+          rate impact and the savings on a <span id="homeLabel"></span> home. Pick a side, narrow by what it
+          touches and how much it moves your bill, then take any idea to <strong>Ask the budget</strong>.</p>
+
+        <!-- primary: cuts vs revenue -->
+        <div class="segmented" id="sideSeg" role="tablist" aria-label="Cuts or revenue">
+          <button class="seg active" data-side="cut">✂️ Spending cuts</button>
+          <button class="seg" data-side="revenue">＋ New revenue</button>
         </div>
-        <div>
-          <h3>Inside the municipal budget (FY27)</h3>
-          <div class="bars" id="muniBars"></div>
-          <p class="fine">County tax is a pass-through the town can't set.</p>
+
+        <!-- secondary filters -->
+        <div class="filters">
+          <div class="chip-row" id="targetChips">
+            <span class="chip-label">What it touches</span>
+            <button class="fchip active" data-target="all">All</button>
+            <button class="fchip" data-target="schools">Schools</button>
+            <button class="fchip" data-target="municipal">Town</button>
+            <button class="fchip" data-target="both">Town + Schools</button>
+          </div>
+          <div class="chip-row" id="impactChips">
+            <span class="chip-label">Impact on your bill</span>
+            <button class="fchip active" data-impact="all">All</button>
+            <button class="fchip" data-impact="high">High</button>
+            <button class="fchip" data-impact="moderate">Moderate</button>
+            <button class="fchip" data-impact="small">Small</button>
+          </div>
         </div>
+
+        <p class="view-note" id="viewNote"></p>
+        <div id="scenBody"></div>
+        <p class="fine" id="scenariosDisclaimer"></p>
       </div>
     </section>
 
-    <!-- SCENARIOS -->
-    <section class="card">
-      <h2>Cut &amp; revenue scenarios we've modeled</h2>
-      <p class="section-sub">Each is a real line (or realistic estimate) converted to its rate impact and the
-        savings on a <span id="homeLabel"></span> home. Filter and sort, then take any idea to the chat below.</p>
+    <!-- ===================== CHAT ===================== -->
+    <section class="panel" id="panel-chat" role="tabpanel">
+      <div class="card chat-card" id="chat">
+        <h2>Ask the budget</h2>
+        <p class="section-sub">Describe any cut, combination, or question. The assistant evaluates it against the
+          real dataset — dollars, rate impact, per-home savings, and the feasibility catches.</p>
 
-      <div class="controls">
-        <label>Group
-          <select id="filterGroup"><option value="">All</option></select>
-        </label>
-        <label>Sort
-          <select id="sortBy">
-            <option value="home">Biggest savings</option>
-            <option value="alpha">Name (A–Z)</option>
-            <option value="group">Group</option>
-          </select>
-        </label>
-        <span class="count" id="scenarioCount"></span>
-      </div>
-
-      <div class="scenario-grid" id="scenarioGrid"></div>
-      <p class="fine" id="scenariosDisclaimer"></p>
-    </section>
-
-    <!-- CHAT -->
-    <section class="card chat-card" id="chat">
-      <h2>Ask the budget</h2>
-      <p class="section-sub">Describe any cut, combination, or question. The assistant evaluates it against the
-        real dataset above — dollars, rate impact, per-home savings, and the feasibility catches.</p>
-
-      <div class="chat-window" id="chatWindow">
-        <div class="msg assistant">
-          <div class="bubble" id="introBubble"></div>
+        <div class="chat-window" id="chatWindow">
+          <div class="msg assistant">
+            <div class="bubble" id="introBubble"></div>
+          </div>
         </div>
+
+        <div class="suggestions" id="suggestions"></div>
+
+        <form class="chat-input" id="chatForm">
+          <textarea id="chatText" rows="1" placeholder="e.g. What if we flat-funded the schools and cut capital reserves in half?" autocomplete="off"></textarea>
+          <button type="submit" id="sendBtn" aria-label="Send">Send</button>
+        </form>
+        <p class="fine chat-disclaimer">
+          Answers are AI-generated from the budget dataset and can be wrong — verify against the official budget
+          book before quoting. FY27 figures are a <strong>draft</strong>. This is a civic tool, not an official town resource.
+        </p>
       </div>
-
-      <div class="suggestions" id="suggestions"></div>
-
-      <form class="chat-input" id="chatForm">
-        <textarea id="chatText" rows="1" placeholder="e.g. What if we flat-funded the schools and cut capital reserves in half?" autocomplete="off"></textarea>
-        <button type="submit" id="sendBtn" aria-label="Send">Send</button>
-      </form>
-      <p class="fine chat-disclaimer">
-        Answers are AI-generated from the budget dataset and can be wrong — verify against the official budget
-        book before quoting. FY27 figures are a <strong>draft</strong>. This is a civic tool, not an official town resource.
-      </p>
     </section>
 
   </main>
