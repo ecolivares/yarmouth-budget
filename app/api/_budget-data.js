@@ -58,113 +58,145 @@ export const BUDGET = {
     {
       "name": "General Government",
       "fy24": 4047869.0,
+      "fy25": 4424298.0,
+      "fy26": 4579426.0,
       "fy27": 4954551.0
     },
     {
       "name": "Public Safety",
       "fy24": 3780688.0,
+      "fy25": 3973438.0,
+      "fy26": 4317303.0,
       "fy27": 4525442.0
     },
     {
       "name": "Public Works",
       "fy24": 3616539.0,
+      "fy25": 3910416.0,
+      "fy26": 3973319.0,
       "fy27": 4101724.0
     },
     {
       "name": "Capital Programs",
       "fy24": 3320049.0,
+      "fy25": 3478182.0,
+      "fy26": 3445806.0,
       "fy27": 3392947.0
     },
     {
       "name": "Public Services",
       "fy24": 2006458.0,
+      "fy25": 2215596.0,
+      "fy26": 2375845.0,
       "fy27": 2480603.0
     },
     {
       "name": "Health & Welfare",
       "fy24": 180440.0,
+      "fy25": 161804.0,
+      "fy26": 110428.0,
       "fy27": 105758.0
     }
   ],
   "school": [
     {
       "name": "Regular Program",
+      "fy26": 18649362.54,
       "fy27": 19763703.5
     },
     {
       "name": "Special Ed Programs",
+      "fy26": 7327045.22,
       "fy27": 7433166.07
     },
     {
       "name": "Operations and Mainten",
+      "fy26": 3401736.27,
       "fy27": 3557043.94
     },
     {
       "name": "Debt Service",
+      "fy26": 2467721.8,
       "fy27": 2451132.0
     },
     {
       "name": "Office of the Principa",
+      "fy26": 1837442.75,
       "fy27": 1923956.23
     },
     {
       "name": "Student Transportation",
+      "fy26": 1547620.59,
       "fy27": 1821169.9
     },
     {
       "name": "Technology - Instructi",
+      "fy26": 1322466.88,
       "fy27": 1438104.09
     },
     {
       "name": "Extra Curr Athletics",
+      "fy26": 1075783.55,
       "fy27": 1107525.37
     },
     {
       "name": "Superintendent School",
+      "fy26": 1014087.73,
       "fy27": 1065602.17
     },
     {
       "name": "Guidance",
+      "fy26": 968405.73,
       "fy27": 1035421.9
     },
     {
       "name": "Library",
+      "fy26": 537843.27,
       "fy27": 578211.7
     },
     {
       "name": "Student Health",
+      "fy26": 618973.61,
       "fy27": 525018.75
     },
     {
       "name": "Improvement of Instruc",
+      "fy26": 420975.47,
       "fy27": 435083.92
     },
     {
       "name": "English Language Learn",
+      "fy26": 449423.1,
       "fy27": 412587.9
     },
     {
       "name": "Extra and Co Curr Acti",
+      "fy26": 290015.94,
       "fy27": 296262.59
     },
     {
       "name": "Capital Reserves",
+      "fy26": 149000.0,
       "fy27": 102231.0
     },
     {
       "name": "Contingency",
+      "fy26": 85000.0,
       "fy27": 85000.0
     },
     {
       "name": "School Nutrition Trans",
+      "fy26": 65000.0,
       "fy27": 65000.0
     },
     {
       "name": "Assessment",
+      "fy26": 10520.0,
       "fy27": 11700.0
     },
     {
       "name": "Student Support 504",
+      "fy26": 2500.0,
       "fy27": 4000.0
     }
   ],

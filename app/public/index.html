@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Yarmouth Budget Explorer</title>
-  <meta name="description" content="Understand the Town of Yarmouth, Maine budget and test property-tax-cut scenarios against the real numbers." />
+  <meta name="description" content="Understand the Town of Yarmouth, Maine budget, see how it changed year over year, and test cuts against the real numbers." />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%9B%EF%B8%8F%3C/text%3E%3C/svg%3E" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -15,117 +15,115 @@
         <span class="brand-mark">🏛️</span>
         <div>
           <h1>Yarmouth Budget Explorer</h1>
-          <p class="tagline">Where the money goes, and what it really takes to move your tax bill.</p>
+          <p class="tagline">Where the money goes, how it got here, and what it really takes to move your tax bill.</p>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- ALWAYS-VISIBLE FY27 SUMMARY -->
+  <!-- ALWAYS-VISIBLE CURRENT-BUDGET SUMMARY (FY2026) -->
   <div class="summary-strip">
     <div class="wrap">
-      <div class="stat-row" id="statRow"><!-- filled by app.js --></div>
+      <div class="stat-row" id="statRow"></div>
     </div>
   </div>
 
-  <!-- TABS -->
+  <!-- FOLDER TABS -->
   <nav class="tabbar" id="tabbar">
-    <div class="wrap tabbar-inner">
-      <span class="tabbar-label">FY2027 budget</span>
+    <div class="wrap">
       <div class="tabs" role="tablist">
-        <button class="tab" data-tab="overview" role="tab">Budget at a glance</button>
-        <button class="tab active" data-tab="scenarios" role="tab">Cut &amp; revenue scenarios</button>
-        <button class="tab" data-tab="chat" role="tab">Ask the budget</button>
+        <button class="tab" data-tab="overview" role="tab">📊 Budget at a glance</button>
+        <button class="tab active" data-tab="build" role="tab">🛠️ Work the 2027 budget</button>
       </div>
     </div>
   </nav>
 
   <main class="wrap">
 
-    <!-- ===================== OVERVIEW ===================== -->
+    <!-- ===================== BUDGET AT A GLANCE ===================== -->
     <section class="panel" id="panel-overview" role="tabpanel">
-      <p class="panel-note" id="heroNote"></p>
 
-      <div class="card mechanics">
-        <h2>How a cut becomes a tax change</h2>
-        <div class="mech-grid">
-          <div class="mech-lead" id="mechLead"></div>
-          <div class="callout warn">
-            <strong>⚠️ Watch the levy, not the rate.</strong>
-            <p>The tax <em>rate</em> fell from $25.67 to $14.55 between FY25 and FY26 — that was a
-            <strong>revaluation</strong> (the town's taxable value roughly doubled), <em>not</em> a tax cut.
-            The amount actually raised from property taxes (the <em>levy</em>) rose every single year.
-            Always compare the levy across that boundary.</p>
-          </div>
-        </div>
+      <div class="card">
+        <h2>Where the money goes — and how it got here</h2>
+        <p class="section-sub">Four budgets, side by side (FY2024–FY2027). The town's spending has grown every
+          year; the bars show how much of each year is schools, town government, and county tax.</p>
+        <div id="yearStack"></div>
+        <h3 class="mt">What changed each year</h3>
+        <p class="section-sub">The increase residents are feeling isn't one big decision — it's steady annual
+          growth, and <strong>most of it is schools</strong>.</p>
+        <div id="changeMatrix"></div>
       </div>
 
       <div class="card">
-        <h2>Where the FY27 money goes</h2>
-        <p class="section-sub">General Fund, <span id="gfTotal"></span> total. Schools are two-thirds of it —
-          any large tax change runs through them.</p>
-        <div class="composition" id="composition"></div>
-        <div class="split-cols">
-          <div>
-            <h3>Inside the school budget (FY27)</h3>
-            <div class="bars" id="schoolBars"></div>
-            <p class="fine">~83% of the school budget is staff pay &amp; benefits — the central constraint on cutting.</p>
-          </div>
-          <div>
-            <h3>Inside the municipal budget (FY27)</h3>
-            <div class="bars" id="muniBars"></div>
-            <p class="fine">County tax is a pass-through the town can't set.</p>
-          </div>
+        <h2>What you actually pay is the levy — and it climbs every year</h2>
+        <p class="section-sub">The <em>levy</em> is the total dollars raised from property taxes. It has gone up
+          every single year, even the year the rate fell.</p>
+        <div id="levyTrend"></div>
+        <div class="callout warn">
+          <strong>⚠️ Don't be fooled by the rate.</strong>
+          <p>The tax rate dropped from <strong>$25.67</strong> (FY25) to <strong>$14.55</strong> (FY26) — but that
+          was a <strong>revaluation</strong> (the town's total assessed value roughly doubled), not a tax cut. Your
+          assessment jumped too. Watch the <em>levy</em>, not the rate.</p>
         </div>
+        <div id="rateRow"></div>
+      </div>
+
+      <div class="card">
+        <h2>Where the growth is coming from</h2>
+        <p class="section-sub">It isn't new programs. The biggest driver by far is the school budget, which is
+          ~83% salaries &amp; benefits — contractual raises, health-insurance inflation, and mandated special
+          education. On the town side, these categories grew the most from FY24→FY27:</p>
+        <div id="growthAreas"></div>
       </div>
     </section>
 
-    <!-- ===================== BUILD YOUR OWN CUTS ===================== -->
-    <section class="panel active" id="panel-scenarios" role="tabpanel">
-      <div class="card builder">
-        <h2>You try to cut it</h2>
-        <p class="section-sub" id="builderIntro"></p>
+    <!-- ===================== WORK THE 2027 BUDGET (chat + builder) ===================== -->
+    <section class="panel active" id="panel-build" role="tabpanel">
 
-        <div class="goalbar">
-          <span class="goal-label">Goal</span>
-          <button class="gchip active" data-goal="freeze">Freeze the increase</button>
-          <button class="gchip" data-goal="500">Cut $500 off my bill</button>
-          <button class="gchip" data-goal="1000">Cut $1,000</button>
-          <button class="gchip" data-goal="0">Free explore</button>
-        </div>
-
-        <div class="readout" id="readout"></div>
-
-        <div class="builder-body" id="builderBody"></div>
-
-        <div class="cutlist" id="cutlist"></div>
-        <p class="fine" id="builderDisclaimer"></p>
-      </div>
-    </section>
-
-    <!-- ===================== CHAT ===================== -->
-    <section class="panel" id="panel-chat" role="tabpanel">
+      <!-- chat, surfaced up top -->
       <div class="card chat-card" id="chat">
-        <h2>Ask the budget</h2>
-        <p class="section-sub">Describe any cut, combination, or question. The assistant evaluates it against the
-          real dataset — dollars, rate impact, per-home savings, and the feasibility catches.</p>
+        <h2>💬 Ask the budget</h2>
+        <p class="section-sub">The smartest way in: describe any cut, combination, or question in plain English and
+          get an answer grounded in the real numbers — dollars, rate impact, savings on your home, and the
+          feasibility catches. Or scroll down and build a budget yourself.</p>
 
         <div class="chat-window" id="chatWindow">
-          <div class="msg assistant">
-            <div class="bubble" id="introBubble"></div>
-          </div>
+          <div class="msg assistant"><div class="bubble" id="introBubble"></div></div>
         </div>
-
         <div class="suggestions" id="suggestions"></div>
-
         <form class="chat-input" id="chatForm">
-          <textarea id="chatText" rows="1" placeholder="e.g. What if we flat-funded the schools and cut capital reserves in half?" autocomplete="off"></textarea>
+          <textarea id="chatText" rows="1" placeholder="e.g. What would it take to freeze my tax bill next year?" autocomplete="off"></textarea>
           <button type="submit" id="sendBtn" aria-label="Send">Send</button>
         </form>
         <p class="fine chat-disclaimer">
           Answers are AI-generated from the budget dataset and can be wrong — verify against the official budget
-          book before quoting. FY27 figures are a <strong>draft</strong>. This is a civic tool, not an official town resource.
+          book before quoting. FY27 figures are a <strong>draft</strong>. Not an official town resource.
         </p>
+      </div>
+
+      <!-- build your own cuts -->
+      <div class="card builder">
+        <h2>🛠️ Build the FY2027 budget yourself</h2>
+        <p class="section-sub" id="builderIntro"></p>
+
+        <div class="homeval">
+          <label for="homeValue">Your home's assessed value</label>
+          <span class="hv-input">$<input id="homeValue" type="text" inputmode="numeric" value="500,000" /></span>
+          <span class="hv-hint">Enter yours to see your real impact — defaults to a $500,000 home.</span>
+        </div>
+
+        <div class="goalbar">
+          <span class="goal-label">Try to</span>
+          <button class="gchip active" data-goal="freeze">Freeze the increase</button>
+          <button class="gchip" data-goal="500">Cut $500 off my bill</button>
+          <button class="gchip" data-goal="1000">Cut $1,000</button>
+          <button class="gchip" data-goal="0">Just explore</button>
+        </div>
+
+        <div class="readout" id="readout"></div>
+        <div class="builder-body" id="builderBody"></div>
+        <div class="cutlist" id="cutlist"></div>
+        <p class="fine" id="builderDisclaimer"></p>
       </div>
     </section>
 

@@ -55,21 +55,24 @@ def build():
         "rate": series("tax_rate_per_1000"),
     }
 
-    # ---- municipal categories (wide) ----
+    # ---- municipal categories (all four budget years) ----
     categories = []
     for r in load("master_by_category.csv"):
         categories.append({
             "name": r["category"],
             "fy24": num(r["budget_2024"]),
+            "fy25": num(r["budget_2025"]),
+            "fy26": num(r["budget_2026"]),
             "fy27": num(r["budget_2027"]),
         })
     categories.sort(key=lambda c: -c["fy27"])
 
-    # ---- school functions (fy27_budget) ----
+    # ---- school functions (FY26 + FY27 budgets; prior years are actuals only) ----
     school = []
     for r in load("school_functions.csv"):
         school.append({
             "name": r["function"].strip(),
+            "fy26": num(r["fy26_budget"]),
             "fy27": num(r["fy27_budget"]),
         })
     school.sort(key=lambda s: -s["fy27"])
