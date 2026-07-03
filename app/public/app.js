@@ -116,14 +116,25 @@
     }).join("") + '</div>';
 
   // --- where the growth is coming from (FY24→FY27 change) ---
-  var growth = [{ name: "Schools (whole budget)", d: S.education["2027"] - S.education["2024"], hero: true }]
-    .concat(D.categories.map(function (c) { return { name: c.name, d: c.fy27 - c.fy24 }; }));
-  var maxG = Math.max.apply(null, growth.map(function (g) { return g.d; }));
-  document.getElementById("growthAreas").innerHTML = '<div class="bars">' + growth.map(function (g) {
-    return '<div class="bar-row' + (g.hero ? " hero" : "") + '"><span class="bname" title="' + g.name + '">' + g.name + '</span>' +
-      '<span class="bar-track"><span class="bar-fill" style="width:' + Math.max(2, g.d / maxG * 100) + '%;background:var(' + (g.hero ? "--edu" : "--muni") + ')"></span></span>' +
-      '<span class="bval">+' + usd(g.d) + '</span></div>';
-  }).join("") + '</div>';
+  var schoolsD = S.education["2027"] - S.education["2024"];
+  var muniTotalD = S.municipal["2027"] - S.municipal["2024"];
+  var schoolsShare = Math.round(schoolsD / (schoolsD + muniTotalD) * 100);
+  var muni = D.categories.map(function (c) { return { name: c.name, d: c.fy27 - c.fy24 }; })
+    .sort(function (a, b) { return b.d - a.d; });
+  var maxMuni = Math.max.apply(null, muni.map(function (m) { return Math.max(0, m.d); }));
+  document.getElementById("growthAreas").innerHTML =
+    '<div class="growth-hero"><span class="gh-num">+' + usd(schoolsD) + '</span>' +
+      '<span class="gh-lab"><strong>from schools alone</strong>, FY24→FY27 — about ' + schoolsShare +
+      '% of the town\'s entire spending growth, and ~83% of it is staff pay &amp; benefits (contractual raises, ' +
+      'health insurance, mandated special education).</span></div>' +
+    '<h3 class="growth-sub">On the town side, by category (FY24 → FY27):</h3>' +
+    '<div class="bars growth-bars">' + muni.map(function (m) {
+      var pos = m.d >= 0;
+      var w = pos ? Math.max(3, m.d / maxMuni * 100) : 0;
+      return '<div class="bar-row"><span class="bname" title="' + m.name + '">' + m.name + '</span>' +
+        '<span class="bar-track">' + (pos ? '<span class="bar-fill" style="width:' + w + '%;background:var(--muni)"></span>' : '') + '</span>' +
+        '<span class="bval' + (pos ? "" : " neg") + '">' + (pos ? "+" : "−") + usd(Math.abs(m.d)) + '</span></div>';
+    }).join("") + '</div>';
 
   // =================== BUILD YOUR OWN CUTS ===================
   var GROUPS = [

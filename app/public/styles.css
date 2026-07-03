@@ -526,3 +526,22 @@ body {
   .cm-cell b { font-size: 12px; }
   .ys-total { font-size: 12px; }
 }
+
+/* --- levy box spacing (keep the callout off the FY27 bar) --- */
+#levyTrend { margin: 8px 0 22px; }
+.card .callout.warn { margin: 4px 0 0; }
+
+/* --- growth section --- */
+.growth-hero {
+  display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
+  background: color-mix(in srgb, var(--edu) 8%, transparent);
+  border: 1px solid color-mix(in srgb, var(--edu) 25%, transparent);
+  border-radius: 12px; padding: 16px 18px; margin: 4px 0 8px;
+}
+.gh-num { font-size: 30px; font-weight: 800; letter-spacing: -.02em; color: var(--edu); line-height: 1; white-space: nowrap; }
+.gh-lab { font-size: 13.5px; color: var(--ink-soft); flex: 1; min-width: 240px; }
+.gh-lab strong { color: var(--ink); }
+.growth-sub { font-size: 13.5px; font-weight: 700; margin: 20px 0 12px; }
+.growth-bars .bar-row { grid-template-columns: 152px 1fr auto; }
+.growth-bars .bval { font-weight: 600; color: var(--ink-soft); }
+.growth-bars .bval.neg { color: var(--muni); }
