@@ -1,0 +1,1219 @@
+function,program_code,program,object_code,object_name,spend_category,fy23_actual,fy24_actual,fy25_actual,fy26_actual,fy26_budget,fy27_budget
+Regular Program,813131,Regular Programs Inst HS 9-12,1010,Sal T 9-12,Salaries & Wages,3663221.65,3870932.45,4234137.86,5192475.84,4496492.3,4678975.0
+Regular Program,811414,Regular Programs Inst MS,1010,Sal Teach,Salaries & Wages,2847020.34,2952878.23,3098925.23,3969381.67,3497059.3,3482982.0
+Regular Program,811313,Regular Programs Inst YES,1010,Sal Teach,Salaries & Wages,2559153.64,2849358.75,2965049.59,3509396.03,2953668.4,3204911.0
+Regular Program,811212,Regular Programs Inst Rowe,1010,Sal T k-1,Salaries & Wages,1598111.82,1677401.25,1862616.78,2278551.54,2005723.3,2073245.0
+Debt Service,851093,Major Capital Debt Service,8310,Principal,Other / Dues / Debt,1221590.91,1251555.56,1277027.03,1306071.43,1306071.4,1356034.0
+Debt Service,851093,Major Capital Debt Service,8320,Interest,Other / Dues / Debt,1351271.2,1289442.53,1226227.97,597151.15,1161650.4,1095098.0
+Regular Program,813131,Regular Programs Inst HS 9-12,2110,Insur T,Employee Benefits,771210.96,763691.2,801646.44,719466.81,847399.48,895045.6
+Special Ed Programs,820113,Special Program Reg Classroom,1020,Sal ET,Salaries & Wages,420746.42,449338.89,537304.31,691564.6,721787.17,716406.4
+Regular Program,811414,Regular Programs Inst MS,2110,Insur T,Employee Benefits,613164.83,555908.0,561937.06,554369.63,666597.42,692756.1
+Regular Program,811313,Regular Programs Inst YES,2110,Insur T,Employee Benefits,518996.49,555728.51,611475.5,497087.02,585060.9,600255.9
+Student Transportation,827090,Student Transportation,1186,Sal Reg,Salaries & Wages,363403.99,385529.27,391639.63,436394.66,466860.79,492743.5
+Special Ed Programs,820112,Special Program Reg Classroom,1020,Sal ET,Salaries & Wages,226309.08,278055.59,414668.34,574691.07,558880.36,453897.9
+Regular Program,811212,Regular Programs Inst Rowe,2110,Insur T,Employee Benefits,343793.29,374372.35,417055.08,373119.88,450149.36,453834.8
+Special Ed Programs,820014,Special Program Resource Room,1010,Sal Teach,Salaries & Wages,330647.65,359724.82,389734.52,469230.62,416029.13,445488.0
+Regular Program,811212,Regular Programs Inst Rowe,1020,EdTech k-1,Salaries & Wages,223464.01,276998.02,417600.79,494324.8,381747.13,443239.1
+Special Ed Programs,820031,Special Program Resource Room,1010,Sal Teach,Salaries & Wages,359342.17,354397.98,343195.18,478801.82,412067.32,440349.8
+Special Ed Programs,820013,Special Program Resource Room,1010,Sal Teach,Salaries & Wages,260716.54,305837.1,276653.3,336297.27,406618.54,437990.2
+Operations and Mainten,826131,O&M Custodial HS,1186,Sal Reg,Salaries & Wages,313130.53,313809.28,285245.36,337759.8,342867.2,371486.2
+Regular Program,811313,Regular Programs Inst YES,1020,Sal ET,Salaries & Wages,177940.0,167199.57,364417.5,390548.71,219485.88,362599.2
+Special Ed Programs,820114,Special Program Reg Classroom,1020,Sal ET,Salaries & Wages,210996.38,234284.17,297881.61,283759.26,322139.66,352350.5
+Student Transportation,827090,Student Transportation,4300,Rep & Main,Property Services,239701.87,268430.1,379856.19,255368.81,282427.0,328604.0
+Guidance,821230,Guidance Sal & Ben 9-12,1010,Sal Guid,Salaries & Wages,221086.27,303381.9,292714.49,348353.87,304042.96,322180.1
+Office of the Principa,824030,Off of the Prin Sal Ben 9-12,1048,Sal Admin,Salaries & Wages,261147.14,276947.31,292125.14,303895.93,301336.85,315677.8
+Operations and Mainten,826113,O&M Custodial YES,1186,Sal Reg,Salaries & Wages,144684.03,170087.94,202544.46,247865.91,292134.96,309170.7
+Technology - Instructi,822399,Technology - Instruction 9-12,4431,Lease Tech,Property Services,203557.33,203557.33,203557.33,0.0,0.0,309000.0
+Office of the Principa,824007,Off Of the Prin Sal & Ben 5-8,1047,Sal Admin,Salaries & Wages,252125.0,265379.92,279971.0,293421.86,289791.83,304515.9
+Office of the Principa,824006,Off of the Prin Sal & Ben 2-4,1046,Sal Admin,Salaries & Wages,235788.0,248755.78,265062.0,275791.93,282860.53,294370.8
+Special Ed Programs,820112,Special Program Reg Classroom,1010,Sal Teach,Salaries & Wages,120288.05,235741.27,244162.74,326196.1,286455.67,293112.0
+Operations and Mainten,826114,O&M Custodial MS,1186,Sal Reg,Salaries & Wages,226202.27,248206.58,238063.51,234969.69,257680.8,271098.4
+Special Ed Programs,820131,Special Program Reg Classroom,1020,Sal ET,Salaries & Wages,245097.14,209459.25,251815.03,243535.1,259866.3,270235.0
+Special Ed Programs,821409,STUDENT PSYCH 9-12,1060,Oth Prof,Salaries & Wages,143066.17,157525.64,167663.4,238940.0,241136.25,248164.7
+Special Ed Programs,820131,Special Program Reg Classroom,1010,Sal Teach,Salaries & Wages,162856.91,186754.64,196147.68,236953.15,212621.92,216173.2
+Special Ed Programs,820414,Social Work Services,1010,Sal Teach,Salaries & Wages,112034.1,130412.71,175780.97,227865.64,195891.68,210182.0
+Special Ed Programs,820113,Special Program Reg Classroom,1010,Sal Teach,Salaries & Wages,146125.11,214517.02,177423.89,221301.94,199084.96,205081.8
+Superintendent School,823290,Office of the Superintendent,1040,Sal Admin,Salaries & Wages,172143.08,181335.9,190153.02,192559.0,197558.91,204683.6
+Regular Program,813131,Regular Programs Inst HS 9-12,2310,Ret Tchrs,Employee Benefits,141875.33,176966.53,191804.93,166466.79,202323.03,204003.3
+Special Ed Programs,820113,Special Program Reg Classroom,2120,Insur ET,Employee Benefits,136001.0,111444.12,139111.52,141229.38,198519.78,190610.9
+Special Ed Programs,820431,Social Work Services,1010,Sal Teach,Salaries & Wages,146762.31,158206.38,164950.88,204052.92,176684.45,185365.0
+Technology - Instructi,822390,Technology Sal & Ben Adm k-12,1185,Sal Suppor,Salaries & Wages,144861.0,152791.86,160613.0,166993.51,167020.67,174873.5
+English Language Learn,841099,Multi Language Learners 9-12,1010,Sal Teach,Salaries & Wages,38208.0,55644.42,56112.48,63539.1,110046.72,163043.6
+Regular Program,811212,Regular Programs Inst Rowe,2120,Insur ET,Employee Benefits,98197.41,93318.48,129475.69,123267.24,142316.03,161103.8
+Improvement of Instruc,822195,Teaching and Learning K-8,1040,Sal Admin,Salaries & Wages,130000.0,137150.0,144008.0,149892.93,149768.32,157809.8
+Guidance,821213,Guidance YES,1010,Sal Guid Y,Salaries & Wages,91884.95,97320.68,102657.06,123017.94,146756.6,156090.0
+Superintendent School,825090,Off of Finance and Operations,1040,Sal Admin,Salaries & Wages,142427.9,214257.37,144008.0,149802.93,149768.32,155309.8
+English Language Learn,841095,Multi Language Learners k-8,1010,Sal Teach,Salaries & Wages,112095.07,181085.3,245244.04,279680.45,184781.15,155279.6
+Regular Program,811414,Regular Programs Inst MS,2310,Ret Tchrs,Employee Benefits,110125.53,131886.5,140001.4,129868.08,157100.8,151858.0
+Operations and Mainten,826012,Operations & Maintenance Rowe,3400,Pur Serv,Prof/Technical Services,29538.16,55657.8,142644.0,120653.02,149000.0,150000.0
+Special Ed Programs,820390,Special Ed Admin District,1040,Sal Admin,Salaries & Wages,133499.98,140649.98,186471.25,142636.0,152268.32,147544.3
+Regular Program,811313,Regular Programs Inst YES,2310,Ret Tchr,Employee Benefits,100354.74,128539.66,134893.64,110910.73,132967.68,139734.1
+Technology - Instructi,822390,Technology Sal & Ben Adm k-12,1040,Sal Admin,Salaries & Wages,114400.0,120692.0,121852.0,130919.93,131795.66,139172.1
+Operations and Mainten,826031,Operations and Maint HS,6210,Nat Gas,Supplies,74517.07,109307.47,147373.22,138356.65,120000.0,138000.0
+Office of the Principa,824005,Off of the Prin Sal & Ben k-1,1045,Sal Admin,Salaries & Wages,128146.0,154018.1,138428.98,145091.93,143284.32,136795.1
+Office of the Principa,824030,Off of the Prin Sal Ben 9-12,1184,Sal Cler,Salaries & Wages,111395.11,133850.71,144539.94,138503.89,133750.96,134761.7
+Operations and Mainten,826290,O&M Maintenance Districtwide,1186,Sal Reg,Salaries & Wages,99770.66,122006.43,129743.55,153749.26,127795.2,132288.0
+Special Ed Programs,820112,Special Program Reg Classroom,2120,Insur ET,Employee Benefits,68373.54,77330.53,118153.99,124075.47,162946.31,125787.5
+Operations and Mainten,826031,Operations and Maint HS,4300,Rep & Main,Property Services,103402.9,118515.9,140255.18,127612.81,105000.0,125000.0
+Superintendent School,825090,Off of Finance and Operations,1180,Sal Sup Cl,Salaries & Wages,102889.82,128595.79,129031.15,122777.95,117634.82,123583.2
+Operations and Mainten,826290,O&M Maintenance Districtwide,1040,Sal Admin,Salaries & Wages,107942.34,113320.34,118504.3,121540.65,115714.19,119903.1
+Library,822230,Library Salary & Ben 9-12,1010,Sal Lib HS,Salaries & Wages,89893.94,97167.52,104332.42,127514.51,111139.52,119871.9
+Special Ed Programs,820014,Special Program Resource Room,2110,Insur T,Employee Benefits,88514.89,97013.44,106636.04,95622.1,111729.06,119124.0
+Operations and Mainten,826031,Operations and Maint HS,6220,Electric,Supplies,47804.62,88068.56,111203.57,55363.07,110000.0,115500.0
+Guidance,821214,Guidance MS,1010,Sal Guid M,Salaries & Wages,120036.7,129079.56,140020.54,172846.42,109287.51,115187.4
+Regular Program,814913,Gifted and Talented YES,1010,Sal Teach,Salaries & Wages,99554.42,104502.82,110161.3,135237.7,104063.15,113685.4
+Regular Program,814914,Gifted and Talented MS,1010,Sal Gifted,Salaries & Wages,70783.37,58426.16,65192.08,109718.46,104063.15,113685.4
+Superintendent School,823290,Office of the Superintendent,1180,Sal Sup Cl,Salaries & Wages,86963.9,90180.71,83937.9,111556.0,107575.94,111560.8
+Student Transportation,827090,Student Transportation,2180,Ins Sup,Employee Benefits,89773.32,96109.74,106373.72,95387.06,106609.57,110155.8
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1040,Sal Admin,Salaries & Wages,90594.34,96355.22,102540.94,104105.35,105899.4,110056.9
+Regular Program,811313,Regular Programs Inst YES,2120,Insur ET,Employee Benefits,54282.1,42500.43,98873.86,78651.86,58940.46,109616.1
+Special Ed Programs,820013,Special Program Resource Room,2110,Insur T,Employee Benefits,49226.66,44707.02,63796.42,60028.3,100852.55,107527.7
+Student Health,821314,Student Health MS,1010,Sal Nrse M,Salaries & Wages,93165.9,95480.63,99597.68,161416.64,160297.49,107122.9
+Guidance,821212,Guidance Rowe,1010,Sal Guid R,Salaries & Wages,53987.4,55565.34,88422.15,116689.9,100557.66,105964.2
+Special Ed Programs,820512,Speech - Rowe,1010,Sal Teach,Salaries & Wages,85542.18,93859.4,98551.72,119588.76,103540.33,105298.9
+Operations and Mainten,826013,Operations and Maint YES,4300,Rep & Main,Property Services,105863.65,117654.49,70418.87,96651.55,105000.0,105000.0
+Operations and Mainten,826014,Operations and Maint MS,4300,Rep & Main,Property Services,72550.34,113431.2,92794.18,95938.79,105000.0,105000.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,6000,Supplies,Supplies,124403.24,68297.53,107659.74,66313.65,100000.0,105000.0
+Special Ed Programs,820114,Special Program Reg Classroom,1010,Sal Teach,Salaries & Wages,103241.78,93972.36,102648.98,118000.6,99386.54,104259.2
+Special Ed Programs,820413,Social Work Services,1010,Sal Teach,Salaries & Wages,83817.06,90641.28,99995.09,115552.4,97349.02,103704.6
+Student Health,821313,Student Health YES,1010,Sal Nrse Y,Salaries & Wages,90036.04,84243.48,91370.89,111877.08,99575.47,103704.6
+Office of the Principa,824007,Off Of the Prin Sal & Ben 5-8,1183,Sal Cler,Salaries & Wages,70387.69,96083.87,99167.64,108330.14,100722.56,103300.4
+Capital Reserves,852090,Capital Reserves,9100,Fund Trans,Other,245000.0,149000.0,149000.0,149000.0,149000.0,102231.0
+Special Ed Programs,820390,Special Ed Admin District,3450,Legal,Prof/Technical Services,49000.0,0.0,7418.76,0.0,120000.0,100000.0
+Student Transportation,827090,Student Transportation,1286,Sal Temp,Salaries & Wages,5468.62,54224.83,114567.62,81921.38,13000.0,100000.0
+Library,822214,Library MS,1010,Sal Lib MS,Salaries & Wages,68793.6,75965.13,85621.21,103866.0,89548.42,99701.38
+Student Health,821331,Student Health HS,1010,Sal Nrse H,Salaries & Wages,79254.88,84445.32,90019.94,110217.6,93116.46,97604.32
+Student Health,821312,Student Health Rowe,1010,Sal Nrse R,Salaries & Wages,72232.08,83737.41,89353.64,114225.68,91450.51,95940.61
+Student Transportation,827090,Student Transportation,4400,Leases,Property Services,48223.53,49073.53,17632.55,22371.65,27600.0,95000.0
+Library,822213,Library YES,1010,Sal Lib Y,Salaries & Wages,64185.3,71393.13,77922.0,94303.52,81612.24,91155.55
+Special Ed Programs,820514,Student Speech Pathology,1010,Sal Teach,Salaries & Wages,60022.68,53952.12,60368.77,8621.0,57933.23,90505.82
+Special Ed Programs,820031,Special Program Resource Room,2110,Insur T,Employee Benefits,76622.78,70870.44,69304.52,68248.34,69086.78,90480.39
+Regular Program,811212,Regular Programs Inst Rowe,2310,Ret Tchrs,Employee Benefits,60799.53,76385.35,84795.8,74407.91,90000.03,90393.48
+Student Transportation,827090,Student Transportation,1040,Adm Sa Tra,Salaries & Wages,82548.4,80125.1,83345.14,87404.0,86404.5,89601.47
+Office of the Principa,824006,Off of the Prin Sal & Ben 2-4,1182,Sal Cler,Salaries & Wages,90251.72,89965.77,85508.02,118292.34,89075.57,89515.44
+Operations and Mainten,826290,O&M Maintenance Districtwide,1170,Sal Superv,Salaries & Wages,70295.04,74029.43,80194.42,86725.17,84520.0,89137.6
+Regular Program,811414,Regular Programs Inst MS,1020,Sal EdTech,Salaries & Wages,57240.88,30451.29,75563.23,105172.86,70697.65,85477.68
+Contingency,853190,Contingency,9000,Contingncy,Other,2400.0,1854.0,15307.37,32505.91,85000.0,85000.0
+Special Ed Programs,820612,OT - Rowe,1010,Sal Teach,Salaries & Wages,10688.98,14948.53,17177.74,21827.85,92269.88,84627.38
+Regular Program,813131,Regular Programs Inst HS 9-12,1230,Sal Sub T,Salaries & Wages,68536.54,74188.39,76134.0,49568.0,82600.0,82600.0
+Operations and Mainten,826013,Operations and Maint YES,6210,Nat Gas,Supplies,59241.6,48882.4,86107.66,69563.37,70500.0,81075.0
+Special Ed Programs,820412,Social Work Services,1010,Sal Teach,Salaries & Wages,53804.0,62706.68,71287.82,85139.7,73676.22,80412.65
+Guidance,821230,Guidance Sal & Ben 9-12,1180,Sal Sup Cl,Salaries & Wages,62738.49,66740.23,66943.4,80178.94,77199.78,80120.72
+Special Ed Programs,821405,STUDENT PSYCH K-8,3440,Sped PrSrv,Prof/Technical Services,0.0,0.0,0.0,0.0,0.0,80000.0
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1101,Sal Ath Su,Salaries & Wages,48926.0,55967.02,56174.04,79681.24,68547.2,76306.6
+Special Ed Programs,820131,Special Program Reg Classroom,2120,Insur ET,Employee Benefits,79466.08,74107.78,83669.59,58366.69,87966.27,75186.32
+Superintendent School,825090,Off of Finance and Operations,3200,Pur P Serv,Prof/Technical Services,67412.19,99927.59,43866.91,78048.48,71000.0,75000.0
+Technology - Instructi,822399,Technology - Instruction 9-12,4330,Soft Main,Property Services,35446.34,39681.27,49153.81,68558.94,69000.0,74700.0
+Operations and Mainten,826013,Operations and Maint YES,6220,Electric,Supplies,54733.65,40805.15,73692.49,54588.59,70000.0,73500.0
+Operations and Mainten,826113,O&M Custodial YES,2180,GrpInSupp,Employee Benefits,13791.29,18195.04,28612.52,41410.31,52839.76,72729.22
+Special Ed Programs,820390,Special Ed Admin District,1180,Sal Sup Cl,Salaries & Wages,56562.47,62621.42,65973.23,71190.78,68638.34,72425.6
+Guidance,821230,Guidance Sal & Ben 9-12,2110,Insur T,Employee Benefits,31363.86,38199.77,37835.95,50243.18,48850.23,72144.02
+Office of the Principa,824007,Off Of the Prin Sal & Ben 5-8,2140,Ins Admin,Employee Benefits,60563.62,62709.79,64965.43,59504.61,66914.69,71134.21
+Operations and Mainten,826131,O&M Custodial HS,2180,GrpInSupp,Employee Benefits,79514.24,93828.22,102842.99,62569.43,119001.84,70659.59
+Regular Program,811313,Regular Programs Inst YES,6126,Sup Wrkbk,Supplies,7795.47,14130.49,16090.13,19632.09,19632.09,70000.0
+Technology - Instructi,822395,Technology - Inst k-8,4330,Soft Main,Property Services,39994.9,37878.84,59425.56,77105.67,80000.0,70000.0
+Operations and Mainten,826012,Operations & Maintenance Rowe,4300,RoweR&M,Property Services,49742.48,60497.53,71082.37,68555.93,70000.0,70000.0
+Special Ed Programs,820513,Student Speech Pathology,1010,Sal Teach,Salaries & Wages,74883.84,92478.4,97919.3,164031.1,102707.44,67934.83
+Regular Program,813131,Regular Programs Inst HS 9-12,2210,FICA T,Employee Benefits,49093.34,52094.31,57003.95,51857.2,65630.51,67845.14
+Special Ed Programs,820114,Special Program Reg Classroom,2120,Insur ET,Employee Benefits,45323.48,51263.09,53606.62,44688.3,72536.48,66148.73
+Regular Program,811414,Regular Programs Inst MS,1230,Sal Sub T,Salaries & Wages,40614.32,38870.39,63419.86,44814.93,47200.0,65000.0
+School Nutrition Trans,831190,School Nutrition Transfers,9100,Fund Trans,Other,65000.0,65000.0,65000.0,0.0,65000.0,65000.0
+Regular Program,813131,Regular Programs Inst HS 9-12,1020,Sal ET,Salaries & Wages,45407.28,46759.63,52104.97,61443.54,59679.55,64224.8
+Operations and Mainten,826290,O&M Maintenance Districtwide,4400,Leases,Property Services,90047.52,127392.86,135192.86,45545.34,48545.0,64000.0
+Office of the Principa,824005,Off of the Prin Sal & Ben k-1,1181,Sal Cler,Salaries & Wages,21325.82,67289.57,70379.66,74241.69,66611.09,63886.96
+Operations and Mainten,826014,Operations and Maint MS,6210,Nat Gas,Supplies,45151.54,51883.64,55278.71,64890.4,70000.0,63500.0
+Special Ed Programs,820613,Student Occupational Therapy,1010,Sal Teach,Salaries & Wages,100015.24,104987.06,110668.9,133187.18,58193.99,61890.01
+Special Ed Programs,820112,Special Program Reg Classroom,2110,Insur T,Employee Benefits,27319.26,34667.47,47090.92,35625.76,56845.7,60292.77
+Student Transportation,827631,Extra Curr Athletics HS,1186,Sal Reg,Salaries & Wages,66336.13,62704.01,65532.62,51401.44,60000.0,60000.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,5200,Insurance,Other Purchased Services,45183.0,48333.55,51209.0,62432.0,60000.0,60000.0
+Special Ed Programs,820113,Special Program Reg Classroom,2110,Insur T,Employee Benefits,42902.9,48494.39,51230.06,49059.29,55834.74,59530.15
+Office of the Principa,824030,Off of the Prin Sal Ben 9-12,2140,Ins Admin,Employee Benefits,57310.4,57050.34,53917.94,51400.04,46035.34,59373.82
+Regular Program,811313,Regular Programs Inst YES,1230,Sal Sub T,Salaries & Wages,53497.5,69538.0,38831.54,37173.5,59000.0,59000.0
+Operations and Mainten,826014,Operations and Maint MS,6220,Electric,Supplies,30939.35,49279.01,52754.58,20140.59,55000.0,57750.0
+Special Ed Programs,820390,Special Ed Admin District,3445,Legal,Prof/Technical Services,11495.6,39028.85,47108.96,17580.16,45000.0,55000.0
+Technology - Instructi,822395,Technology - Inst k-8,4431,Lease Tech,Property Services,54162.04,60079.53,60079.53,24517.15,25000.0,55000.0
+Operations and Mainten,826114,O&M Custodial MS,2180,GrpInSupp,Employee Benefits,45114.73,46258.22,46925.02,38833.65,51355.31,54683.18
+Special Ed Programs,820414,Social Work Services,2110,Insur T,Employee Benefits,15646.3,15471.36,41430.85,44974.51,23666.88,53763.85
+Special Ed Programs,820131,Special Program Reg Classroom,2110,Insur T,Employee Benefits,41384.68,43674.51,46656.99,42414.36,49437.6,52709.66
+Operations and Mainten,826012,Operations & Maintenance Rowe,6210,Nat Gas,Supplies,44172.68,38655.12,52992.92,72600.37,50000.0,52500.0
+Improvement of Instruc,822195,Teaching and Learning K-8,2510,Tuit Tchrs,Employee Benefits,49540.65,40256.75,60131.25,90387.01,52500.0,52500.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,2180,Ins Sup,Employee Benefits,58313.26,58665.32,56030.73,31524.36,75611.17,51830.3
+Regular Program,811414,Regular Programs Inst MS,2210,FICA T,Employee Benefits,38842.81,40827.76,42887.15,40820.43,50961.11,50503.24
+Special Ed Programs,821409,STUDENT PSYCH 9-12,3440,Sped PrSrv,Prof/Technical Services,0.0,25387.63,48724.08,9739.6,30000.0,50000.0
+Student Transportation,827099,Sped Transport 9-12,1186,Sal Reg,Salaries & Wages,24343.51,46946.53,39513.65,44254.67,50000.0,50000.0
+Technology - Instructi,822399,Technology - Instruction 9-12,7300,Equipment,Property & Equipment,16035.24,45296.28,46609.74,281809.79,283000.0,50000.0
+Regular Program,813131,Regular Programs Inst HS 9-12,1563,Ld St 9-12,Salaries & Wages,34818.11,35045.0,46394.92,49655.7,46761.52,47351.15
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,4416,Rent Ice,Property Services,42269.0,45734.91,45371.02,43751.25,47250.0,47250.0
+Operations and Mainten,826012,Operations & Maintenance Rowe,6220,Electric,Supplies,23176.61,36667.78,39092.02,22009.32,45000.0,47250.0
+Library,822212,Library Rowe,1020,Sal ET,Salaries & Wages,28695.78,29956.29,39754.9,49611.48,44924.88,46567.08
+Regular Program,811313,Regular Programs Inst YES,2210,FICA T,Employee Benefits,34001.59,37707.86,40254.5,35417.57,43132.69,46471.21
+Operations and Mainten,826290,O&M Maintenance Districtwide,4900,Rubbish Re,Property Services,30700.59,39296.4,36605.2,35730.27,45000.0,45000.0
+Library,822230,Library Salary & Ben 9-12,1020,Sal ET,Salaries & Wages,34559.07,32702.95,40678.5,39121.96,42415.03,44749.44
+Superintendent School,825090,Off of Finance and Operations,2180,GrpInSupp,Employee Benefits,33054.04,37905.5,41332.05,39324.28,44312.57,44149.58
+Office of the Principa,824006,Off of the Prin Sal & Ben 2-4,2140,Ins Admin,Employee Benefits,29221.31,32499.55,44041.84,39481.9,33177.63,43706.33
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1124,Sal Track,Salaries & Wages,19427.25,32318.29,34910.0,12560.0,37731.41,43256.71
+Regular Program,811313,Regular Programs Inst YES,6105,Supp Gen,Supplies,17206.51,19303.75,41308.4,40142.09,42000.0,42000.0
+Technology - Instructi,822314,Instruction Technology MS,1020,Sal ET,Salaries & Wages,37137.5,36978.86,46239.86,43209.31,44924.88,41983.2
+Student Transportation,827090,Student Transportation,6280,Diesel Fue,Supplies,36589.67,4106.13,11836.1,-4399.98,40000.0,41600.0
+Regular Program,811313,Regular Programs Inst YES,1561,Ld Stip,Salaries & Wages,22884.0,30379.0,30214.0,32021.0,35906.0,41047.44
+Technology - Instructi,822330,Technology - Sal & Ben 9-12,1020,Sal ET,Salaries & Wages,39417.99,30455.28,40390.51,40417.35,38434.91,40540.92
+Regular Program,811212,Regular Programs Inst Rowe,1230,Sal Sub T,Salaries & Wages,19057.5,31411.38,41305.0,23785.5,23600.0,40000.0
+Special Ed Programs,820113,Special Program Reg Classroom,2320,Ret edtc g,Employee Benefits,16722.3,20040.79,24933.74,22880.83,32263.89,39833.42
+Student Transportation,827090,Student Transportation,3400,Pur Serv,Prof/Technical Services,6385.0,15439.63,35192.9,39983.71,39373.0,39500.0
+Superintendent School,823290,Office of the Superintendent,2180,Ins Sup,Employee Benefits,37373.36,21197.39,24778.77,32355.07,36360.22,37969.07
+Student Transportation,827090,Student Transportation,2280,FICA Sup,Employee Benefits,36661.26,26337.67,28760.26,23989.36,35714.85,37694.88
+Regular Program,813131,Regular Programs Inst HS 9-12,2615,PFML,Employee Benefits,0.0,0.0,0.0,13.21,7509.14,37431.8
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1116,Sal Ice Hk,Salaries & Wages,27638.82,28854.76,29870.9,30002.66,34607.42,37156.41
+Special Ed Programs,820431,Social Work Services,2110,Insur T,Employee Benefits,30318.94,30252.0,31854.56,29782.67,34819.46,37123.94
+Regular Program,813131,Regular Programs Inst HS 9-12,3200,Pur P Serv,Prof/Technical Services,1510.72,32044.0,37565.71,28130.63,37000.0,37000.0
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1112,Sal BaskB,Salaries & Wages,27170.62,23199.76,28047.5,31787.0,36339.64,36380.0
+English Language Learn,841095,Multi Language Learners k-8,2110,Insur T,Employee Benefits,24090.58,37699.26,50800.72,47457.58,49437.6,36369.62
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,1185,Sal Suppor,Salaries & Wages,27586.83,28898.59,30612.14,36941.6,34320.0,35585.0
+Technology - Instructi,822313,Instruction Technology YES,1020,Sal ET,Salaries & Wages,34531.44,48720.32,53708.54,57556.86,35505.6,35123.4
+Superintendent School,823290,Office of the Superintendent,2140,Ins Admin,Employee Benefits,31532.94,31650.09,46925.97,44309.35,32664.68,35067.12
+Student Transportation,827631,Extra Curr Athletics HS,6280,Diesel Fue,Supplies,25713.01,33915.8,31212.62,30572.2,30000.0,35000.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6220,ElecField,Supplies,31388.71,37399.15,32361.67,10210.56,35000.0,35000.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,3400,Pur Serv,Prof/Technical Services,610.0,18118.2,22950.0,29406.58,34596.0,35000.0
+Improvement of Instruc,822199,Teaching and Learning 9-12,2510,Tuit Tchrs,Employee Benefits,23618.0,27739.5,20696.4,24070.78,35000.0,35000.0
+Regular Program,811414,Regular Programs Inst MS,1562,Ld Stip,Salaries & Wages,20489.85,22987.5,16988.0,36247.0,39246.48,34597.13
+Guidance,821213,Guidance YES,2110,Insur T,Employee Benefits,27208.38,26012.04,28752.02,22466.26,44536.57,34252.08
+Technology - Instructi,822390,Technology Sal & Ben Adm k-12,2180,Ins Sup,Employee Benefits,25413.34,25232.64,26291.76,24639.93,27914.37,33675.66
+Improvement of Instruc,822195,Teaching and Learning K-8,1564,NewToYarm,Salaries & Wages,14474.55,10722.58,25420.67,24660.25,31178.7,33345.0
+Operations and Mainten,826112,O&M Custodial Care Rowe,1186,Sal Reg,Salaries & Wages,4265.14,14646.4,36410.3,47286.09,30305.6,33311.71
+Technology - Instructi,822390,Technology Sal & Ben Adm k-12,2140,Ins Admin,Employee Benefits,21972.31,23725.36,29819.59,28629.67,31599.26,33139.1
+Improvement of Instruc,822195,Teaching and Learning K-8,2140,GrInsAdm,Employee Benefits,24882.47,24153.15,35981.94,31231.61,31599.26,33139.1
+Technology - Instructi,822314,Instruction Technology MS,1010,Sal Teach,Salaries & Wages,23584.6,29213.05,31837.05,37158.95,31565.5,33125.71
+Special Ed Programs,820614,Student Occupational Therapy,1010,Sal Teach,Salaries & Wages,33191.08,38570.11,42055.58,74101.27,30735.71,32996.92
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1118,Sal Lac,Salaries & Wages,29315.0,30608.72,25703.48,672.5,31507.42,32830.74
+Technology - Instructi,822313,Instruction Technology YES,1010,Sal Teach,Salaries & Wages,26670.39,28541.74,29545.38,35532.61,30770.36,32394.75
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,2180,Ins Sup,Employee Benefits,26385.6,26164.09,26927.96,26466.62,30284.61,32279.64
+Technology - Instructi,822330,Technology - Sal & Ben 9-12,1010,Sal T HS,Salaries & Wages,28534.42,27181.22,28682.38,34566.19,30533.29,31971.25
+Superintendent School,825090,Off of Finance and Operations,2140,GrInsAdm,Employee Benefits,16531.92,37185.61,36418.36,32665.34,35718.69,31933.52
+Special Ed Programs,820390,Special Ed Admin District,2140,Ins Admin,Employee Benefits,35738.79,37880.8,30494.73,29538.71,32915.18,31882.74
+Office of the Principa,824007,Off Of the Prin Sal & Ben 5-8,2180,Ins Sup,Employee Benefits,10904.44,10753.05,14498.3,23086.99,15143.62,31434.02
+Student Health,821312,Student Health Rowe,2110,Insur T,Employee Benefits,27802.12,27143.04,29008.88,25363.99,30651.39,31045.91
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1120,Sal Soc,Salaries & Wages,26628.6,28174.56,23337.0,28102.0,29165.66,30390.61
+Regular Program,811212,Regular Programs Inst Rowe,2210,FICA T,Employee Benefits,21429.36,22878.15,25475.96,23078.55,29194.64,30062.05
+Regular Program,811212,Regular Programs Inst Rowe,6410,Books,Supplies,8231.5,8671.98,25611.35,25999.4,26000.0,30000.0
+Regular Program,813131,Regular Programs Inst HS 9-12,2710,WC Teach,Employee Benefits,30004.2,32903.08,26487.44,26907.48,32000.0,30000.0
+Technology - Instructi,822395,Technology - Inst k-8,7300,Equipment,Property & Equipment,22808.0,30000.0,21143.5,19692.69,30000.0,30000.0
+Special Ed Programs,820512,Speech - Rowe,2110,Insur T,Employee Benefits,27189.26,27086.97,28931.93,26237.43,30651.39,29412.08
+English Language Learn,841099,Multi Language Learners 9-12,2110,Insur T,Employee Benefits,4576.32,6969.82,5644.05,5026.06,11830.92,28953.92
+Special Ed Programs,821409,STUDENT PSYCH 9-12,2160,Ins Oth,Employee Benefits,23719.17,25088.74,24686.13,24342.55,38395.86,28633.4
+Operations and Mainten,826131,O&M Custodial HS,2280,FICAReg,Employee Benefits,22512.44,22446.5,21740.23,19600.44,26229.34,28418.69
+Regular Program,811414,Regular Programs Inst MS,2615,PFML,Employee Benefits,0.0,0.0,0.0,10.17,5840.09,27863.86
+Operations and Mainten,826290,O&M Maintenance Districtwide,2140,GrInsAdm,Employee Benefits,17164.62,17307.82,18360.62,16762.01,25315.39,27677.8
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,1040,Sal Admin,Salaries & Wages,22648.58,24088.74,25634.98,26026.23,26474.85,27514.23
+Regular Program,811414,Regular Programs Inst MS,2710,WC Teach,Employee Benefits,27255.0,28719.97,23334.7,24216.74,28800.0,27000.0
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,2200,FICA Coach,Employee Benefits,18049.9,20214.81,21754.5,16379.9,24940.38,26311.89
+Technology - Instructi,822395,Technology - Inst k-8,3400,Pur Serv,Prof/Technical Services,1659.99,3503.91,28563.36,26000.0,26000.0,26000.0
+Superintendent School,823190,School Committee,3460,Audit,Prof/Technical Services,15000.0,23000.0,25750.0,28000.0,18500.0,26000.0
+Regular Program,811313,Regular Programs Inst YES,2615,PFML,Employee Benefits,0.0,0.0,0.0,8.72,4932.63,25639.29
+Regular Program,811212,Regular Programs Inst Rowe,6105,Supp Gen,Supplies,29242.74,23486.7,15510.11,24531.5,25000.0,25000.0
+Student Transportation,827090,Student Transportation,1380,Sal OT,Salaries & Wages,28735.56,33906.0,20662.88,20108.02,6000.0,25000.0
+Student Transportation,827090,Student Transportation,5200,Insurance,Other Purchased Services,16088.43,14947.0,19074.0,20965.0,20000.0,25000.0
+Regular Program,813131,Regular Programs Inst HS 9-12,7320,Cop Eq,Property & Equipment,0.0,0.0,24090.45,16670.55,14500.0,24500.0
+Office of the Principa,824030,Off of the Prin Sal Ben 9-12,2340,Ret Admin,Employee Benefits,19286.27,21131.28,20873.01,17424.46,23469.76,24110.8
+Operations and Mainten,826113,O&M Custodial YES,2280,FICAReg,Employee Benefits,10978.72,13049.41,17136.82,16264.31,22348.32,23651.56
+Office of the Principa,824007,Off Of the Prin Sal & Ben 5-8,2340,Ret Admin,Employee Benefits,21481.04,21739.58,20444.28,18147.53,22953.69,23611.86
+Regular Program,811212,Regular Programs Inst Rowe,1560,Ld St k-1,Salaries & Wages,11150.0,19607.0,15415.0,20172.0,18370.56,23602.28
+Technology - Instructi,822312,Instruction Technology Rowe,1020,Sal ET,Salaries & Wages,0.0,0.0,0.0,0.0,23670.4,23415.6
+Regular Program,811313,Regular Programs Inst YES,6412,Books Math,Supplies,15551.25,15322.25,19486.41,21127.33,22500.0,23300.0
+Student Transportation,827090,Student Transportation,2140,Ins Admin,Employee Benefits,22870.3,20975.72,22761.65,20135.04,22291.67,23231.08
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1199,Sal Footbl,Salaries & Wages,20037.91,19105.0,12180.0,8942.0,10724.24,23070.25
+Student Transportation,827090,Student Transportation,2780,WC Sup,Employee Benefits,38972.0,19915.63,25177.46,20180.58,24000.0,22500.0
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1133,Sal Drama,Salaries & Wages,7089.89,11698.0,12793.83,17670.0,21501.69,22404.76
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1114,Sal CC,Salaries & Wages,7678.66,6141.0,6652.0,10736.22,15966.6,22182.93
+Regular Program,811414,Regular Programs Inst MS,6412,Books Math,Supplies,1389.98,1594.06,21943.99,22116.82,22116.18,22075.0
+Regular Program,813131,Regular Programs Inst HS 9-12,5810,Pro Dev Ml,Other Purchased Services,17259.79,14022.31,18562.69,10750.47,22000.0,22000.0
+Superintendent School,823290,Office of the Superintendent,2340,Ret Admin,Employee Benefits,18935.23,21294.12,8873.16,7765.12,21617.88,21936.36
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,1112,Sal BaskB,Salaries & Wages,15921.0,12496.0,18913.0,19425.0,20969.47,21850.19
+Special Ed Programs,820112,Special Program Reg Classroom,2320,Ret edtc g,Employee Benefits,8172.95,12429.09,17959.21,16335.94,24981.95,21813.72
+Regular Program,811212,Regular Programs Inst Rowe,2320,Ret edtc g,Employee Benefits,8228.15,10690.97,18151.56,14789.21,17064.1,21810.85
+Guidance,821212,Guidance Rowe,2110,Insur T,Employee Benefits,10511.28,10506.72,17389.5,16972.6,19774.88,21083.76
+Student Health,821313,Student Health YES,2110,Insur T,Employee Benefits,27232.0,27143.04,20538.08,16972.6,19774.88,21083.76
+Library,822213,Library YES,2110,Insur T,Employee Benefits,17568.76,17511.36,18715.19,16972.6,19774.88,21083.76
+Guidance,821214,Guidance MS,2110,Insur T,Employee Benefits,28977.12,30976.97,32097.69,28890.0,19774.88,21083.76
+Student Health,821331,Student Health HS,2110,Insur T,Employee Benefits,17544.16,17511.36,18715.19,16972.6,19774.88,21083.76
+Operations and Mainten,826290,O&M Maintenance Districtwide,4300,Rep & Main,Property Services,4095.7,5654.58,5890.09,16284.55,10000.0,21000.0
+Regular Program,811313,Regular Programs Inst YES,2320,Ret edtc g,Employee Benefits,6832.78,7473.88,16268.92,13333.77,9811.02,20755.54
+Operations and Mainten,826114,O&M Custodial MS,2280,FICAReg,Employee Benefits,16521.98,18381.71,17579.44,14512.5,19712.58,20739.02
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6155,Sup Unif,Supplies,19761.03,19831.29,27578.09,25810.16,22600.0,20600.0
+Office of the Principa,824005,Off of the Prin Sal & Ben k-1,2140,Ins Admin,Employee Benefits,12092.2,19058.37,21484.09,19290.46,20915.6,20001.8
+Operations and Mainten,826131,O&M Custodial HS,1286,Sal Temp,Salaries & Wages,8438.58,0.0,0.0,852.49,20000.0,20000.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,4318,R&M Veh,Property Services,7109.17,11787.5,9290.53,10976.25,20000.0,20000.0
+Office of the Principa,824030,Off of the Prin Sal Ben 9-12,2180,Ins Sup,Employee Benefits,20139.26,23055.54,21601.34,16558.15,26569.59,19745.42
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1119,Sal Ski,Salaries & Wages,21471.16,23784.38,10158.1,24270.0,23577.45,19742.81
+Regular Program,814913,Gifted and Talented YES,2110,Insur T,Employee Benefits,27147.74,23107.84,23833.84,21614.54,14537.67,19731.97
+Regular Program,814914,Gifted and Talented MS,2110,Insur T,Employee Benefits,2721.44,0.0,0.0,8311.47,14537.67,19731.97
+Library,822214,Library MS,1020,Sal ET,Salaries & Wages,16461.18,18166.17,20025.62,19502.0,18556.57,19577.88
+Operations and Mainten,826290,O&M Maintenance Districtwide,2780,WC Sup,Employee Benefits,18955.0,15107.25,11572.69,17489.86,20800.0,19500.0
+Special Ed Programs,820014,Special Program Resource Room,2310,Ret Grant,Employee Benefits,12696.83,16044.4,17414.67,15210.11,18596.5,19423.28
+Special Ed Programs,820031,Special Program Resource Room,2310,Ret Grant,Employee Benefits,13779.64,12180.92,11483.34,11055.27,18575.86,19199.25
+Regular Program,813131,Regular Programs Inst HS 9-12,2120,Insur ET,Employee Benefits,16713.01,16462.42,15742.77,14931.04,28390.81,19136.27
+Special Ed Programs,820013,Special Program Resource Room,2310,Ret Grant,Employee Benefits,9539.94,12093.91,12561.5,10948.13,18175.85,19096.37
+Regular Program,811414,Regular Programs Inst MS,5810,Pro Dev Ml,Other Purchased Services,10416.95,22126.93,12876.31,12496.94,18470.67,19000.0
+Improvement of Instruc,822195,Teaching and Learning K-8,1520,Curriculum,Salaries & Wages,9488.82,22039.94,17029.15,14611.13,14611.13,18908.0
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1109,Alum Co,Salaries & Wages,4340.13,770.17,11374.0,6919.0,17829.37,18578.2
+Regular Program,811414,Regular Programs Inst MS,6105,Supp Gen,Supplies,10126.46,9941.39,9350.68,11556.55,15736.41,18500.0
+Student Transportation,827214,Extra-Curricular Athletics K-8,1186,Sal Reg,Salaries & Wages,12594.34,15792.17,17285.7,12585.5,18000.0,18000.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,4419,Rent Ski,Property Services,14384.31,17009.97,15816.2,8588.97,18000.0,18000.0
+Operations and Mainten,826131,O&M Custodial HS,2780,WC Sup,Employee Benefits,16695.4,13771.46,15453.82,16144.49,19200.0,18000.0
+Guidance,821231,Guidance HS,3200,Pur P Serv,Prof/Technical Services,12100.0,12000.0,15770.0,20396.26,13219.0,17500.0
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1123,Sal Tennis,Salaries & Wages,9192.0,11810.91,21671.26,1883.25,16392.38,17080.86
+Extra and Co Curr Acti,895031,Extra and Co Curr 9-12,8140,Dues Allst,Other / Dues / Debt,9716.28,14225.35,15764.97,15544.02,17000.0,17000.0
+Superintendent School,823290,Office of the Superintendent,3450,Legal,Prof/Technical Services,15237.96,15304.88,16010.29,25067.9,16000.0,17000.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,2280,FICA Sup,Employee Benefits,8131.41,8459.5,8933.18,9723.02,16242.11,16939.06
+Superintendent School,825090,Off of Finance and Operations,2340,Ret Admin,Employee Benefits,7488.0,5968.61,0.0,0.0,16276.37,16841.59
+Regular Program,811414,Regular Programs Inst MS,2120,Insur ET,Employee Benefits,22971.27,10784.82,11968.77,20259.46,15752.09,16642.49
+Regular Program,811212,Regular Programs Inst Rowe,2615,PFML,Employee Benefits,0.0,0.0,0.0,5.85,3349.56,16585.96
+Operations and Mainten,826113,O&M Custodial YES,2380,RetSupprt,Employee Benefits,2586.04,670.51,150.0,15.41,14680.85,16166.77
+Special Ed Programs,820114,Special Program Reg Classroom,2320,Ret edtc g,Employee Benefits,8102.21,10408.46,13360.64,10139.72,14399.64,16026.09
+Superintendent School,823190,School Committee,5200,Insurance,Other Purchased Services,14175.0,14596.0,14892.0,15774.0,15500.0,16000.0
+Office of the Principa,824006,Off of the Prin Sal & Ben 2-4,2180,Ins Sup,Employee Benefits,4716.6,5691.76,10829.2,5615.04,15293.8,15979.42
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,1124,Sal Track,Salaries & Wages,9215.91,4581.0,2252.0,10059.0,15327.94,15971.71
+Student Transportation,827090,Student Transportation,2380,Ret Sup,Employee Benefits,26605.65,22174.17,17757.1,14900.28,15380.68,15832.27
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1110,Mgr Aud,Salaries & Wages,0.0,1113.75,0.0,11497.5,10400.0,15814.0
+Student Transportation,827090,Student Transportation,2330,Ret Sup,Employee Benefits,11598.47,9836.28,17425.09,18039.67,18891.99,15803.13
+Technology - Instructi,822399,Technology - Instruction 9-12,3400,Pur Serv,Prof/Technical Services,5071.42,322.5,24618.01,15213.56,15375.0,15375.0
+Improvement of Instruc,822195,Teaching and Learning K-8,5810,Pro Dev Ml,Other Purchased Services,159.0,11930.75,7149.76,9843.09,12750.0,15250.0
+Office of the Principa,824005,Off of the Prin Sal & Ben k-1,2340,Ret Admin,Employee Benefits,14875.34,14593.55,13942.8,9792.39,15404.81,15014.74
+Special Ed Programs,820613,Student Occupational Therapy,2110,Insur T,Employee Benefits,10994.76,9876.35,10549.61,10028.95,10948.54,14955.11
+Office of the Principa,824006,Off of the Prin Sal & Ben 2-4,2340,Ret Admin,Employee Benefits,26929.75,25236.52,10520.16,9840.98,14263.92,14778.43
+Improvement of Instruc,822195,Teaching and Learning K-8,3200,Pur P Serv,Prof/Technical Services,13654.36,14058.68,18278.89,9353.0,14760.0,14760.0
+Library,822231,Library HS,6410,Books,Supplies,9949.3,11674.49,14772.61,8494.07,14500.0,14500.0
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,1118,Sal Lac,Salaries & Wages,3017.0,0.0,3326.0,0.0,13837.72,14418.9
+Guidance,821230,Guidance Sal & Ben 9-12,2310,Ret Tchrs,Employee Benefits,9181.12,13442.66,13606.5,11335.66,13747.17,14047.05
+Technology - Instructi,822313,Instruction Technology YES,7351,Tech Softw,Property & Equipment,14373.7,13246.03,12319.08,11912.76,17250.0,14000.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6105,Supp Gen,Supplies,7490.08,12687.36,14822.96,11676.91,14000.0,14000.0
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1111,Sal BasB,Salaries & Wages,11119.25,12123.16,16250.38,0.0,13411.94,13975.25
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1122,Sal Swim,Salaries & Wages,11676.91,14964.38,14996.75,12880.0,13411.94,13975.25
+Improvement of Instruc,822195,Teaching and Learning K-8,1500,D K-8 Stip,Salaries & Wages,4000.0,11500.0,8000.0,6500.0,13894.99,13900.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,5912,Off Basket,Other Purchased Services,11633.52,11705.24,13486.25,15872.14,12875.0,13700.0
+Operations and Mainten,826113,O&M Custodial YES,2330,Ret Sup,Employee Benefits,9811.58,14010.42,19594.29,23490.12,13277.93,13483.73
+Library,822231,Library HS,3200,Pur P Serv,Prof/Technical Services,9640.05,12068.98,11619.07,11470.85,13400.0,13400.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,8100,Dues,Other / Dues / Debt,12388.13,12442.3,13200.0,10888.8,13390.0,13400.0
+Technology - Instructi,822390,Technology Sal & Ben Adm k-12,2280,FICA Sup,Employee Benefits,10941.82,11552.78,12369.7,9577.8,12777.08,13377.82
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,1120,Sal Soc,Salaries & Wages,11140.0,8772.0,13816.0,12772.0,12773.28,13309.76
+Library,822212,Library Rowe,2120,Insur ET,Employee Benefits,10767.8,10767.8,11364.2,10303.83,12205.89,13023.69
+Technology - Instructi,822314,Instruction Technology MS,2120,Insur ET,Employee Benefits,10774.95,10810.8,11393.42,10303.83,12205.89,13023.69
+Student Transportation,827531,Co-Curricular High School,1186,Sal Reg,Salaries & Wages,9302.76,12352.86,14143.68,12413.86,13000.0,13000.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,5920,Off Soccer,Other Purchased Services,6972.92,12308.35,11892.78,14183.56,11330.0,13000.0
+Technology - Instructi,822312,Instruction Technology Rowe,1010,Sal Teach,Salaries & Wages,0.0,0.0,0.0,10088.55,12308.14,12957.9
+Regular Program,811313,Regular Programs Inst YES,5810,Pro Dev Ml,Other Purchased Services,4799.67,13565.9,4529.42,5745.7,12900.0,12900.0
+Special Ed Programs,820112,Special Program Reg Classroom,2310,Ret Grant,Employee Benefits,4562.27,10169.89,11541.22,10508.07,12882.79,12779.68
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1127,Sal Vol HS,Salaries & Wages,5084.91,10722.0,10180.5,12540.24,12241.06,12755.18
+Special Ed Programs,820390,Special Ed Admin District,2180,Ins Sup,Employee Benefits,10770.53,10157.56,10630.82,10236.12,11337.5,12682.21
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,1119,Sal Ski,Salaries & Wages,7798.0,17512.38,15863.75,15648.0,12134.62,12644.27
+Special Ed Programs,820412,Social Work Services,2110,Insur T,Employee Benefits,8417.78,9894.72,10574.87,10051.91,11830.92,12613.88
+Student Health,821314,Student Health MS,2110,Insur T,Employee Benefits,1509.36,2132.36,10779.12,15632.84,17746.37,12613.88
+Library,822214,Library MS,2110,Insur T,Employee Benefits,9851.66,9894.72,10574.87,10051.91,11830.92,12613.88
+Superintendent School,825090,Off of Finance and Operations,2380,RetSupprt,Employee Benefits,23949.33,27620.88,25992.42,22832.4,11998.75,12605.49
+Office of the Principa,824030,Off of the Prin Sal Ben 9-12,2380,Ret Sup,Employee Benefits,10099.02,12375.69,13091.11,10727.6,12436.14,12508.78
+Special Ed Programs,820131,Special Program Reg Classroom,2320,Ret edtc g,Employee Benefits,9411.73,9426.83,11256.17,8084.26,11616.02,12079.5
+Regular Program,813131,Regular Programs Inst HS 9-12,7300,Equipment,Property & Equipment,379.0,7903.68,10043.66,2719.99,12000.0,12000.0
+Extra and Co Curr Acti,895031,Extra and Co Curr 9-12,3400,Pur Serv,Prof/Technical Services,14579.91,13285.05,11239.31,3131.7,12000.0,12000.0
+Student Transportation,827099,Sped Transport 9-12,6280,Diesel Fue,Supplies,15084.13,31426.5,11477.32,11203.4,12000.0,12000.0
+Student Transportation,827090,Student Transportation,5140,Other Tran,Other Purchased Services,3588.01,8500.85,8033.11,3998.46,11500.0,12000.0
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1125,Sal In9-12,Salaries & Wages,10000.0,10000.0,8040.0,7560.0,11025.03,11978.78
+Operations and Mainten,826131,O&M Custodial HS,2380,RetSupprt,Employee Benefits,7141.11,6031.87,4012.06,3743.57,9730.16,11911.89
+Superintendent School,825090,Off of Finance and Operations,2240,FICA ADMIN,Employee Benefits,11408.6,17069.45,12341.12,9135.89,11457.28,11881.2
+Operations and Mainten,826114,O&M Custodial MS,2330,Ret Sup,Employee Benefits,5851.69,11718.77,13167.87,10069.36,11571.21,11863.99
+Regular Program,811313,Regular Programs Inst YES,1220,Sal Sub ET,Salaries & Wages,8496.39,56410.36,9177.0,13947.5,11800.0,11800.0
+Improvement of Instruc,822199,Teaching and Learning 9-12,1521,Curriculum,Salaries & Wages,8046.77,4480.14,2496.9,15309.32,15844.87,11548.0
+Special Ed Programs,820390,Special Ed Admin District,2340,Ret Admin,Employee Benefits,9230.22,10243.95,9985.71,8357.67,11806.39,11545.23
+Regular Program,811313,Regular Programs Inst YES,6100,Supplies,Supplies,8666.74,7657.83,6400.01,9589.74,13500.0,11500.0
+Operations and Mainten,826012,Operations & Maintenance Rowe,6240,Rowe Fuel,Supplies,15721.68,0.0,0.0,0.0,10000.0,11500.0
+Operations and Mainten,826013,Operations and Maint YES,6240,Fuel Oil,Supplies,25585.37,0.0,0.0,0.0,10000.0,11500.0
+Operations and Mainten,826014,Operations and Maint MS,6240,Fuel Oil,Supplies,25680.97,0.0,0.0,0.0,10000.0,11500.0
+Operations and Mainten,826031,Operations and Maint HS,6240,Fuel Oil,Supplies,56803.36,0.0,0.0,0.0,10000.0,11500.0
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,2180,GrpInSupp,Employee Benefits,0.0,0.0,0.0,0.0,17886.97,11464.42
+Operations and Mainten,826290,O&M Maintenance Districtwide,2380,Ret Sup,Employee Benefits,10156.33,10515.17,11086.13,11447.73,10975.74,11362.12
+Special Ed Programs,821409,STUDENT PSYCH 9-12,2360,Ret Oth,Employee Benefits,0.0,0.0,0.0,0.0,10778.79,11092.96
+Regular Program,813131,Regular Programs Inst HS 9-12,6117,Sup Scienc,Supplies,9838.26,6809.49,9691.76,8759.14,11000.0,11000.0
+Operations and Mainten,826112,O&M Custodial Care Rowe,2180,GrpInSupp,Employee Benefits,534.77,4405.1,13253.76,19972.4,10055.44,10709.75
+Regular Program,811313,Regular Programs Inst YES,2710,WC Teach,Employee Benefits,9900.0,10591.28,8897.99,9417.62,11200.0,10500.0
+Library,822214,Library MS,6410,Books,Supplies,10613.35,10213.11,10373.71,10267.94,10573.43,10500.0
+Special Ed Programs,820113,Special Program Reg Classroom,2220,FICA ET,Employee Benefits,7934.67,8235.24,12957.29,7491.85,10465.91,10387.89
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1115,Sal FI Hck,Salaries & Wages,8612.91,8356.15,5885.15,9098.26,9899.29,10315.06
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1121,Sal Soft,Salaries & Wages,7978.75,12237.91,9305.55,0.0,9899.29,10315.06
+Office of the Principa,824030,Off of the Prin Sal Ben 9-12,2280,FICA Sup,Employee Benefits,8519.83,10264.37,11176.9,8740.86,10231.95,10309.27
+Student Transportation,827090,Student Transportation,2340,Ret Admin,Employee Benefits,9140.51,8845.09,8323.98,7596.91,9813.26,10139.35
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,2200,FICA Coach,Employee Benefits,5569.52,5128.11,6353.96,4327.4,9985.89,10118.33
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,1199,Football,Salaries & Wages,8447.0,5458.0,4299.0,3726.0,3726.4,10093.23
+Guidance,821230,Guidance Sal & Ben 9-12,2180,Ins Sup,Employee Benefits,8821.28,8944.04,8137.47,8035.69,9820.95,10090.16
+Regular Program,811212,Regular Programs Inst Rowe,1220,Sub ET k-1,Salaries & Wages,7792.5,5493.21,7161.0,1433.5,10000.0,10000.0
+Regular Program,811212,Regular Programs Inst Rowe,7320,Cop Eq,Property & Equipment,0.0,0.0,10088.95,0.0,0.0,10000.0
+Regular Program,811313,Regular Programs Inst YES,7320,Cop Eq,Property & Equipment,22192.37,24437.46,0.0,9129.8,9500.0,10000.0
+Regular Program,813131,Regular Programs Inst HS 9-12,4324,Rep Copier,Property Services,6524.03,9660.41,13849.66,11560.44,10000.0,10000.0
+Special Ed Programs,820112,Special Program Reg Classroom,1013,Sal Sm Spe,Salaries & Wages,4639.71,0.0,0.0,0.0,10000.0,10000.0
+Special Ed Programs,820112,Special Program Reg Classroom,1021,Sal ETSum,Salaries & Wages,5175.58,0.0,0.0,0.0,10000.0,10000.0
+Special Ed Programs,820113,Special Program Reg Classroom,1013,Sal Sm Spe,Salaries & Wages,4639.71,0.0,53258.92,0.0,10000.0,10000.0
+Special Ed Programs,820113,Special Program Reg Classroom,1021,Sal ETSum,Salaries & Wages,5175.56,0.0,21809.1,18536.65,10000.0,10000.0
+Special Ed Programs,820114,Special Program Reg Classroom,1013,Sal Sm Spe,Salaries & Wages,4639.71,0.0,0.0,26183.3,10000.0,10000.0
+Special Ed Programs,820114,Special Program Reg Classroom,1021,Sal ETSum,Salaries & Wages,5175.58,0.0,1013.27,26408.46,10000.0,10000.0
+Special Ed Programs,820131,Special Program Reg Classroom,1013,Sal Sm Spe,Salaries & Wages,4639.71,0.0,0.0,0.0,10000.0,10000.0
+Special Ed Programs,820131,Special Program Reg Classroom,1021,Sal ETSum,Salaries & Wages,5175.58,0.0,0.0,110.96,10000.0,10000.0
+Special Ed Programs,820390,Special Ed Admin District,3440,ProfS Sped,Prof/Technical Services,0.0,0.0,0.0,12375.0,1000.0,10000.0
+Student Transportation,827631,Extra Curr Athletics HS,3401,Pur Tran,Prof/Technical Services,1225.0,15505.04,5772.86,5004.69,10000.0,10000.0
+Technology - Instructi,822399,Technology - Instruction 9-12,4320,Rep Tech,Property Services,869.99,1518.25,1285.72,20217.52,22000.0,10000.0
+Operations and Mainten,826031,Operations and Maint HS,4100,Watr & Sew,Property Services,9982.62,3419.14,6065.57,6797.92,10000.0,10000.0
+Operations and Mainten,826092,Operations and Maint Cent Off,4300,Rep & Main,Property Services,6649.1,14245.6,5569.23,16164.39,10000.0,10000.0
+Superintendent School,823290,Office of the Superintendent,6000,Supplies,Supplies,10569.83,14769.73,6805.47,8760.31,15000.0,10000.0
+Extra and Co Curr Acti,891306,Extra and Co Curicular YES,1185,Sal Suppor,Salaries & Wages,0.0,0.0,800.0,1450.0,9871.0,9871.0
+Special Ed Programs,820614,Student Occupational Therapy,2110,Insur T,Employee Benefits,2436.48,4817.92,14308.89,13074.85,7509.56,9847.36
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,4419,Rent Ski,Property Services,9842.68,5320.64,4781.3,3734.0,9500.0,9500.0
+Improvement of Instruc,822199,Teaching and Learning 9-12,3200,Pur P Serv,Prof/Technical Services,25.0,0.0,7273.97,9336.15,9500.0,9500.0
+Superintendent School,825090,Off of Finance and Operations,2280,FICAReg,Employee Benefits,7399.07,9568.82,9595.22,7800.26,8999.06,9454.11
+Special Ed Programs,820131,Special Program Reg Classroom,2310,Ret Grant,Employee Benefits,6253.73,8353.87,8767.84,7671.97,9504.2,9425.15
+Operations and Mainten,826290,O&M Maintenance Districtwide,6260,Gasoline,Supplies,8028.08,8139.48,7695.64,7857.44,9000.0,9250.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,2240,FICA ADMIN,Employee Benefits,13817.97,14518.5,16094.13,13040.8,8852.14,9172.59
+Special Ed Programs,820414,Social Work Services,2310,Ret Grant,Employee Benefits,4177.91,5673.02,7827.25,7371.45,8912.81,9163.94
+Regular Program,811212,Regular Programs Inst Rowe,2710,WC Teach,Employee Benefits,8573.0,8981.46,7444.02,8072.26,9600.0,9000.0
+Library,822213,Library YES,6410,Books,Supplies,10949.94,8484.83,8144.82,9615.92,9080.0,9000.0
+Regular Program,811414,Regular Programs Inst MS,4324,Rep Copier,Property Services,5804.29,6781.08,11476.01,6464.81,9000.0,9000.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6101,Supp Art,Supplies,7695.97,7526.15,6098.62,8884.15,9000.0,9000.0
+Extra and Co Curr Acti,895031,Extra and Co Curr 9-12,4430,Rent Grad,Property Services,11592.5,14555.75,15678.0,1000.0,9000.0,9000.0
+Special Ed Programs,820113,Special Program Reg Classroom,2310,Ret Grant,Employee Benefits,6339.8,9680.55,10282.16,7140.94,8899.1,8941.56
+Superintendent School,823290,Office of the Superintendent,2380,Ret Sup,Employee Benefits,6664.19,5851.17,6301.16,6652.05,8603.26,8921.81
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,1102,SalMSAst,Salaries & Wages,7419.0,7790.0,8179.0,0.0,8515.52,8873.17
+Special Ed Programs,820612,OT - Rowe,2110,Insur T,Employee Benefits,995.16,1967.84,5844.51,5340.58,9464.73,8829.71
+Guidance,821230,Guidance Sal & Ben 9-12,1501,Stip other,Salaries & Wages,5640.0,5850.0,4050.0,927.0,8601.0,8601.0
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1117,Sal Golf,Salaries & Wages,7127.91,7018.0,4606.0,7664.0,8196.19,8540.43
+Superintendent School,823290,Office of the Superintendent,2280,FICA Sup,Employee Benefits,7226.06,6761.23,6246.88,6878.72,8229.56,8534.4
+Regular Program,811313,Regular Programs Inst YES,6117,Sup Scienc,Supplies,4332.9,3513.42,6182.89,4483.58,5000.0,8350.0
+Technology - Instructi,822395,Technology - Inst k-8,4320,Rep Tech,Property Services,6177.72,7131.57,7772.99,8208.33,8300.0,8300.0
+Technology - Instructi,822313,Instruction Technology YES,2110,Insur T,Employee Benefits,6797.27,6785.76,7238.33,6576.99,7662.85,8170.02
+Regular Program,811414,Regular Programs Inst MS,6600,A Visual,Supplies,3306.64,5572.41,7657.48,7630.91,7983.85,8124.0
+Special Ed Programs,820431,Social Work Services,2310,Ret Grant,Employee Benefits,5635.83,7153.04,7373.35,6517.44,7897.8,8081.91
+Improvement of Instruc,822195,Teaching and Learning K-8,2340,Ret Admin,Employee Benefits,6030.48,9645.7,6512.67,5606.86,7694.64,8054.1
+Regular Program,811212,Regular Programs Inst Rowe,6100,Supplies,Supplies,4387.19,6641.78,7120.46,10495.07,11000.0,8000.0
+Regular Program,811212,Regular Programs Inst Rowe,6412,Books Math,Supplies,4175.8,5011.83,7880.12,7989.39,8000.0,8000.0
+Student Transportation,827013,Field Trips  YES,3401,Pur Tran,Prof/Technical Services,1890.0,0.0,7650.0,8040.0,8000.0,8000.0
+Student Transportation,827031,Field Trips High School,3401,Pur Tran,Prof/Technical Services,1850.0,7800.0,6386.33,9200.0,8000.0,8000.0
+Extra and Co Curr Acti,895031,Extra and Co Curr 9-12,3490,HS Accred,Prof/Technical Services,3860.0,3975.0,4095.0,6570.62,12000.0,8000.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,4422,Rent Swim,Property Services,7875.0,8700.0,5600.0,0.0,10000.0,8000.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,5918,Off Lacros,Other Purchased Services,7323.11,8129.32,8137.0,8500.0,7725.0,8000.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,1380,Sal OT,Salaries & Wages,6205.41,4989.34,3546.59,1813.97,8000.0,8000.0
+Superintendent School,825090,Off of Finance and Operations,6000,Sply Other,Supplies,7774.53,8216.93,4000.62,7784.09,6634.29,8000.0
+Office of the Principa,824007,Off Of the Prin Sal & Ben 5-8,2280,FICA Sup,Employee Benefits,5795.71,7228.36,7714.97,6130.38,7705.28,7902.48
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,2200,FICA EX,Employee Benefits,1887.32,2529.21,1277.09,1698.93,7261.4,7901.65
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,2380,RetSupprt,Employee Benefits,4997.68,5527.75,5347.25,5658.08,6991.81,7783.27
+Assessment,822413,Assessment YES,3302,Testing,Prof/Technical Services,2025.65,2938.74,2969.79,6432.0,6520.0,7700.0
+Office of the Principa,824006,Off of the Prin Sal & Ben 2-4,2380,Ret Sup,Employee Benefits,4991.72,4680.69,8276.7,6560.78,7545.97,7609.84
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1136,Sal JrSr C,Salaries & Wages,4828.0,5428.0,6228.0,4418.0,7276.41,7582.02
+Technology - Instructi,822314,Instruction Technology MS,7351,Tec Sof MS,Property & Equipment,6412.45,8170.63,7412.02,7186.6,7570.0,7570.0
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,2140,GrInsAdm,Employee Benefits,630.24,1081.89,1286.6,6525.35,9237.18,7537.18
+Superintendent School,823290,Office of the Superintendent,8100,Dues,Other / Dues / Debt,8270.0,7568.03,7257.88,7901.85,8750.0,7500.0
+Superintendent School,825090,Off of Finance and Operations,8100,Dues,Other / Dues / Debt,4596.52,4259.07,4567.97,4807.1,5000.0,7500.0
+Special Ed Programs,820390,Special Ed Admin District,2380,Ret Sup,Employee Benefits,5769.27,6387.31,6533.02,6184.34,7001.11,7387.41
+Operations and Mainten,826190,O&M Custodial Care CO,1186,Sal Reg,Salaries & Wages,13670.09,0.0,0.0,0.0,7092.8,7272.2
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,3200,Pur P Serv,Prof/Technical Services,3969.4,582.06,7038.72,8077.5,6500.0,7250.0
+Technology - Instructi,822390,Technology Sal & Ben Adm k-12,2340,Ret Admin,Employee Benefits,12427.2,11748.4,5491.81,4938.5,6891.27,7220.99
+English Language Learn,841099,Multi Language Learners 9-12,2310,Ret Tchrs,Employee Benefits,1467.24,2487.45,2414.44,2057.47,4919.09,7108.7
+Technology - Instructi,822313,Instruction Technology YES,2120,Insur ET,Employee Benefits,10767.8,9420.98,10552.08,9783.78,5517.85,7089.49
+Regular Program,811212,Regular Programs Inst Rowe,5810,Pro Dev Ml,Other Purchased Services,6003.33,6808.46,5619.61,3171.66,7000.0,7000.0
+Technology - Instructi,822312,Instruction Technology Rowe,7351,Tech Softw,Property & Equipment,4638.0,6395.6,5920.0,3900.0,7000.0,7000.0
+Regular Program,811313,Regular Programs Inst YES,6403,Books L/A,Supplies,6395.21,7146.54,6784.1,2847.91,2847.91,7000.0
+Technology - Instructi,822331,Instruction Technology HS,7351,Tec Sof HS,Property & Equipment,2070.75,1740.02,1549.02,4600.0,4600.0,7000.0
+Student Transportation,827531,Co-Curricular High School,6280,Diesel Fue,Supplies,3725.26,5555.06,7487.68,4641.35,6000.0,7000.0
+Student Transportation,827214,Extra-Curricular Athletics K-8,6280,Diesel Fue,Supplies,5221.01,8844.98,8926.27,8110.9,7000.0,7000.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,6155,Sup Unif,Supplies,8601.21,2275.92,8686.25,5605.7,7000.0,7000.0
+Operations and Mainten,826092,Operations and Maint Cent Off,6230,Bott Gas,Supplies,6046.19,6997.01,4641.42,7135.84,7000.0,7000.0
+Superintendent School,823190,School Committee,1580,Stip SC,Salaries & Wages,5000.0,5000.0,2000.0,2000.0,5000.0,7000.0
+Superintendent School,823190,School Committee,8100,Dues,Other / Dues / Debt,5577.88,6136.0,6442.0,6603.05,7000.0,7000.0
+Student Transportation,827090,Student Transportation,2240,FICA Admin,Employee Benefits,6862.74,6662.62,7231.24,5706.62,6609.94,6854.51
+Office of the Principa,824006,Off of the Prin Sal & Ben 2-4,2280,FICA Sup,Employee Benefits,6763.25,7637.72,6825.79,5548.9,6814.28,6847.93
+Guidance,821213,Guidance YES,2310,Ret Tchrs,Employee Benefits,3528.33,4350.24,4572.25,3983.51,6560.02,6805.53
+English Language Learn,841095,Multi Language Learners k-8,2310,Ret Tchrs,Employee Benefits,4304.49,8094.36,10118.12,8953.97,8259.72,6770.19
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,1133,Sal Drama,Salaries & Wages,0.0,1950.0,0.0,4258.0,6386.64,6654.88
+Special Ed Programs,820112,Special Program Reg Classroom,2220,FICA ET,Employee Benefits,2917.77,3848.53,7563.29,3614.87,8103.77,6581.52
+Superintendent School,823290,Office of the Superintendent,5810,Pro Dev Ml,Other Purchased Services,7099.08,6628.1,5991.25,6266.65,6500.0,6500.0
+Superintendent School,825790,OTHER PERSONNEL SERVICES,9500,Other Serv,Other,30546.01,10946.09,6400.65,5307.42,6000.0,6500.0
+Special Ed Programs,820014,Special Program Resource Room,2210,FICA T,Employee Benefits,4493.04,4849.42,5258.64,4692.35,6032.42,6459.58
+Regular Program,811212,Regular Programs Inst Rowe,2220,FICA ET,Employee Benefits,2775.42,3136.2,7455.02,3057.0,5535.33,6426.97
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1137,Sal St Cou,Salaries & Wages,4642.0,4874.0,5118.0,5322.0,6154.2,6412.68
+Special Ed Programs,820031,Special Program Resource Room,2210,FICA T,Employee Benefits,5010.09,5058.15,5180.46,4978.71,6025.73,6385.07
+Special Ed Programs,820013,Special Program Resource Room,2210,FICA T,Employee Benefits,3602.83,4260.27,3766.16,3348.84,5895.97,6350.86
+Superintendent School,823290,Office of the Superintendent,5400,Advertisin,Other Purchased Services,7278.75,5790.0,5604.6,4632.34,5950.0,6250.0
+Special Ed Programs,820513,Student Speech Pathology,2110,Insur T,Employee Benefits,15689.76,18172.26,19539.15,11155.02,21241.16,6180.85
+Guidance,821230,Guidance Sal & Ben 9-12,2280,FICA Sup,Employee Benefits,4138.63,4422.82,4456.92,4190.61,5905.78,6129.24
+Student Transportation,827631,Extra Curr Athletics HS,2330,Ret Sup,Employee Benefits,0.0,2959.0,2590.65,2573.84,6120.0,6120.0
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,1111,Sal BasB,Salaries & Wages,5106.0,8286.0,5630.0,0.0,5854.42,6100.31
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,1115,Sal FI Hck,Salaries & Wages,5106.0,5362.0,2815.0,5854.0,5854.42,6100.31
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,1121,Sal Soft,Salaries & Wages,15735.0,19204.0,21432.0,0.0,5854.42,6100.31
+Regular Program,811313,Regular Programs Inst YES,6410,Books,Supplies,8317.9,6817.67,9018.1,4085.9,8000.0,6000.0
+Operations and Mainten,826131,O&M Custodial HS,1380,OT Supp,Salaries & Wages,4453.99,8878.44,2088.25,1906.99,6000.0,6000.0
+Operations and Mainten,826131,O&M Custodial HS,2330,Ret Sup,Employee Benefits,5130.17,8188.99,10004.77,8156.44,5702.86,5934.12
+Office of the Principa,824007,Off Of the Prin Sal & Ben 5-8,2380,Ret Sup,Employee Benefits,2901.6,4772.56,4956.17,4328.32,5719.83,5866.22
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,2280,FICA Sup,Employee Benefits,0.0,0.0,76.08,0.0,5243.86,5837.45
+Special Ed Programs,821409,STUDENT PSYCH 9-12,2260,Oth FICA,Employee Benefits,2001.0,2990.25,4870.18,5088.39,4210.32,5790.42
+Special Ed Programs,820113,Special Program Reg Classroom,2625,PFML,Employee Benefits,0.0,0.0,0.0,1.82,1205.38,5731.25
+Regular Program,811313,Regular Programs Inst YES,4421,Lease Mus,Property Services,1959.0,1959.0,0.0,5516.28,5687.0,5687.0
+Regular Program,811414,Regular Programs Inst MS,4421,Lease Mus,Property Services,3695.0,3695.0,0.0,5687.0,5687.0,5687.0
+Regular Program,813131,Regular Programs Inst HS 9-12,4421,Lease Mus,Property Services,4468.29,4468.29,0.0,5685.27,5687.0,5687.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,5916,Off Ic Hoc,Other Purchased Services,4549.56,3862.41,5536.6,5217.21,5500.0,5665.0
+Technology - Instructi,822390,Technology Sal & Ben Adm k-12,2380,Ret Sup,Employee Benefits,4693.26,4951.44,5198.97,4605.98,5405.84,5606.15
+Regular Program,811313,Regular Programs Inst YES,4324,Rep Copier,Property Services,5043.32,5419.28,5436.54,6916.48,3885.0,5600.0
+Regular Program,811313,Regular Programs Inst YES,6130,Sup Math,Supplies,4056.18,2682.64,3819.61,5644.16,5600.0,5600.0
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1139,Sal Yearbk,Salaries & Wages,4283.06,4874.0,5617.0,5322.0,5322.2,5545.73
+Special Ed Programs,820390,Special Ed Admin District,2280,FICA Sup,Employee Benefits,4182.59,4649.47,4982.37,4243.84,5250.83,5540.56
+Office of the Principa,824013,Office of the Principal YES,5320,Telephone,Other Purchased Services,5954.37,5251.18,5355.16,3856.72,5000.0,5500.0
+Regular Program,811414,Regular Programs Inst MS,6101,Supp Art,Supplies,4872.85,5572.5,1465.92,5484.41,5500.0,5500.0
+Office of the Principa,824014,Office of the Principal MS,5320,Telephone,Other Purchased Services,5341.82,5142.42,5314.52,3856.83,5500.0,5500.0
+Office of the Principa,824031,Office of the Principal HS,5320,Telephone,Other Purchased Services,5438.81,5269.83,5469.7,4108.96,5500.0,5500.0
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,1122,Sal Swim,Salaries & Wages,2042.0,2144.0,5067.0,5269.0,5268.98,5490.28
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,2340,Ret Admin,Employee Benefits,2722.71,4003.22,4279.6,3702.23,5229.74,5415.58
+Regular Program,813131,Regular Programs Inst HS 9-12,6403,Books L/A,Supplies,6369.3,3605.35,4768.19,5030.0,5300.0,5300.0
+Technology - Instructi,822330,Technology - Sal & Ben 9-12,2110,Insur T,Employee Benefits,6491.58,6925.22,4669.76,4243.14,4943.72,5270.94
+Regular Program,811313,Regular Programs Inst YES,2220,FICA ET,Employee Benefits,2455.18,2326.99,6986.94,2758.26,3182.55,5257.69
+Superintendent School,823290,Office of the Superintendent,5320,Telephone,Other Purchased Services,4736.31,4894.18,4826.8,3198.18,5000.0,5250.0
+Library,822230,Library Salary & Ben 9-12,2310,Ret Tchrs,Employee Benefits,3451.87,4343.5,4657.61,4171.51,5124.39,5226.42
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,5999,Off Ftball,Other Purchased Services,4671.17,4716.72,3889.0,4272.0,5150.0,5150.0
+Special Ed Programs,820114,Special Program Reg Classroom,2220,FICA ET,Employee Benefits,3029.73,3352.42,5680.5,2479.67,4671.03,5109.08
+Student Transportation,827099,Sped Transport 9-12,2330,Ret Sup,Employee Benefits,0.0,2832.65,1415.42,3407.74,5100.0,5100.0
+Improvement of Instruc,822195,Teaching and Learning K-8,2200,FICA Stipn,Employee Benefits,452.0,902.66,1031.18,620.22,5060.32,5060.7
+Guidance,821214,Guidance MS,2310,Ret Tchrs,Employee Benefits,4787.48,5769.86,6205.38,5537.79,4885.15,5022.17
+Library,822214,Library MS,3200,Pur P Serv,Prof/Technical Services,3731.85,5130.63,4982.01,5631.57,5631.57,5005.0
+Regular Program,811212,Regular Programs Inst Rowe,6403,Books L/A,Supplies,1912.0,3466.72,9601.5,4234.67,5000.0,5000.0
+Library,822212,Library Rowe,6410,Books,Supplies,4561.24,3835.2,1973.29,4990.28,5000.0,5000.0
+Special Ed Programs,820601,Special Ed Occ Therap k-8,3200,Pur P Serv,Prof/Technical Services,0.0,3087.0,2005.11,0.0,0.0,5000.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,5912,Off Basket,Other Purchased Services,4365.66,3720.18,5150.26,4522.16,4326.0,5000.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,7310,Equip Athl,Property & Equipment,6385.21,4635.09,1704.41,4287.41,5000.0,5000.0
+Operations and Mainten,826013,Operations and Maint YES,3400,Pur Serv,Prof/Technical Services,80171.46,40356.08,40425.52,0.0,5000.0,5000.0
+Operations and Mainten,826014,Operations and Maint MS,3400,Pur Serv,Prof/Technical Services,0.0,0.0,0.0,24044.15,5000.0,5000.0
+Operations and Mainten,826014,Operations and Maint MS,4100,Watr & Sew,Property Services,5008.05,3784.44,4269.96,3563.08,4500.0,5000.0
+Operations and Mainten,826031,Operations and Maint HS,3400,Pur Serv,Prof/Technical Services,0.0,0.0,25439.55,35661.0,5000.0,5000.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,2980,Other Ben,Employee Benefits,0.0,1288.0,505.0,3165.25,0.0,5000.0
+Student Transportation,827090,Student Transportation,2230,FICA Sub,Employee Benefits,4624.15,5484.75,9070.75,8312.98,5000.0,5000.0
+Student Transportation,827090,Student Transportation,6210,Nat Gas,Supplies,2378.9,4947.32,5648.58,1596.82,5000.0,5000.0
+Superintendent School,825090,Off of Finance and Operations,2630,Unemp ST,Employee Benefits,2227.34,121.08,189.51,2907.91,0.0,5000.0
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,1127,Sal Vol HS,Salaries & Wages,5106.0,2924.0,4659.0,2661.0,4789.98,4991.16
+Regular Program,814913,Gifted and Talented YES,2310,Ret Tchrs,Employee Benefits,3822.95,4671.26,4924.2,4315.93,4586.59,4956.68
+Regular Program,814914,Gifted and Talented MS,2310,Ret Tchrs,Employee Benefits,2041.24,2486.53,2788.99,3432.54,4696.1,4956.68
+Office of the Principa,824005,Off of the Prin Sal & Ben k-1,2280,FICA Sup,Employee Benefits,1631.42,5400.15,6154.13,5560.22,5095.75,4887.35
+Regular Program,811414,Regular Programs Inst MS,6416,Books Read,Supplies,3270.24,4496.79,2624.91,5063.58,5020.0,4810.0
+Office of the Principa,824005,Off of the Prin Sal & Ben k-1,2380,Ret Sup,Employee Benefits,69.13,5563.07,4468.8,4068.07,4553.87,4780.35
+Technology - Instructi,822312,Instruction Technology Rowe,2120,Insur ET,Employee Benefits,0.0,0.0,0.0,0.0,5517.85,4746.12
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,5911,Off Baseba,Other Purchased Services,3451.08,4908.62,2826.5,4200.0,4600.0,4738.0
+Guidance,821230,Guidance Sal & Ben 9-12,2210,FICA T,Employee Benefits,1778.22,3609.54,4158.86,3583.24,4459.37,4671.61
+Student Health,821314,Student Health MS,2310,Ret Tchrs,Employee Benefits,3464.72,4222.63,4450.33,5124.77,7321.75,4670.56
+Regular Program,811414,Regular Programs Inst MS,4310,Rep Inst,Property Services,4869.69,5054.9,2242.0,4155.51,5232.47,4650.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6108,Sup IA,Supplies,3416.73,4840.65,4242.6,4969.36,5145.07,4650.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6119,Sup Ski,Supplies,2412.0,5236.64,5384.4,2325.43,4635.0,4635.0
+Guidance,821212,Guidance Rowe,2310,Ret Tchrs,Employee Benefits,2072.98,2483.69,3948.31,3785.05,4494.93,4620.04
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,5915,Off Fi Hoc,Other Purchased Services,3516.6,3789.29,4647.6,4812.24,4120.0,4600.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,5927,Off Vollle,Other Purchased Services,4175.36,4762.92,4304.75,3847.0,4532.0,4600.0
+Special Ed Programs,820512,Speech - Rowe,2310,Ret Grant,Employee Benefits,3284.91,4195.57,4405.2,3870.69,4628.25,4591.03
+Student Transportation,827631,Extra Curr Athletics HS,2280,FICAReg,Employee Benefits,0.0,4796.87,5013.26,3884.01,4590.0,4590.0
+Office of the Principa,824030,Off of the Prin Sal Ben 9-12,2240,FICA Admin,Employee Benefits,3790.2,4038.27,4392.8,3938.05,4369.38,4577.33
+Special Ed Programs,820114,Special Program Reg Classroom,2310,Ret Grant,Employee Benefits,3809.46,4048.57,4449.93,4861.01,4599.03,4545.7
+Special Ed Programs,820413,Social Work Services,2310,Ret Grant,Employee Benefits,3084.15,3895.12,4313.39,3640.25,4507.95,4521.52
+Student Health,821313,Student Health YES,2310,Ret Tchrs,Employee Benefits,3386.5,3670.53,3973.31,3615.29,4451.02,4521.52
+Regular Program,811212,Regular Programs Inst Rowe,4324,Rep Copier,Property Services,2708.92,6316.18,4364.32,6708.47,4000.0,4500.0
+Office of the Principa,824031,Office of the Principal HS,5500,Printing,Other Purchased Services,2193.54,1941.56,3414.99,1768.0,4500.0,4500.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,5930,Off Securi,Other Purchased Services,1950.33,3155.43,2322.0,4740.0,4000.0,4500.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6199,Sup Ftball,Supplies,3439.01,5223.78,4387.41,17362.15,14421.0,4500.0
+Improvement of Instruc,822195,Teaching and Learning K-8,6100,Supplies,Supplies,1690.92,2879.97,14022.78,6666.3,6666.3,4500.0
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,1123,Sal Tennis,Salaries & Wages,6267.0,4390.91,0.0,1916.0,4310.98,4492.04
+Office of the Principa,824007,Off Of the Prin Sal & Ben 5-8,2240,FICA Admin,Employee Benefits,3826.51,3981.56,3954.31,3468.71,4201.98,4415.48
+Library,822214,Library MS,2310,Ret Tchrs,Employee Benefits,2641.66,3395.69,3827.28,3437.48,4002.81,4346.98
+Extra and Co Curr Acti,895031,Extra and Co Curr 9-12,4433,Rent Drama,Property Services,2000.0,5345.0,5215.0,4680.81,4300.0,4300.0
+Student Health,821331,Student Health HS,2310,Ret Tchrs,Employee Benefits,3043.29,3766.95,4023.94,3615.15,4162.31,4255.55
+Special Ed Programs,820112,Special Program Reg Classroom,2210,FICA T,Employee Benefits,1665.8,3236.19,3652.57,3430.25,4178.98,4250.12
+Student Health,821312,Student Health Rowe,2310,Ret Grant,Employee Benefits,3305.93,3710.4,3981.8,3506.17,4087.84,4183.01
+Office of the Principa,824006,Off of the Prin Sal & Ben 2-4,2240,FICA Admin,Employee Benefits,3442.51,3651.52,4336.97,3419.75,3978.23,4145.13
+Guidance,821230,Guidance Sal & Ben 9-12,2380,Ret Sup,Employee Benefits,3371.51,3618.16,3660.2,3420.53,4036.03,4135.04
+Special Ed Programs,820031,Special Program Resource Room,1220,Sal Sub ET,Salaries & Wages,0.0,0.0,0.0,0.0,4100.0,4100.0
+Special Ed Programs,820413,Social Work Services,2110,Insur T,Employee Benefits,0.0,0.0,770.05,0.0,3892.0,4036.45
+Library,822230,Library Salary & Ben 9-12,2110,Insur T,Employee Benefits,0.0,0.0,0.0,0.0,3892.0,4036.45
+Special Ed Programs,820114,Special Program Reg Classroom,2110,Insur T,Employee Benefits,0.0,0.0,0.0,0.0,3892.0,4036.45
+Office of the Principa,824012,Office of the Principal Rowe,5320,Telephone,Other Purchased Services,3839.05,3398.4,3861.42,2883.78,3400.0,4000.0
+Regular Program,811313,Regular Programs Inst YES,8100,Dues,Other / Dues / Debt,3342.5,3030.0,3341.25,2918.75,3500.0,4000.0
+Student Transportation,827014,Field Trips FHH MS,1186,Sal Reg,Salaries & Wages,3294.64,3775.2,5350.06,2236.58,4000.0,4000.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6130,Sup Math,Supplies,1744.33,3824.42,3829.86,3998.13,4000.0,4000.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6412,Books Math,Supplies,5579.22,3707.44,3221.2,10476.73,15000.0,4000.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,8100,Dues,Other / Dues / Debt,2940.5,2727.0,3800.0,3664.0,4000.0,4000.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,4417,Rent Golf,Property Services,1000.0,2105.0,2700.0,3000.0,3600.0,4000.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6136,Awards,Supplies,4435.66,3686.69,4716.92,2077.01,3605.0,4000.0
+Technology - Instructi,822395,Technology - Inst k-8,5810,Pro Dev Ml,Other Purchased Services,2843.81,878.2,1880.84,1434.51,4000.0,4000.0
+Operations and Mainten,826013,Operations and Maint YES,4100,Watr & Sew,Property Services,4205.15,2631.13,3707.48,2810.61,3000.0,4000.0
+Operations and Mainten,826092,Operations and Maint Cent Off,6220,Electric,Supplies,1681.03,3778.21,1869.53,1228.27,3725.0,4000.0
+Student Transportation,827090,Student Transportation,2980,Other Ben,Employee Benefits,2258.0,2468.0,3347.0,2514.0,3500.0,4000.0
+Library,822213,Library YES,2310,Ret Tchrs,Employee Benefits,2464.8,3191.31,3483.09,3143.49,3648.07,3974.38
+Special Ed Programs,820514,Student Speech Pathology,2310,Ret Grant,Employee Benefits,2304.91,2411.77,2698.48,385.36,2589.62,3946.05
+Student Transportation,827090,Student Transportation,2685,PFML,Employee Benefits,0.0,0.0,0.0,1.7,779.66,3941.95
+Special Ed Programs,820131,Special Program Reg Classroom,2220,FICA ET,Employee Benefits,3448.43,2945.69,4669.2,1865.59,3768.06,3918.41
+Regular Program,813131,Regular Programs Inst HS 9-12,4317,Rep Scienc,Property Services,525.0,2539.2,700.0,0.0,3900.0,3900.0
+Special Ed Programs,820012,Special Program Resource Room,1220,Sal Sub ET,Salaries & Wages,0.0,917.0,0.0,0.0,3900.0,3900.0
+Special Ed Programs,820013,Special Program Resource Room,1220,Sal Sub ET,Salaries & Wages,0.0,0.0,1368.2,0.0,3900.0,3900.0
+Special Ed Programs,820014,Special Program Resource Room,1220,Sal Sub ET,Salaries & Wages,0.0,0.0,0.0,0.0,3900.0,3900.0
+Special Ed Programs,820014,Special Program Resource Room,1230,Sal Sub T,Salaries & Wages,0.0,0.0,0.0,0.0,3900.0,3900.0
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,1134,Sal Math,Salaries & Wages,4546.0,3168.0,4683.0,3168.0,3168.0,3882.01
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1145,Sal Debate,Salaries & Wages,0.0,6661.0,0.0,3582.0,3725.54,3882.01
+Regular Program,811313,Regular Programs Inst YES,6113,Sup Music,Supplies,2053.33,3490.06,2704.24,4783.64,5020.89,3850.0
+Regular Program,811414,Regular Programs Inst MS,6117,Sup Scienc,Supplies,1458.67,3257.97,3161.39,4365.99,4448.92,3850.0
+Library,822231,Library HS,7300,Equipment,Property & Equipment,899.05,1039.87,728.51,2568.0,3825.0,3825.0
+Student Transportation,827099,Sped Transport 9-12,2280,FICAReg,Employee Benefits,0.0,3676.07,3022.78,3385.48,3825.0,3825.0
+Regular Program,811414,Regular Programs Inst MS,2320,Ret edtc g,Employee Benefits,2198.03,1361.18,3377.65,4212.52,3160.19,3820.85
+Student Transportation,827090,Student Transportation,5810,Pro Dev Ml,Other Purchased Services,74.02,1224.0,1589.5,1816.64,3800.0,3800.0
+Regular Program,811414,Regular Programs Inst MS,7300,Equipment,Property & Equipment,5385.45,4494.43,3272.29,5617.07,5789.36,3795.0
+Special Ed Programs,820612,OT - Rowe,2310,Ret Grant,Employee Benefits,387.34,645.93,767.76,705.63,4124.46,3689.75
+Regular Program,811414,Regular Programs Inst MS,6108,Sup IA,Supplies,3643.32,3304.99,2682.09,3437.51,3108.92,3650.0
+Special Ed Programs,820112,Special Program Reg Classroom,2625,PFML,Employee Benefits,0.0,0.0,0.0,1.54,933.33,3631.18
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,2380,Ret Sup,Employee Benefits,2953.34,2947.64,3285.02,3677.9,3500.64,3629.67
+Regular Program,813131,Regular Programs Inst HS 9-12,2200,FICA Stipn,Employee Benefits,498.89,603.7,897.97,690.4,3577.26,3622.36
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,5921,Off Softba,Other Purchased Services,2605.08,3033.7,2579.5,1500.0,3605.0,3600.0
+Student Transportation,827090,Student Transportation,6700,Supplies,Supplies,1708.96,848.32,838.28,1692.35,2000.0,3575.0
+Special Ed Programs,820014,Special Program Resource Room,2615,PFML,Employee Benefits,0.0,0.0,0.0,1.21,694.77,3563.9
+Library,822230,Library Salary & Ben 9-12,2120,Insur ET,Employee Benefits,10732.43,10767.8,3500.07,2977.54,3546.2,3559.4
+Technology - Instructi,822330,Technology - Sal & Ben 9-12,2120,Insur ET,Employee Benefits,0.0,12.74,3536.47,3015.3,3546.2,3559.4
+Regular Program,811212,Regular Programs Inst Rowe,2625,PFML,Employee Benefits,0.0,0.0,0.0,1.1,637.52,3545.91
+Special Ed Programs,820031,Special Program Resource Room,2615,PFML,Employee Benefits,0.0,0.0,0.0,1.22,688.15,3522.8
+Special Ed Programs,820412,Social Work Services,2310,Ret Grant,Employee Benefits,2055.26,2803.02,3186.59,2752.4,3293.33,3505.99
+Special Ed Programs,820013,Special Program Resource Room,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.86,679.05,3503.92
+Regular Program,811313,Regular Programs Inst YES,6404,BookW/Lang,Supplies,3714.28,2350.0,2420.0,1822.98,3500.0,3500.0
+Guidance,821213,Guidance YES,6410,Books,Supplies,419.63,209.4,2636.12,2248.25,3500.0,3500.0
+Regular Program,811414,Regular Programs Inst MS,1220,Sal Sub ET,Salaries & Wages,540.0,589.5,144.0,2547.0,3500.0,3500.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6113,Sup Music,Supplies,3182.76,2474.06,3080.84,3231.79,3500.0,3500.0
+Student Transportation,827031,Field Trips High School,1186,Sal Reg,Salaries & Wages,9067.83,3151.2,5895.59,2667.83,3500.0,3500.0
+Extra and Co Curr Acti,895031,Extra and Co Curr 9-12,8930,Misc Gen,Other / Dues / Debt,1999.82,0.0,3544.0,-1065.0,3500.0,3500.0
+Student Transportation,827099,Sped Transport 9-12,5140,Other Tran,Other Purchased Services,0.0,100.22,0.0,1554.56,3500.0,3500.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,5810,Pro Dev Ml,Other Purchased Services,2933.69,3753.49,3186.34,1304.3,3500.0,3500.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6110,Sup At Med,Supplies,2918.71,2320.02,3250.3,4868.7,3500.0,3500.0
+Improvement of Instruc,822199,Teaching and Learning 9-12,5810,Pro Dev Ml,Other Purchased Services,0.0,1467.22,-2.97,0.0,3500.0,3500.0
+English Language Learn,841099,Multi Language Learners 9-12,3200,NM-PurchS,Prof/Technical Services,0.0,1690.93,1030.34,2344.04,3500.0,3500.0
+Office of the Principa,824005,Off of the Prin Sal & Ben k-1,2180,Ins Sup,Employee Benefits,66.26,1980.0,1870.0,2210.0,3400.0,3400.0
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,1150,CIVIL R,Salaries & Wages,0.0,0.0,1900.0,400.0,3400.0,3400.0
+Improvement of Instruc,822199,Teaching and Learning 9-12,1565,NewToYarm,Salaries & Wages,9896.54,9479.62,7871.39,4000.0,3400.0,3400.0
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1134,Sal Math,Salaries & Wages,6379.0,5462.0,3035.0,1597.0,3193.32,3327.44
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,5918,Off Lacros,Other Purchased Services,2900.55,3032.65,2575.0,2700.0,3296.0,3300.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,5920,Off Soccer,Other Purchased Services,1700.1,1603.64,2836.0,3995.6,3200.0,3300.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,5810,Pro Dev Ml,Other Purchased Services,0.0,0.0,210.0,0.0,300.0,3300.0
+Technology - Instructi,822312,Instruction Technology Rowe,2110,Insur T,Employee Benefits,0.0,0.0,0.0,1646.71,3065.14,3268.01
+Superintendent School,823290,Office of the Superintendent,5310,Postage,Other Purchased Services,2906.67,3143.14,2764.91,2310.85,3000.0,3250.0
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,1131,Sal Yrbk,Salaries & Wages,3247.0,0.0,0.0,0.0,3247.0,3247.0
+Regular Program,811414,Regular Programs Inst MS,6413,Books Musi,Supplies,727.88,3115.92,2099.42,1710.33,1709.63,3200.0
+Student Transportation,827090,Student Transportation,5801,Pro Dev Ml,Other Purchased Services,3991.09,1807.42,1536.89,2500.46,3200.0,3200.0
+Operations and Mainten,826112,O&M Custodial Care Rowe,2330,Ret Sup,Employee Benefits,0.0,0.0,900.44,2181.11,3091.17,3161.18
+Improvement of Instruc,822199,Teaching and Learning 9-12,1501,D 9-12 Stp,Salaries & Wages,5039.95,1000.0,2900.0,500.0,3150.0,3150.0
+Regular Program,811313,Regular Programs Inst YES,2200,FICA Stipn,Employee Benefits,330.82,468.02,450.04,442.38,2746.81,3140.13
+Special Ed Programs,820131,Special Program Reg Classroom,2210,FICA T,Employee Benefits,2200.99,2535.57,2701.95,2396.72,3083.02,3134.51
+Regular Program,811414,Regular Programs Inst MS,6107,Sup HlthSc,Supplies,3107.73,2880.69,2718.88,2299.13,3100.0,3100.0
+Extra and Co Curr Acti,891414,Extra and Co Curicular MS,8100,Dues,Other / Dues / Debt,800.0,1308.0,1937.0,2302.31,2984.31,3100.0
+Special Ed Programs,820414,Social Work Services,2210,FICA T,Employee Benefits,1409.25,1675.41,2335.95,2242.42,2891.18,3047.64
+Assessment,822412,Assessment Rowe,3302,Testing,Prof/Technical Services,221.5,2476.33,49.99,2520.0,3000.0,3000.0
+Regular Program,811313,Regular Programs Inst YES,6101,Supp Art,Supplies,2793.98,1522.44,2964.62,2997.09,3000.0,3000.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6107,Sup HlthSc,Supplies,7262.71,5538.85,2272.68,3084.22,3000.0,3000.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,4437,Ind Trk,Property Services,675.0,1062.0,2978.38,1191.0,2500.0,3000.0
+Operations and Mainten,826012,Operations & Maintenance Rowe,4100,Watr & Sew,Property Services,3118.44,1559.22,3841.98,2635.54,2500.0,3000.0
+Student Transportation,827090,Student Transportation,6220,Elec-Off,Supplies,-237.02,952.72,2312.64,1161.86,3000.0,3000.0
+English Language Learn,841095,Multi Language Learners k-8,3200,Pur P Serv,Prof/Technical Services,6176.93,2659.83,4386.8,1983.71,3000.0,3000.0
+Technology - Instructi,822314,Instruction Technology MS,2110,Insur T,Employee Benefits,3223.26,2349.88,2820.68,2387.4,2809.81,2995.83
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,1137,Sal SCouns,Salaries & Wages,1108.0,1218.0,1679.0,6989.38,2729.37,2994.7
+Special Ed Programs,820113,Special Program Reg Classroom,2210,FICA T,Employee Benefits,2247.03,3014.12,3190.2,2172.02,2886.73,2973.69
+Operations and Mainten,826131,O&M Custodial HS,2685,PFML,Employee Benefits,0.0,0.0,0.0,1.07,572.59,2971.89
+Superintendent School,823290,Office of the Superintendent,2240,FICA Admin,Employee Benefits,3097.4,3243.8,4443.62,1918.95,2864.6,2967.91
+Special Ed Programs,820513,Student Speech Pathology,2310,Ret Grant,Employee Benefits,2878.15,4133.65,4377.06,5165.31,4591.02,2961.96
+Regular Program,813131,Regular Programs Inst HS 9-12,1220,Sal Sub ET,Salaries & Wages,2867.5,5885.0,690.0,0.0,2950.0,2950.0
+Operations and Mainten,826114,O&M Custodial MS,2380,RetSupprt,Employee Benefits,5785.14,1861.25,0.0,0.0,2152.7,2914.09
+Regular Program,811313,Regular Programs Inst YES,2625,PFML,Employee Benefits,0.0,0.0,0.0,1.11,366.54,2900.79
+Special Ed Programs,820031,Special Program Resource Room,1230,Sal Sub T,Salaries & Wages,0.0,0.0,0.0,0.0,2900.0,2900.0
+Regular Program,813131,Regular Programs Inst HS 9-12,2320,Ret edtc g,Employee Benefits,1885.07,2105.67,2329.08,2087.52,2667.68,2870.85
+Special Ed Programs,820114,Special Program Reg Classroom,2625,PFML,Employee Benefits,0.0,0.0,0.0,0.72,537.97,2818.8
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,4422,Rent Swim,Property Services,1300.0,2000.0,1400.0,0.0,2800.0,2800.0
+Regular Program,811414,Regular Programs Inst MS,6106,LA/Ma/SS,Supplies,1733.51,1804.51,1413.16,2498.3,3348.82,2790.0
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,1142,Robitic,Salaries & Wages,1927.0,5174.0,1927.0,0.0,2697.0,2758.86
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,2605,PFML,Employee Benefits,0.0,0.0,0.0,0.21,544.45,2751.57
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,2280,FICA Sup,Employee Benefits,1706.69,1795.77,2131.93,2184.75,2625.48,2722.25
+Special Ed Programs,820613,Student Occupational Therapy,2310,Ret Grant,Employee Benefits,3840.53,4692.94,4946.92,4312.88,2601.27,2698.4
+Special Ed Programs,820431,Social Work Services,2210,FICA T,Employee Benefits,2020.62,2219.99,2285.16,2068.69,2561.92,2687.79
+Regular Program,811414,Regular Programs Inst MS,2200,FICA Stipn,Employee Benefits,331.69,443.95,247.4,449.6,3002.36,2646.68
+Technology - Instructi,822313,Instruction Technology YES,7300,Equipment,Property & Equipment,2871.92,4793.34,999.0,2606.5,2606.5,2625.0
+Special Ed Programs,820514,Student Speech Pathology,2110,Insur T,Employee Benefits,15621.35,13266.41,15333.07,2387.2,15325.7,2583.33
+Guidance,821230,Guidance Sal & Ben 9-12,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.9,507.75,2577.44
+Operations and Mainten,826112,O&M Custodial Care Rowe,2280,FICAReg,Employee Benefits,317.09,1047.8,2546.73,3709.97,2318.38,2548.35
+Office of the Principa,824030,Off of the Prin Sal Ben 9-12,2645,PFML,Employee Benefits,0.0,0.0,0.0,0.9,0.0,2525.42
+Regular Program,811212,Regular Programs Inst Rowe,6101,Supp Art,Supplies,1960.69,1854.54,1999.46,2497.39,2500.0,2500.0
+Student Transportation,827013,Field Trips  YES,1186,Sal Reg,Salaries & Wages,2084.07,2247.16,4879.11,2574.41,2500.0,2500.0
+Regular Program,811414,Regular Programs Inst MS,6113,Sup Music,Supplies,2667.76,5325.33,448.84,1787.35,1829.31,2500.0
+Technology - Instructi,822314,Instruction Technology MS,7341,Tech Equip,Property & Equipment,778.29,707.39,1610.84,1832.33,2500.0,2500.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6404,Book Mod/L,Supplies,3437.44,3521.64,3782.18,829.13,2500.0,2500.0
+Guidance,821231,Guidance HS,5810,Pro Dev Ml,Other Purchased Services,175.0,108.9,1656.77,2024.27,5000.0,2500.0
+Library,822231,Library HS,6600,A Visual,Supplies,2025.52,2765.35,1782.49,968.38,2500.0,2500.0
+Office of the Principa,824031,Office of the Principal HS,8100,Dues,Other / Dues / Debt,2238.0,2274.0,2298.0,2282.0,2500.0,2500.0
+Student Transportation,827031,Field Trips High School,6280,Diesel Fue,Supplies,1922.01,2468.1,2562.28,1064.35,2500.0,2500.0
+Student Transportation,827531,Co-Curricular High School,3401,Pur Tran,Prof/Technical Services,0.0,5805.0,0.0,575.0,2500.0,2500.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,7310,Equip Athl,Property & Equipment,1266.28,1637.45,876.6,1969.65,2500.0,2500.0
+Technology - Instructi,822399,Technology - Instruction 9-12,5810,Pro Dev Ml,Other Purchased Services,1068.19,1480.0,1209.09,2442.17,2500.0,2500.0
+Operations and Mainten,826190,O&M Custodial Care CO,1380,OT Supp,Salaries & Wages,863.86,0.0,0.0,0.0,2500.0,2500.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,5320,Telephone,Other Purchased Services,1292.04,1456.93,1488.1,2158.77,2500.0,2500.0
+Student Transportation,827090,Student Transportation,5320,Telephone,Other Purchased Services,3171.58,2237.57,1747.81,1825.26,2500.0,2500.0
+Student Transportation,827090,Student Transportation,7300,Equipment,Property & Equipment,577.95,599.98,0.0,285.0,2500.0,2500.0
+Improvement of Instruc,822195,Teaching and Learning K-8,2520,Tuit-Ed Te,Employee Benefits,8964.0,6140.0,16084.67,7035.26,2500.0,2500.0
+Improvement of Instruc,822199,Teaching and Learning 9-12,2520,Tuit-Ed Te,Employee Benefits,0.0,2455.17,7204.6,5307.0,2500.0,2500.0
+Superintendent School,825090,Off of Finance and Operations,5810,Pro Dev Ml,Other Purchased Services,2737.74,1121.01,812.65,1292.15,2500.0,2500.0
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1147,Out Club,Salaries & Wages,1542.0,0.0,1535.0,1197.0,2394.86,2495.44
+Operations and Mainten,826113,O&M Custodial YES,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.74,487.87,2473.37
+Office of the Principa,824007,Off Of the Prin Sal & Ben 5-8,2645,PFML,Employee Benefits,0.0,0.0,0.0,0.87,0.0,2436.13
+Regular Program,811313,Regular Programs Inst YES,6413,Books Musi,Supplies,868.71,1287.15,834.77,1229.11,1229.11,2400.0
+English Language Learn,841099,Multi Language Learners 9-12,2210,FICA T,Employee Benefits,538.96,783.77,795.22,671.02,1595.68,2364.13
+Office of the Principa,824006,Off of the Prin Sal & Ben 2-4,2645,PFML,Employee Benefits,0.0,0.0,0.0,0.8,0.0,2354.97
+Special Ed Programs,820112,Special Program Reg Classroom,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.81,478.38,2344.9
+Improvement of Instruc,822195,Teaching and Learning K-8,2240,FICA ADMIN,Employee Benefits,1987.96,2089.46,2709.92,1411.9,2171.64,2288.24
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1143,Sal LitMag,Salaries & Wages,2134.0,2132.0,2132.0,1066.0,2183.66,2273.75
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6118,Sup Lacros,Supplies,2820.06,2074.98,1500.92,1505.6,2266.0,2266.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6120,Sup Soccer,Supplies,2452.69,2823.97,1692.18,1113.5,2266.0,2266.0
+Guidance,821213,Guidance YES,2210,FICA T,Employee Benefits,1248.43,1328.99,1423.06,1239.02,2127.97,2263.31
+English Language Learn,841095,Multi Language Learners k-8,2210,FICA T,Employee Benefits,1521.3,2474.1,3349.4,2798.52,2679.33,2251.55
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,5922,Off Swim,Other Purchased Services,1261.56,1724.68,1381.26,1249.88,2600.0,2250.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,5924,Off Track,Other Purchased Services,1320.0,690.0,2578.0,1285.0,2000.0,2250.0
+Extra and Co Curr Acti,891306,Extra and Co Curicular YES,1133,Sal Drama,Salaries & Wages,0.0,0.0,0.0,0.0,2043.0,2218.29
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1128,Sal UN,Salaries & Wages,1857.0,2081.0,0.0,0.0,2128.88,2218.29
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1140,HS ROBOTIC,Salaries & Wages,2698.0,6298.0,3468.0,0.0,2698.0,2218.29
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1148,Grad Cood,Salaries & Wages,1857.0,1950.0,2047.0,0.0,2128.88,2218.29
+Student Transportation,827014,Field Trips FHH MS,6280,Diesel Fue,Supplies,-3663.99,2030.4,2210.39,971.25,2000.0,2200.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6102,Supp Media,Supplies,1708.51,2241.1,2447.99,0.0,2200.0,2200.0
+Operations and Mainten,826114,O&M Custodial MS,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.67,430.33,2168.79
+Special Ed Programs,820131,Special Program Reg Classroom,2625,PFML,Employee Benefits,0.0,0.0,0.0,0.72,433.98,2161.88
+Special Ed Programs,820390,Special Ed Admin District,2240,FICA Admin,Employee Benefits,2077.62,2184.81,3825.58,1680.8,2207.89,2139.39
+Student Transportation,827012,Field Trips Rowe School,1186,Sal Reg,Salaries & Wages,1597.26,1895.56,2572.09,1040.31,2100.0,2100.0
+Student Transportation,827531,Co-Curricular High School,3200,ContTransp,Prof/Technical Services,0.0,0.0,0.0,0.0,0.0,2100.0
+Library,822212,Library Rowe,2320,Ret edtc g,Employee Benefits,1125.71,1339.04,1777.05,1602.36,2008.14,2081.55
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,2200,FICA EX,Employee Benefits,174.1,330.36,165.96,301.31,1913.71,2026.23
+Regular Program,811414,Regular Programs Inst MS,7315,Eq Ph Ed,Property & Equipment,1738.24,2013.59,1471.04,2024.87,2025.0,2025.0
+Technology - Instructi,822390,Technology Sal & Ben Adm k-12,2240,FICA Admin,Employee Benefits,1774.72,1865.5,2765.34,1728.53,1911.04,2018.0
+Library,822230,Library Salary & Ben 9-12,2320,Ret edtc g,Employee Benefits,1327.07,1514.45,1752.42,1528.68,1895.95,2000.3
+Office of the Principa,824013,Office of the Principal YES,5810,Pro Dev Ml,Other Purchased Services,1611.52,1929.92,1664.38,1605.14,2000.0,2000.0
+Office of the Principa,824014,Office of the Principal MS,5810,Pro Dev Ml,Other Purchased Services,662.0,702.51,763.15,914.0,2000.0,2000.0
+Office of the Principa,824014,Office of the Principal MS,8100,Dues,Other / Dues / Debt,769.0,1878.0,1458.0,1197.0,2000.0,2000.0
+Student Transportation,827114,Co Curricula K-8,1186,Sal Reg,Salaries & Wages,2059.56,345.04,1949.17,2343.17,2000.0,2000.0
+Regular Program,813131,Regular Programs Inst HS 9-12,4313,Rep Music,Property Services,1023.85,541.0,1573.78,1464.5,1750.0,2000.0
+Extra and Co Curr Acti,895031,Extra and Co Curr 9-12,6133,Sup Drama,Supplies,3774.47,1366.49,809.24,1994.58,2000.0,2000.0
+Student Support 504,821914,Student Support 504 MS,3210,Tutor MS,Prof/Technical Services,0.0,0.0,0.0,982.8,500.0,2000.0
+Student Support 504,821931,Student Support 504 HS,3210,Tutor HS,Prof/Technical Services,2079.01,1110.0,791.25,0.0,2000.0,2000.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6100,Supply AD,Supplies,1116.87,957.58,1337.32,2349.3,2000.0,2000.0
+Superintendent School,823290,Office of the Superintendent,3200,Pur P Serv,Prof/Technical Services,3986.0,2475.0,0.0,0.0,0.0,2000.0
+Special Ed Programs,821409,STUDENT PSYCH 9-12,2665,PFML,Employee Benefits,0.0,0.0,0.0,0.69,402.7,1985.32
+Office of the Principa,824005,Off of the Prin Sal & Ben k-1,2240,FICA Admin,Employee Benefits,1879.97,2140.38,2082.57,1703.46,2077.62,1983.53
+Regular Program,813131,Regular Programs Inst HS 9-12,8100,Dues,Other / Dues / Debt,0.0,1021.9,1002.0,1375.0,1980.0,1980.0
+Special Ed Programs,820113,Special Program Reg Classroom,1220,Sal Sub ET,Salaries & Wages,0.0,0.0,0.0,0.0,1900.0,1900.0
+Operations and Mainten,826131,O&M Custodial HS,2230,FICASubTmp,Employee Benefits,986.3,679.23,159.75,211.1,1900.0,1900.0
+Technology - Instructi,822395,Technology - Inst k-8,5320,Telephone,Other Purchased Services,305.4,331.41,280.5,252.13,1890.0,1890.0
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,1145,Sal Debate,Salaries & Wages,0.0,1706.0,0.0,0.0,1791.12,1885.55
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,2140,GrInsAdm,Employee Benefits,157.68,284.8,321.8,1631.41,8684.3,1884.3
+Technology - Instructi,822314,Instruction Technology MS,2320,Ret edtc g,Employee Benefits,1426.14,1652.95,2066.92,1455.04,2008.14,1876.65
+Extra and Co Curr Acti,891306,Extra and Co Curicular YES,1113,Sal Int5,Salaries & Wages,1702.0,0.0,1872.0,1872.0,1872.0,1872.0
+Student Transportation,827214,Extra-Curricular Athletics K-8,2330,Ret Sup,Employee Benefits,0.0,487.92,374.55,319.79,1836.0,1836.0
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,1113,Sal Int,Salaries & Wages,6807.0,1950.0,0.0,5356.0,5356.33,1830.09
+Technology - Instructi,822330,Technology - Sal & Ben 9-12,2320,Ret edtc g,Employee Benefits,1367.7,1361.36,1805.42,1504.52,1718.04,1812.18
+Regular Program,811212,Regular Programs Inst Rowe,2200,FICA Stipn,Employee Benefits,160.7,320.88,234.83,262.09,1405.35,1805.57
+Special Ed Programs,820112,Special Program Reg Classroom,1220,Sal Sub ET,Salaries & Wages,0.0,0.0,0.0,0.0,1800.0,1800.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.38,354.57,1771.4
+Regular Program,811313,Regular Programs Inst YES,3200,Pur P Serv,Prof/Technical Services,439.0,1179.49,987.5,873.0,1750.0,1750.0
+Special Ed Programs,820390,Special Ed Admin District,8100,Dues,Other / Dues / Debt,1200.0,107.3,1655.4,1179.0,1750.0,1750.0
+Library,822230,Library Salary & Ben 9-12,2210,FICA T,Employee Benefits,1296.13,1408.5,1515.14,1387.59,1662.27,1738.14
+Special Ed Programs,820131,Special Program Reg Classroom,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.59,355.08,1729.39
+Special Ed Programs,820414,Social Work Services,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.57,327.14,1681.46
+Guidance,821214,Guidance MS,2210,FICA T,Employee Benefits,1645.58,1494.11,1663.68,1471.63,1584.67,1670.22
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1130,Ambassador,Salaries & Wages,1329.0,1462.0,0.0,0.0,1596.66,1663.72
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1132,Sal Rotary,Salaries & Wages,1393.0,1462.0,1535.0,1597.0,1596.66,1663.72
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1135,Fr/Soph,Salaries & Wages,1950.0,1500.0,1500.0,1624.0,1596.66,1663.72
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1141,Sci Ol9-12,Salaries & Wages,1393.0,1462.0,1535.0,1597.0,1596.66,1663.72
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1144,Sal Pep Ba,Salaries & Wages,0.0,0.0,0.0,0.0,1596.66,1663.72
+Regular Program,814913,Gifted and Talented YES,2210,FICA T,Employee Benefits,1335.8,1430.65,1514.94,1358.57,1487.82,1648.44
+Regular Program,814914,Gifted and Talented MS,2210,FICA T,Employee Benefits,1004.67,847.16,945.26,1114.9,1523.34,1648.44
+Special Ed Programs,820113,Special Program Reg Classroom,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.57,332.47,1640.65
+Superintendent School,823290,Office of the Superintendent,2645,PFML,Employee Benefits,0.0,0.0,0.0,0.65,329.92,1637.47
+Regular Program,811212,Regular Programs Inst Rowe,6130,Sup Math,Supplies,662.69,1089.14,1533.8,1600.0,1600.0,1600.0
+Student Transportation,827013,Field Trips  YES,6280,Diesel Fue,Supplies,886.14,1515.0,2492.1,1371.56,1600.0,1600.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,5911,Off Baseba,Other Purchased Services,1489.98,1511.1,1238.0,1400.0,1545.0,1600.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,5921,Off Softba,Other Purchased Services,806.34,926.44,1428.26,1030.0,1030.0,1600.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6112,Sup Basket,Supplies,73.71,1903.78,1500.0,1657.1,1600.0,1600.0
+Technology - Instructi,822313,Instruction Technology YES,2320,Ret edtc g,Employee Benefits,1325.97,2734.58,618.24,436.74,1587.1,1570.02
+Student Health,821314,Student Health MS,2210,FICA T,Employee Benefits,1346.84,1395.41,1418.1,1681.96,2375.06,1553.28
+Technology - Instructi,822395,Technology - Inst k-8,8100,Dues  Fees,Other / Dues / Debt,100.0,100.0,100.0,100.0,1541.0,1541.0
+Technology - Instructi,822399,Technology - Instruction 9-12,8100,Dues Fees,Other / Dues / Debt,20.0,0.0,92.6,112.5,1541.0,1541.0
+Guidance,821212,Guidance Rowe,2210,FICA T,Employee Benefits,638.4,659.65,1226.81,1215.43,1458.09,1536.48
+Special Ed Programs,820512,Speech - Rowe,2210,FICA T,Employee Benefits,1146.61,1265.86,1329.45,1194.35,1501.33,1526.83
+Extra and Co Curr Acti,891306,Extra and Co Curicular YES,1134,Sal Math,Salaries & Wages,0.0,0.0,0.0,1515.0,1515.0,1515.0
+Special Ed Programs,820114,Special Program Reg Classroom,2210,FICA T,Employee Benefits,1493.42,1362.6,1487.59,1660.79,1491.85,1511.76
+Special Ed Programs,820413,Social Work Services,2210,FICA T,Employee Benefits,1215.26,1314.95,1449.98,1256.51,1462.31,1503.72
+Student Health,821313,Student Health YES,2210,FICA T,Employee Benefits,1304.65,1242.23,1324.13,1082.64,1443.84,1503.72
+Guidance,821212,Guidance Rowe,5810,Pro Dev Ml,Other Purchased Services,480.97,1295.3,887.56,190.0,1500.0,1500.0
+Regular Program,811313,Regular Programs Inst YES,6107,Sup HlthSc,Supplies,1200.1,2694.11,1144.71,1393.06,1500.0,1500.0
+Library,822213,Library YES,3400,Pur Serv,Prof/Technical Services,975.08,1445.12,1079.86,1500.0,1500.0,1500.0
+Regular Program,813131,Regular Programs Inst HS 9-12,3230,SW Math,Prof/Technical Services,687.82,980.65,1030.71,1054.77,1075.0,1500.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6104,Sup ModLg,Supplies,947.5,1925.83,1264.9,1347.3,1500.0,1500.0
+Library,822231,Library HS,5810,Pro Dev Ml,Other Purchased Services,0.0,0.0,80.0,1450.67,1500.0,1500.0
+Library,822231,Library HS,6100,Supplies,Supplies,1046.45,917.17,679.45,1000.0,1500.0,1500.0
+Office of the Principa,824031,Office of the Principal HS,5810,Pro Dev Ml,Other Purchased Services,773.22,1799.08,244.56,288.66,2500.0,1500.0
+Special Ed Programs,820131,Special Program Reg Classroom,1220,Sal Sub ET,Salaries & Wages,3187.5,0.0,0.0,0.0,1500.0,1500.0
+Student Transportation,827214,Extra-Curricular Athletics K-8,3401,Pur Tran,Prof/Technical Services,2572.72,1650.0,0.0,0.0,1500.0,1500.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,3303,Trainer,Prof/Technical Services,2104.75,1.0,170.0,640.0,1500.0,1500.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6116,Sup IceHoc,Supplies,-2818.99,1.0,2498.38,-1270.08,1500.0,1500.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6137,Ind Tr Sup,Supplies,684.68,361.97,494.44,1879.0,1500.0,1500.0
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,2240,FICA ADMIN,Employee Benefits,1357.32,1384.76,1469.4,1256.49,1436.94,1497.23
+Special Ed Programs,820431,Social Work Services,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.53,295.06,1482.92
+Library,822214,Library MS,2210,FICA T,Employee Benefits,940.33,1032.95,1182.61,1087.73,1298.45,1445.67
+Technology - Instructi,822314,Instruction Technology MS,2310,Ret Tchrs,Employee Benefits,905.64,1305.78,1433.57,1201.68,1410.98,1444.28
+Special Ed Programs,820614,Student Occupational Therapy,2310,Ret Grant,Employee Benefits,1118.44,1581.79,1879.91,2628.53,1373.89,1438.67
+Student Health,821331,Student Health HS,2210,FICA T,Employee Benefits,1091.05,1181.94,1250.15,1146.91,1350.19,1415.26
+Technology - Instructi,822313,Instruction Technology YES,2310,Ret Tchrs,Employee Benefits,1024.24,1457.35,1320.66,898.57,1375.43,1412.41
+Technology - Instructi,822331,Instruction Technology HS,6500,Sup Tech,Supplies,1046.5,1239.63,481.4,1400.0,1400.0,1400.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,5815,Mileage AD,Other Purchased Services,1213.6,1338.5,1254.42,1337.13,1300.0,1400.0
+Technology - Instructi,822390,Technology Sal & Ben Adm k-12,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.48,278.92,1398.99
+Technology - Instructi,822330,Technology - Sal & Ben 9-12,2310,Ret Tchrs,Employee Benefits,933.41,1215.03,1282.16,1123.08,1364.84,1393.95
+Student Health,821312,Student Health Rowe,2210,FICA T,Employee Benefits,1173.07,1165.5,1217.94,1260.16,1326.03,1391.14
+Improvement of Instruc,822199,Teaching and Learning 9-12,2200,FICA Stipn,Employee Benefits,1030.16,205.97,174.0,512.6,1384.5,1384.5
+Student Transportation,827214,Extra-Curricular Athletics K-8,2280,FICAReg,Employee Benefits,0.0,1208.11,1322.38,962.79,1377.0,1377.0
+Regular Program,813131,Regular Programs Inst HS 9-12,4302,Rep Media,Property Services,485.43,615.52,1056.32,1870.0,1370.0,1370.0
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,2340,Ret Admin,Employee Benefits,680.68,1423.55,1069.9,925.61,1307.44,1353.9
+Regular Program,813131,Regular Programs Inst HS 9-12,8101,Dues Art,Other / Dues / Debt,225.0,715.0,705.0,30.0,1350.0,1350.0
+Student Transportation,827531,Co-Curricular High School,2330,Ret Sup,Employee Benefits,0.0,917.42,741.91,902.39,1326.0,1326.0
+Library,822213,Library YES,2210,FICA T,Employee Benefits,861.4,964.79,1055.91,976.47,1183.38,1321.76
+Special Ed Programs,820514,Student Speech Pathology,2210,FICA T,Employee Benefits,815.83,735.65,822.37,276.48,840.03,1312.33
+English Language Learn,841099,Multi Language Learners 9-12,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.16,183.78,1304.35
+Special Ed Programs,820114,Special Program Reg Classroom,1220,Sal Sub ET,Salaries & Wages,0.0,0.0,0.0,0.0,1300.0,1300.0
+Special Ed Programs,820131,Special Program Reg Classroom,1230,Sal Sub T,Salaries & Wages,0.0,131.9,0.0,0.0,1300.0,1300.0
+Operations and Mainten,826112,O&M Custodial Care Rowe,1286,Sal Temp,Salaries & Wages,7195.79,1119.6,2880.2,2840.0,1300.0,1300.0
+Operations and Mainten,826113,O&M Custodial YES,1286,Sal Temp,Salaries & Wages,406.88,14398.8,7666.05,5474.27,1300.0,1300.0
+Operations and Mainten,826114,O&M Custodial MS,1286,Sal Temp,Salaries & Wages,362.61,395.25,1914.68,3277.01,1300.0,1300.0
+Regular Program,811313,Regular Programs Inst YES,4310,Rep Inst,Property Services,1110.0,933.0,996.0,918.0,1275.0,1275.0
+Improvement of Instruc,822195,Teaching and Learning K-8,2645,PFML,Employee Benefits,0.0,0.0,0.0,0.44,250.11,1262.48
+Student Health,821313,Student Health YES,6100,Supplies,Supplies,1126.89,1163.83,1243.36,1250.0,1250.0,1250.0
+Regular Program,813131,Regular Programs Inst HS 9-12,3201,SW Art,Prof/Technical Services,1250.0,0.0,1250.0,1250.0,1250.0,1250.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,5999,Off Ftball,Other Purchased Services,656.24,1271.64,1180.0,1101.72,1236.0,1250.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,5919,Off Ski,Other Purchased Services,950.0,950.0,1150.0,2352.98,1150.0,1250.0
+Superintendent School,825090,Off of Finance and Operations,4324,Rep Copier,Property Services,557.45,857.46,388.12,1630.12,1000.0,1250.0
+Guidance,821213,Guidance YES,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.31,245.08,1248.72
+Superintendent School,825090,Off of Finance and Operations,2645,PFML,Employee Benefits,0.0,0.0,0.0,0.45,250.11,1242.48
+English Language Learn,841095,Multi Language Learners k-8,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.72,308.58,1242.24
+Regular Program,811414,Regular Programs Inst MS,2220,FICA ET,Employee Benefits,803.86,437.34,1607.38,1076.97,1025.12,1239.43
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6111,Sup Baseba,Supplies,1246.85,1339.99,2452.32,2301.33,1236.0,1236.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6121,Sup Softba,Supplies,941.2,965.25,1410.7,971.74,1236.0,1236.0
+Special Ed Programs,820612,OT - Rowe,2210,FICA T,Employee Benefits,145.1,200.55,193.42,176.3,1337.91,1227.1
+Library,822212,Library Rowe,3400,Pur Serv,Prof/Technical Services,975.08,1036.12,1079.86,1128.48,1200.0,1200.0
+Office of the Principa,824013,Office of the Principal YES,6100,Supplies,Supplies,64.45,115.12,0.0,735.48,882.7,1200.0
+Office of the Principa,824013,Office of the Principal YES,8100,Dues,Other / Dues / Debt,1158.0,1158.0,1158.0,1158.0,1400.0,1200.0
+Office of the Principa,824007,Off Of the Prin Sal & Ben 5-8,1283,sub Cl,Salaries & Wages,10027.38,524.0,828.0,643.5,1200.0,1200.0
+Regular Program,813131,Regular Programs Inst HS 9-12,3231,SW Soc St,Prof/Technical Services,369.99,546.58,1795.0,572.98,1200.0,1200.0
+Guidance,821231,Guidance HS,8100,Dues,Other / Dues / Debt,950.0,0.0,495.0,800.0,1200.0,1200.0
+Student Health,821331,Student Health HS,6100,Supplies,Supplies,867.14,1083.18,719.59,816.67,1200.0,1200.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,6119,Sup Ski,Supplies,47.0,0.0,-157.7,1010.45,1200.0,1200.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,6199,Sup Ftball,Supplies,847.42,497.67,816.67,5630.0,7160.0,1200.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6115,Sup FldHoc,Supplies,1301.88,1535.91,1217.53,2128.4,1000.0,1200.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6124,Sup Track,Supplies,225.39,6247.55,713.9,857.95,1030.0,1200.0
+Extra and Co Curr Acti,891306,Extra and Co Curicular YES,2200,FICA Stipn,Employee Benefits,0.0,0.0,0.0,65.37,1170.53,1183.94
+Special Ed Programs,820390,Special Ed Admin District,2645,PFML,Employee Benefits,0.0,0.0,0.0,0.43,254.29,1180.35
+Regular Program,813131,Regular Programs Inst HS 9-12,2230,FICA Sub,Employee Benefits,1312.22,1831.44,1562.6,1921.13,1180.0,1180.0
+Special Ed Programs,820412,Social Work Services,2210,FICA T,Employee Benefits,759.0,870.72,997.78,889.3,1068.31,1165.98
+Regular Program,811414,Regular Programs Inst MS,6418,Studies,Supplies,1156.0,931.52,443.34,173.58,1539.0,1150.0
+Technology - Instructi,822390,Technology Sal & Ben Adm k-12,2645,PFML,Employee Benefits,0.0,0.0,0.0,0.38,220.1,1113.38
+Extra and Co Curr Acti,891313,Extra and Co Curricular YES,6900,"""PIE""",Supplies,0.0,0.0,0.0,0.0,1100.0,1100.0
+Student Transportation,827114,Co Curricula K-8,6280,Diesel Fue,Supplies,555.0,76.5,793.5,1331.3,1100.0,1100.0
+Office of the Principa,824005,Off of the Prin Sal & Ben k-1,2645,PFML,Employee Benefits,0.0,0.0,0.0,0.42,0.0,1094.36
+Office of the Principa,824030,Off of the Prin Sal Ben 9-12,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.52,223.36,1078.09
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,2605,PFML,Employee Benefits,0.0,0.0,0.0,0.02,217.99,1058.13
+Office of the Principa,824014,Office of the Principal MS,6100,Supplies,Supplies,140.0,1050.0,505.68,472.92,1019.74,1050.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,7300,Equipment,Property & Equipment,925.92,2618.5,0.0,4000.0,1050.0,1050.0
+Technology - Instructi,822312,Instruction Technology Rowe,2320,Ret edtc g,Employee Benefits,0.0,0.0,0.0,0.0,1058.07,1046.68
+Regular Program,813131,Regular Programs Inst HS 9-12,3217,SW Sci,Prof/Technical Services,0.0,0.0,1428.74,3052.88,1035.0,1035.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6127,Sup Volley,Supplies,1076.09,995.65,1178.28,751.32,1030.0,1030.0
+Regular Program,811414,Regular Programs Inst MS,6404,Book-Mod/L,Supplies,1629.41,1522.6,1700.01,1249.83,1234.66,1017.0
+Regular Program,811212,Regular Programs Inst Rowe,6417,Books Scie,Supplies,373.48,1037.62,975.0,194.41,1000.0,1000.0
+Library,822212,Library Rowe,6100,Supplies,Supplies,994.97,1496.56,380.29,1000.0,1000.0,1000.0
+Technology - Instructi,822312,Instruction Technology Rowe,7300,Equipment,Property & Equipment,408.0,108.0,0.0,1792.24,2250.0,1000.0
+Office of the Principa,824005,Off of the Prin Sal & Ben k-1,1281,sub Cler,Salaries & Wages,0.0,1113.5,0.0,0.0,1000.0,1000.0
+Office of the Principa,824012,Office of the Principal Rowe,5810,Pro Dev Ml,Other Purchased Services,698.0,951.04,849.0,698.45,1000.0,1000.0
+Office of the Principa,824012,Office of the Principal Rowe,6410,Books,Supplies,509.3,861.07,921.69,0.0,1000.0,1000.0
+Office of the Principa,824012,Office of the Principal Rowe,7300,Equipment,Property & Equipment,502.2,0.0,1000.44,518.42,1000.0,1000.0
+Regular Program,811313,Regular Programs Inst YES,6104,Sup WLang,Supplies,3273.02,845.6,78.13,363.19,1000.0,1000.0
+Office of the Principa,824006,Off of the Prin Sal & Ben 2-4,1282,sub Cl,Salaries & Wages,1321.85,851.5,3755.39,2645.5,1000.0,1000.0
+Regular Program,811414,Regular Programs Inst MS,3200,Pur P Serv,Prof/Technical Services,0.0,371.0,1716.88,170.0,1000.0,1000.0
+Technology - Instructi,822314,Instruction Technology MS,6500,Sup Tech,Supplies,359.35,481.18,655.76,982.8,1000.0,1000.0
+Technology - Instructi,822314,Instruction Technology MS,6510,Print Supp,Supplies,364.0,336.0,336.0,308.0,1000.0,1000.0
+Assessment,822414,Assessment MS,3302,Testing,Prof/Technical Services,0.0,315.0,0.0,0.0,1000.0,1000.0
+Technology - Instructi,822331,Instruction Technology HS,6510,Print Supp,Supplies,728.0,672.0,672.0,616.0,1000.0,1000.0
+Technology - Instructi,822331,Instruction Technology HS,7300,Equipment,Property & Equipment,920.97,0.0,1477.07,3399.91,3400.0,1000.0
+Extra and Co Curr Acti,895031,Extra and Co Curr 9-12,4335,R&M PAC,Property Services,1345.0,0.0,555.55,144.89,1000.0,1000.0
+Extra and Co Curr Acti,895031,Extra and Co Curr 9-12,6100,Supplies,Supplies,0.0,0.0,259.2,0.0,5500.0,1000.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,5915,Off Fi Hoc,Other Purchased Services,533.1,1554.6,765.5,776.24,1000.0,1000.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,6118,Sup Lacros,Supplies,1437.0,1000.0,999.98,795.58,1000.0,1000.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,6120,Sup Soccer,Supplies,97.0,0.0,948.1,1083.93,1000.0,1000.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6123,Sup Tennis,Supplies,863.19,961.89,741.49,1328.39,1000.0,1000.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6134,Sup Golf,Supplies,690.0,806.55,413.94,0.0,1000.0,1000.0
+Technology - Instructi,822399,Technology - Instruction 9-12,6500,Sup Tech,Supplies,1048.0,489.3,742.3,1000.09,1000.0,1000.0
+Operations and Mainten,826112,O&M Custodial Care Rowe,1380,OT Supp,Salaries & Wages,0.0,139.95,791.11,214.44,1000.0,1000.0
+Operations and Mainten,826113,O&M Custodial YES,1380,OT Supp,Salaries & Wages,0.0,0.0,391.08,0.0,1000.0,1000.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,2340,Ret Admin,Employee Benefits,7.32,20.03,0.0,0.0,1000.0,1000.0
+Student Transportation,827090,Student Transportation,2635,PFML,Employee Benefits,0.0,0.0,0.0,0.26,0.0,1000.0
+Student Transportation,827090,Student Transportation,6260,Gasoline,Supplies,0.0,274.95,678.18,573.08,1000.0,1000.0
+English Language Learn,841095,Multi Language Learners k-8,6100,Supplies,Supplies,383.63,334.79,132.5,99.03,1000.0,1000.0
+Superintendent School,825090,Off of Finance and Operations,7300,Equipment,Property & Equipment,114.99,1565.1,0.0,0.0,1000.0,1000.0
+Student Transportation,827531,Co-Curricular High School,2280,FICAReg,Employee Benefits,0.0,944.99,1081.99,949.66,994.5,994.5
+Superintendent School,825090,Off of Finance and Operations,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.35,0.0,988.67
+Special Ed Programs,820513,Student Speech Pathology,2210,FICA T,Employee Benefits,960.65,1190.55,1261.15,1768.99,1489.26,985.05
+Operations and Mainten,826290,O&M Maintenance Districtwide,2645,PFML,Employee Benefits,0.0,0.0,0.0,0.35,193.24,959.22
+Library,822230,Library Salary & Ben 9-12,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.32,185.6,958.98
+Guidance,821230,Guidance Sal & Ben 9-12,2330,Ret Sup,Employee Benefits,0.0,0.0,0.0,42.52,0.0,940.88
+Regular Program,813131,Regular Programs Inst HS 9-12,2220,FICA ET,Employee Benefits,643.15,668.15,1313.62,282.49,865.35,931.26
+Guidance,821214,Guidance MS,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.45,182.51,921.5
+Regular Program,814913,Gifted and Talented YES,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.35,173.79,909.48
+Regular Program,814914,Gifted and Talented MS,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.3,173.79,909.48
+Office of the Principa,824013,Office of the Principal YES,5310,Postage,Other Purchased Services,1370.97,984.98,1462.17,219.03,600.0,900.0
+Regular Program,811414,Regular Programs Inst MS,2230,FICA Sub,Employee Benefits,2368.7,1980.51,2861.22,2781.47,900.0,900.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6103,Supp Eng,Supplies,781.22,893.06,66.26,757.4,900.0,900.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,6112,Sup Basket,Supplies,531.05,282.35,620.43,1079.4,800.0,900.0
+Technology - Instructi,822399,Technology - Instruction 9-12,5320,Telephone,Other Purchased Services,305.4,331.41,280.5,252.13,900.0,900.0
+Special Ed Programs,820613,Student Occupational Therapy,2210,FICA T,Employee Benefits,1413.45,1496.81,1591.76,1424.43,843.81,897.41
+Superintendent School,823290,Office of the Superintendent,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.32,0.0,892.49
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,2645,PFML,Employee Benefits,0.0,0.0,0.0,0.29,0.0,880.46
+Library,822214,Library MS,2320,Ret edtc g,Employee Benefits,632.12,812.04,895.15,709.51,829.48,875.13
+Student Health,821314,Student Health MS,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.44,267.7,856.98
+Guidance,821212,Guidance Rowe,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.29,167.93,847.71
+Special Ed Programs,820512,Speech - Rowe,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.3,172.91,842.39
+Special Ed Programs,820114,Special Program Reg Classroom,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.3,165.98,834.07
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,1138,Chess Sal,Salaries & Wages,1218.0,2331.0,1968.0,244.0,798.33,831.86
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,1149,Act Parent,Salaries & Wages,0.0,0.0,0.0,0.0,798.33,831.86
+Special Ed Programs,820413,Social Work Services,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.29,162.57,829.64
+Student Health,821313,Student Health YES,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.29,166.29,829.64
+Office of the Principa,824007,Off Of the Prin Sal & Ben 5-8,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.32,168.21,826.4
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,2605,PFML,Employee Benefits,0.0,0.0,0.0,0.29,158.52,826.32
+Regular Program,813131,Regular Programs Inst HS 9-12,2635,PFML,Employee Benefits,0.0,0.0,0.0,0.04,0.0,826.0
+Regular Program,811212,Regular Programs Inst Rowe,6113,Sup Music,Supplies,756.41,777.37,484.81,734.09,800.0,800.0
+Student Health,821312,Student Health Rowe,6100,Supplies,Supplies,889.77,799.11,800.0,798.96,800.0,800.0
+Student Health,821314,Student Health MS,6100,Supplies,Supplies,685.25,505.58,401.14,844.46,830.26,800.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,6111,Sup Baseba,Supplies,922.96,403.33,1537.03,525.9,800.0,800.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,6121,Sup Softba,Supplies,588.42,148.34,502.04,585.22,800.0,800.0
+Superintendent School,823190,School Committee,5810,Pro Dev Ml,Other Purchased Services,235.0,652.75,325.0,821.4,600.0,800.0
+Improvement of Instruc,822195,Teaching and Learning K-8,8100,Dues,Other / Dues / Debt,0.0,739.0,659.0,340.04,800.0,800.0
+Library,822214,Library MS,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.27,149.55,797.61
+Student Health,821331,Student Health HS,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.28,155.5,780.83
+Student Health,821312,Student Health Rowe,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.34,152.72,767.52
+Guidance,821213,Guidance YES,6100,Supplies,Supplies,887.09,661.27,718.29,700.09,750.0,750.0
+Regular Program,811414,Regular Programs Inst MS,6403,Books L/A,Supplies,400.0,310.19,761.56,745.51,750.0,750.0
+Regular Program,813131,Regular Programs Inst HS 9-12,4308,Repair IA,Property Services,386.06,1126.74,0.0,560.72,750.0,750.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6131,Sup Soc St,Supplies,490.6,108.27,529.77,688.33,750.0,750.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,4423,Rent Tenni,Property Services,630.0,1220.0,472.5,900.0,750.0,750.0
+Operations and Mainten,826190,O&M Custodial Care CO,2380,RetSupprt,Employee Benefits,1017.36,0.0,0.0,0.0,723.47,741.76
+Library,822213,Library YES,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.24,136.29,729.24
+Special Ed Programs,820514,Student Speech Pathology,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.0,96.75,724.05
+Student Transportation,827090,Student Transportation,2645,PFML,Employee Benefits,0.0,0.0,0.0,0.27,144.3,716.81
+Office of the Principa,824006,Off of the Prin Sal & Ben 2-4,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.23,148.76,716.12
+Office of the Principa,824031,Office of the Principal HS,6100,Supplies,Supplies,524.66,598.5,404.11,0.0,700.0,700.0
+Regular Program,811414,Regular Programs Inst MS,2625,PFML,Employee Benefits,0.0,0.0,0.0,0.47,118.07,683.82
+Operations and Mainten,826190,O&M Custodial Care CO,2230,FICASubTmp,Employee Benefits,66.07,0.0,0.0,0.0,680.0,680.0
+Special Ed Programs,820612,OT - Rowe,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.06,154.09,677.02
+Library,822212,Library Rowe,2220,FICA ET,Employee Benefits,397.03,397.77,689.93,341.5,651.41,675.22
+Regular Program,813131,Regular Programs Inst HS 9-12,6418,Studies,Supplies,3212.39,335.97,297.5,263.9,675.0,675.0
+Guidance,821230,Guidance Sal & Ben 9-12,2200,FICA Stipn,Employee Benefits,66.26,84.84,58.69,10.88,657.98,657.98
+Student Health,821312,Student Health Rowe,3252,PHYS,Prof/Technical Services,0.0,0.0,0.0,0.0,650.0,650.0
+Regular Program,811414,Regular Programs Inst MS,2635,PFML,Employee Benefits,0.0,0.0,0.0,0.08,0.0,650.0
+Office of the Principa,824014,Office of the Principal MS,4300,Rep & Main,Property Services,379.0,399.0,419.0,522.02,500.0,650.0
+Regular Program,813131,Regular Programs Inst HS 9-12,8118,Dues SocSt,Other / Dues / Debt,79.0,278.0,0.0,140.0,650.0,650.0
+Student Health,821331,Student Health HS,3252,PHYS,Prof/Technical Services,0.0,0.0,0.0,0.0,650.0,650.0
+Special Ed Programs,820012,Special Program Resource Room,1230,Sal Sub T,Salaries & Wages,0.0,460.75,0.0,0.0,650.0,650.0
+Special Ed Programs,820013,Special Program Resource Room,1230,Sal Sub T,Salaries & Wages,125.0,0.0,0.0,0.0,650.0,650.0
+Special Ed Programs,820112,Special Program Reg Classroom,1230,Sal Sub T,Salaries & Wages,0.0,0.0,0.0,0.0,650.0,650.0
+Special Ed Programs,820113,Special Program Reg Classroom,1230,Sal Sub T,Salaries & Wages,420.0,505.44,0.0,0.0,650.0,650.0
+Special Ed Programs,820114,Special Program Reg Classroom,1230,Sal Sub T,Salaries & Wages,0.0,100.0,400.0,0.0,650.0,650.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,6115,Sup FldHoc,Supplies,272.02,852.43,538.62,240.0,650.0,650.0
+Library,822230,Library Salary & Ben 9-12,2220,FICA ET,Employee Benefits,489.61,479.35,820.44,345.38,615.02,648.87
+Special Ed Programs,820412,Social Work Services,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.22,123.04,643.3
+Guidance,821230,Guidance Sal & Ben 9-12,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.25,128.92,640.97
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.0,114.47,610.45
+Technology - Instructi,822314,Instruction Technology MS,2220,FICA ET,Employee Benefits,525.97,523.56,861.23,344.73,651.41,608.76
+Guidance,821212,Guidance Rowe,6410,Books,Supplies,0.0,275.55,163.91,557.94,600.0,600.0
+Student Transportation,827012,Field Trips Rowe School,6280,Diesel Fue,Supplies,508.0,545.67,1041.84,452.2,600.0,600.0
+Guidance,821213,Guidance YES,5810,Pro Dev Ml,Other Purchased Services,1095.03,0.0,0.0,0.0,600.0,600.0
+Library,822213,Library YES,6100,Supplies,Supplies,598.09,689.35,614.26,454.92,520.0,600.0
+Student Health,821314,Student Health MS,1230,Sal Sub T,Salaries & Wages,30.0,1430.0,1256.0,1645.0,600.0,600.0
+Library,822214,Library MS,6100,Supplies,Supplies,1259.07,453.33,578.67,629.24,600.0,600.0
+Library,822214,Library MS,7300,Equipment,Property & Equipment,0.0,394.03,99.95,0.0,0.0,600.0
+Office of the Principa,824014,Office of the Principal MS,5310,Postage,Other Purchased Services,493.18,525.34,939.29,219.19,600.0,600.0
+Regular Program,813131,Regular Programs Inst HS 9-12,8112,Dues Math,Other / Dues / Debt,435.0,535.0,600.0,600.0,600.0,600.0
+Student Health,821331,Student Health HS,1230,Sal Sub T,Salaries & Wages,0.0,437.5,460.0,1995.0,600.0,600.0
+Office of the Principa,824031,Office of the Principal HS,4300,Rep & Main,Property Services,0.0,0.0,419.0,0.0,600.0,600.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,5924,Off Track,Other Purchased Services,0.0,1030.0,1136.0,400.0,550.0,600.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,6110,Sup At Med,Supplies,416.21,515.04,152.01,600.0,600.0,600.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,5320,Telephone,Other Purchased Services,305.4,384.05,150.0,0.0,600.0,600.0
+Student Transportation,827090,Student Transportation,4324,Rep Copier,Property Services,561.87,561.88,564.57,723.19,600.0,600.0
+Superintendent School,823190,School Committee,6000,Sply Other,Supplies,0.0,34.95,614.36,0.0,600.0,600.0
+Regular Program,811313,Regular Programs Inst YES,2635,PFML,Employee Benefits,0.0,0.0,0.0,0.22,0.0,590.0
+Technology - Instructi,822330,Technology - Sal & Ben 9-12,2220,FICA ET,Employee Benefits,516.45,441.59,813.29,366.33,557.31,587.84
+Special Ed Programs,820390,Special Ed Admin District,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.21,0.0,579.4
+Technology - Instructi,822312,Instruction Technology Rowe,2310,Ret Grant,Employee Benefits,0.0,0.0,0.0,279.86,550.17,564.96
+Operations and Mainten,826190,O&M Custodial Care CO,2280,FICAReg,Employee Benefits,998.8,0.0,0.0,0.0,542.6,556.32
+Student Transportation,827090,Student Transportation,8100,Dues,Other / Dues / Debt,706.0,350.0,290.0,500.0,550.0,550.0
+Special Ed Programs,820513,Student Speech Pathology,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.46,171.52,543.48
+Superintendent School,823190,School Committee,2280,FICAReg,Employee Benefits,0.0,0.0,10.0,0.0,382.5,535.5
+Office of the Principa,824012,Office of the Principal Rowe,5310,Postage,Other Purchased Services,486.76,248.42,379.85,277.48,535.0,535.0
+Improvement of Instruc,822195,Teaching and Learning K-8,2605,PFML,Employee Benefits,0.0,0.0,0.0,0.07,110.47,529.22
+Regular Program,813131,Regular Programs Inst HS 9-12,3204,SW Mod/L,Prof/Technical Services,1376.83,950.0,1095.95,670.0,522.0,522.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,5922,Off Swim,Other Purchased Services,0.0,246.44,285.8,300.0,515.0,515.0
+Regular Program,813131,Regular Programs Inst HS 9-12,2625,PFML,Employee Benefits,0.0,0.0,0.0,0.22,99.66,513.8
+Office of the Principa,824005,Off of the Prin Sal & Ben k-1,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.22,111.24,511.1
+Technology - Instructi,822313,Instruction Technology YES,2220,FICA ET,Employee Benefits,489.17,3124.66,4145.14,3423.53,514.83,509.29
+Regular Program,811212,Regular Programs Inst Rowe,4310,Rep Inst,Property Services,0.0,0.0,0.0,0.0,500.0,500.0
+Regular Program,811212,Regular Programs Inst Rowe,6104,Sup WLang,Supplies,857.51,0.0,499.52,398.82,500.0,500.0
+Regular Program,811212,Regular Programs Inst Rowe,6107,Sup HlthSc,Supplies,151.51,500.45,428.58,502.81,500.0,500.0
+Regular Program,811212,Regular Programs Inst Rowe,7300,Equipment,Property & Equipment,0.0,0.0,419.0,500.0,500.0,500.0
+Guidance,821212,Guidance Rowe,6100,Supplies,Supplies,164.26,353.9,418.68,452.19,500.0,500.0
+Student Health,821312,Student Health Rowe,5810,Pro Dev Ml,Other Purchased Services,0.0,255.5,0.0,465.0,500.0,500.0
+Library,822212,Library Rowe,4300,Rep & Main,Property Services,57.27,0.0,0.0,376.61,500.0,500.0
+Technology - Instructi,822312,Instruction Technology Rowe,6500,Sup Tech,Supplies,114.16,220.91,0.0,89.26,500.0,500.0
+Office of the Principa,824012,Office of the Principal Rowe,4300,Rep & Main,Property Services,379.0,399.0,0.0,0.0,500.0,500.0
+Office of the Principa,824012,Office of the Principal Rowe,6100,Supplies,Supplies,458.83,0.0,45.92,149.29,500.0,500.0
+Office of the Principa,824012,Office of the Principal Rowe,8100,Dues,Other / Dues / Debt,11.0,340.0,599.0,500.0,500.0,500.0
+Regular Program,811313,Regular Programs Inst YES,2230,FICA Sub,Employee Benefits,3649.87,7406.5,2474.8,2676.86,500.0,500.0
+Regular Program,811414,Regular Programs Inst MS,6104,Sup ModLg,Supplies,0.0,187.91,231.89,443.62,422.49,500.0
+Student Health,821314,Student Health MS,3252,PHYS,Prof/Technical Services,0.0,0.0,0.0,0.0,500.0,500.0
+Library,822214,Library MS,6600,A Visual,Supplies,0.0,500.0,262.7,500.0,500.0,500.0
+Library,822231,Library HS,4300,Rep & Main,Property Services,0.0,267.03,0.0,0.0,500.0,500.0
+Office of the Principa,824031,Office of the Principal HS,5310,Postage,Other Purchased Services,461.35,529.73,423.6,234.59,500.0,500.0
+Extra and Co Curr Acti,895031,Extra and Co Curr 9-12,5810,Pro Dev Ml,Other Purchased Services,0.0,1804.45,0.0,314.65,1500.0,500.0
+Extra and Co Curr Acti,895031,Extra and Co Curr 9-12,7333,Eq Drama,Property & Equipment,390.0,0.0,0.0,500.0,500.0,500.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,6123,Sup Tennis,Supplies,253.03,0.0,0.0,502.6,500.0,500.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,6124,Sup Track,Supplies,807.74,0.0,147.5,156.45,500.0,500.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,6127,Sup Volley,Supplies,0.0,173.15,86.66,264.97,500.0,500.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,6138,Swim Sup,Supplies,314.4,0.0,1243.75,634.0,500.0,500.0
+Technology - Instructi,822395,Technology - Inst k-8,6500,Sup Tech,Supplies,701.97,0.0,497.1,500.0,500.0,500.0
+Operations and Mainten,826092,Operations and Maint Cent Off,4100,Watr & Sew,Property Services,566.51,304.29,432.06,360.96,450.0,500.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,2230,FICA Sub,Employee Benefits,482.77,381.7,430.13,138.77,500.0,500.0
+Student Transportation,827090,Student Transportation,4100,Watr & Sew,Property Services,0.0,79.3,0.0,-173.82,500.0,500.0
+Special Ed Programs,820613,Student Occupational Therapy,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.33,97.18,495.12
+Technology - Instructi,822314,Instruction Technology MS,2210,FICA T,Employee Benefits,333.86,417.64,456.47,394.86,457.7,480.32
+Regular Program,813131,Regular Programs Inst HS 9-12,3213,SW Music,Prof/Technical Services,240.0,210.0,120.0,156.0,275.0,480.0
+Student Transportation,827631,Extra Curr Athletics HS,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.0,100.2,480.0
+Special Ed Programs,820614,Student Occupational Therapy,2210,FICA T,Employee Benefits,600.46,624.06,473.66,731.16,445.67,478.46
+Regular Program,814914,Gifted and Talented MS,6410,Books,Supplies,28.71,0.0,0.0,472.64,463.06,475.0
+Technology - Instructi,822313,Instruction Technology YES,2210,FICA T,Employee Benefits,355.65,381.49,395.77,352.42,446.17,469.72
+Technology - Instructi,822330,Technology - Sal & Ben 9-12,2210,FICA T,Employee Benefits,401.68,381.24,401.27,354.98,442.73,463.58
+Guidance,821231,Guidance HS,5310,Postage,Other Purchased Services,6.36,0.0,0.64,0.0,420.0,420.0
+Student Transportation,827014,Field Trips FHH MS,2330,Ret Sup,Employee Benefits,0.0,286.91,187.24,117.82,408.0,408.0
+Regular Program,811212,Regular Programs Inst Rowe,2635,PFML,Employee Benefits,0.0,0.0,0.0,0.1,0.0,400.0
+Regular Program,813131,Regular Programs Inst HS 9-12,8113,Dues Music,Other / Dues / Debt,395.0,137.0,882.0,411.0,400.0,400.0
+Student Transportation,827099,Sped Transport 9-12,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.0,83.5,400.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,6510,Print Supp,Supplies,364.0,336.0,336.0,308.0,400.0,400.0
+Regular Program,814913,Gifted and Talented YES,6410,Books,Supplies,165.97,154.17,289.37,304.07,304.07,400.0
+English Language Learn,841095,Multi Language Learners k-8,5810,Pro Dev Ml,Other Purchased Services,84.0,74.12,0.0,385.0,400.0,400.0
+Superintendent School,825090,Off of Finance and Operations,6510,Print Supp,Supplies,364.0,336.0,336.0,308.0,400.0,400.0
+Regular Program,813131,Regular Programs Inst HS 9-12,2605,PFML,Employee Benefits,0.0,0.0,0.0,0.21,78.09,378.81
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,2240,FICA ADMIN,Employee Benefits,339.26,346.3,367.48,314.13,359.24,374.31
+Library,822212,Library Rowe,2625,PFML,Employee Benefits,0.0,0.0,0.0,0.13,75.02,372.54
+Library,822230,Library Salary & Ben 9-12,2625,PFML,Employee Benefits,0.0,0.0,0.0,0.16,70.83,358.0
+Student Transportation,827031,Field Trips High School,2330,Ret Sup,Employee Benefits,0.0,258.52,393.99,184.34,357.0,357.0
+Technology - Instructi,822312,Instruction Technology Rowe,2220,FICA ET,Employee Benefits,0.0,0.0,0.0,0.0,343.22,339.53
+Technology - Instructi,822314,Instruction Technology MS,2625,PFML,Employee Benefits,0.0,0.0,0.0,0.15,75.02,335.87
+Regular Program,811313,Regular Programs Inst YES,2605,PFML,Employee Benefits,0.0,0.0,0.0,0.11,59.96,328.38
+Special Ed Programs,820390,Special Ed Admin District,5320,Telephone,Other Purchased Services,0.0,0.0,0.0,0.0,0.0,325.0
+Technology - Instructi,822330,Technology - Sal & Ben 9-12,2625,PFML,Employee Benefits,0.0,0.0,0.0,0.17,64.19,324.33
+Student Transportation,827014,Field Trips FHH MS,2280,FICAReg,Employee Benefits,0.0,288.82,409.28,171.09,306.0,306.0
+Regular Program,811414,Regular Programs Inst MS,6417,Books Scie,Supplies,1386.0,0.0,0.0,104.33,430.0,300.0
+Guidance,821214,Guidance MS,6100,Supplies,Supplies,695.72,318.72,151.39,96.9,300.0,300.0
+Regular Program,813131,Regular Programs Inst HS 9-12,4301,Rep Art,Property Services,236.69,0.0,0.0,112.26,300.0,300.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6413,Books Musi,Supplies,25.99,0.0,82.59,0.0,300.0,300.0
+Regular Program,813131,Regular Programs Inst HS 9-12,8104,Dues ModL,Other / Dues / Debt,0.0,0.0,0.0,0.0,300.0,300.0
+Extra and Co Curr Acti,895031,Extra and Co Curr 9-12,7335,Equip PAC,Property & Equipment,0.0,0.0,0.0,0.0,300.0,300.0
+Special Ed Programs,820131,Special Program Reg Classroom,6100,Supplies,Supplies,0.0,0.0,35.5,72.73,300.0,300.0
+Student Transportation,827631,Extra Curr Athletics HS,5801,Meal & Mlg,Other Purchased Services,0.0,39.0,295.5,189.0,150.0,300.0
+Improvement of Instruc,822195,Teaching and Learning K-8,5320,Telephone,Other Purchased Services,195.44,322.09,306.0,178.5,300.0,300.0
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.06,57.31,284.68
+Library,822214,Library MS,2220,FICA ET,Employee Benefits,238.69,263.39,367.76,169.86,269.07,283.88
+Technology - Instructi,822313,Instruction Technology YES,2625,PFML,Employee Benefits,0.0,0.0,0.0,0.17,59.29,280.99
+Regular Program,811414,Regular Programs Inst MS,2605,PFML,Employee Benefits,0.0,0.0,0.0,0.12,65.54,276.78
+Student Transportation,827031,Field Trips High School,2280,FICAReg,Employee Benefits,0.0,241.07,451.01,204.09,267.75,267.75
+Operations and Mainten,826112,O&M Custodial Care Rowe,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.15,50.61,266.49
+Technology - Instructi,822314,Instruction Technology MS,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.09,52.71,265.01
+Special Ed Programs,820614,Student Occupational Therapy,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.13,51.33,263.98
+Regular Program,811212,Regular Programs Inst Rowe,2230,Fica Sub,Employee Benefits,980.69,1851.68,2200.65,1242.67,260.0,260.0
+Technology - Instructi,822313,Instruction Technology YES,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.09,51.39,259.16
+Technology - Instructi,822330,Technology - Sal & Ben 9-12,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.09,50.99,255.77
+Student Transportation,827013,Field Trips  YES,2330,Ret Sup,Employee Benefits,0.0,166.62,309.17,176.57,255.0,255.0
+Library,822212,Library Rowe,5810,Pro Dev Ml,Other Purchased Services,0.0,0.0,250.0,132.89,250.0,250.0
+Technology - Instructi,822313,Instruction Technology YES,6500,Sup Tech,Supplies,234.21,244.96,162.18,256.43,268.5,250.0
+Office of the Principa,824013,Office of the Principal YES,6410,Books,Supplies,0.0,0.0,297.0,567.3,567.3,250.0
+Guidance,821231,Guidance HS,6100,Supplies,Supplies,77.58,495.0,1170.4,173.0,250.0,250.0
+Extra and Co Curr Acti,895031,Extra and Co Curr 9-12,6135,Sup PAC,Supplies,0.0,0.0,0.0,0.0,250.0,250.0
+Regular Program,814913,Gifted and Talented YES,5810,Pro Dev Ml,Other Purchased Services,125.0,0.0,125.0,100.0,250.0,250.0
+Regular Program,814914,Gifted and Talented MS,5810,Pro Dev Ml,Other Purchased Services,125.0,300.0,125.0,-14.85,250.0,250.0
+Superintendent School,825090,Off of Finance and Operations,5310,Postage,Other Purchased Services,115.17,11.43,0.0,0.0,250.0,250.0
+Operations and Mainten,826112,O&M Custodial Care Rowe,2380,RetSupprt,Employee Benefits,163.07,1321.05,2567.25,3110.18,0.0,236.61
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,2645,PFML,Employee Benefits,0.0,0.0,0.0,0.07,0.0,220.11
+Student Transportation,827012,Field Trips Rowe School,2330,Ret Sup,Employee Benefits,0.0,145.23,155.78,66.21,214.2,214.2
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,2605,PFML,Employee Benefits,0.0,0.0,0.0,0.04,41.78,211.89
+Student Transportation,827114,Co Curricula K-8,2330,Ret Sup,Employee Benefits,0.0,27.51,112.82,80.32,204.0,204.0
+Student Health,821313,Student Health YES,5810,Pro Dev Ml,Other Purchased Services,0.0,0.0,0.0,0.0,200.0,200.0
+Library,822213,Library YES,5810,Pro Dev Ml,Other Purchased Services,125.0,144.1,169.0,200.0,200.0,200.0
+Extra and Co Curr Acti,891414,Extra and Co Curicular MS,6900,"""PIE""",Supplies,174.0,0.0,87.5,0.0,0.0,200.0
+Student Health,821331,Student Health HS,5810,Pro Dev Ml,Other Purchased Services,717.7,0.0,0.0,0.0,200.0,200.0
+Office of the Principa,824031,Office of the Principal HS,6410,Books,Supplies,300.0,166.82,287.61,210.4,200.0,200.0
+Extra and Co Curr Acti,895031,Extra and Co Curr 9-12,6900,"""PIE""",Supplies,0.0,12.5,0.0,0.0,200.0,200.0
+Special Ed Programs,820390,Special Ed Admin District,6100,Supplies,Supplies,0.0,135.67,0.0,0.0,0.0,200.0
+Operations and Mainten,826114,O&M Custodial MS,2635,PFML,Employee Benefits,0.0,0.0,0.0,0.03,0.0,200.0
+Superintendent School,823290,Office of the Superintendent,6400,Books,Supplies,37.92,0.0,0.0,0.0,200.0,200.0
+Student Transportation,827013,Field Trips  YES,2280,FICAReg,Employee Benefits,0.0,171.88,373.25,196.93,191.25,191.25
+Regular Program,811212,Regular Programs Inst Rowe,2605,PFML,Employee Benefits,0.0,0.0,0.0,0.06,30.68,188.82
+Technology - Instructi,822312,Instruction Technology Rowe,2210,FICA T,Employee Benefits,0.0,0.0,0.0,85.64,178.47,187.89
+Technology - Instructi,822312,Instruction Technology Rowe,2625,PFML,Employee Benefits,0.0,0.0,0.0,0.0,39.53,187.32
+Office of the Principa,824014,Office of the Principal MS,6410,Books,Supplies,87.49,75.43,167.43,93.3,180.0,180.0
+Regular Program,814914,Gifted and Talented MS,6100,Supplies,Supplies,248.95,339.39,0.0,122.9,186.94,175.0
+Student Transportation,827012,Field Trips Rowe School,2280,FICAReg,Employee Benefits,0.0,145.01,196.77,79.58,160.65,160.65
+Regular Program,811414,Regular Programs Inst MS,6407,Books HLSC,Supplies,120.9,0.0,26.36,24.0,260.0,160.0
+Library,822214,Library MS,2625,PFML,Employee Benefits,0.0,0.0,0.0,0.05,30.99,156.62
+Student Transportation,827114,Co Curricula K-8,2280,FICAReg,Employee Benefits,0.0,26.4,198.61,179.25,153.0,153.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6417,Books Scie,Supplies,5725.69,0.0,0.0,104.0,150.0,150.0
+Improvement of Instruc,822199,Teaching and Learning 9-12,2605,PFML,Employee Benefits,0.0,0.0,0.0,0.0,30.22,144.78
+Student Transportation,827214,Extra-Curricular Athletics K-8,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.0,30.06,144.0
+Extra and Co Curr Acti,895031,Extra and Co Curr 9-12,8133,Dues Drama,Other / Dues / Debt,100.0,0.0,125.0,125.0,125.0,125.0
+Extra and Co Curr Acti,891306,Extra and Co Curicular YES,2605,PFML,Employee Benefits,0.0,0.0,0.0,0.01,25.55,123.81
+Operations and Mainten,826112,O&M Custodial Care Rowe,2230,FICASubTmp,Employee Benefits,550.5,96.32,279.84,162.32,120.0,120.0
+Operations and Mainten,826113,O&M Custodial YES,2230,FICASubTmp,Employee Benefits,31.14,1101.39,613.82,1243.53,120.0,120.0
+Operations and Mainten,826114,O&M Custodial MS,2230,FICASubTmp,Employee Benefits,27.74,30.24,146.49,240.29,120.0,120.0
+Student Transportation,827531,Co-Curricular High School,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.0,21.71,104.0
+Technology - Instructi,822312,Instruction Technology Rowe,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.04,20.55,103.66
+Student Health,821312,Student Health Rowe,4300,Rep & Main,Property Services,0.0,0.0,66.2,0.0,100.0,100.0
+Office of the Principa,824005,Off of the Prin Sal & Ben k-1,2230,FICA Sub,Employee Benefits,0.0,16.15,0.0,0.0,100.0,100.0
+Extra and Co Curr Acti,891212,Extra and Co Curricular Rowe,6900,"""PIE""",Supplies,0.0,0.0,0.0,0.0,100.0,100.0
+Regular Program,811313,Regular Programs Inst YES,7300,Equipment,Property & Equipment,0.0,0.0,0.0,0.0,550.0,100.0
+Office of the Principa,824006,Off of the Prin Sal & Ben 2-4,2230,FICA Sub,Employee Benefits,101.12,12.35,278.72,202.38,100.0,100.0
+Guidance,821214,Guidance MS,3200,Pur P Serv,Prof/Technical Services,0.0,0.0,0.0,0.0,100.0,100.0
+Guidance,821214,Guidance MS,6410,Books,Supplies,0.0,0.0,0.0,0.0,100.0,100.0
+Library,822214,Library MS,4300,Rep & Main,Property Services,0.0,81.88,0.0,0.0,0.0,100.0
+Regular Program,813131,Regular Programs Inst HS 9-12,4310,Rep Inst,Property Services,0.0,0.0,0.0,0.0,100.0,100.0
+Student Transportation,827090,Student Transportation,6221,Elec-Bus,Supplies,0.0,0.0,0.0,0.0,1575.0,100.0
+Regular Program,814913,Gifted and Talented YES,6100,Supplies,Supplies,78.17,436.23,0.0,175.62,195.93,100.0
+Regular Program,814931,Gifted and Talented 9-12,6100,Supplies,Supplies,0.0,0.0,0.0,0.0,100.0,100.0
+Superintendent School,825090,Off of Finance and Operations,5320,Telephone,Other Purchased Services,168.0,0.0,0.0,0.0,100.0,100.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6401,Books Art,Supplies,84.31,98.89,0.0,0.0,85.0,85.0
+Guidance,821230,Guidance Sal & Ben 9-12,2605,PFML,Employee Benefits,0.0,0.0,0.0,0.0,14.36,68.81
+Extra and Co Curr Acti,891205,Extra and Co Curicular Rowe,2230,FICA Sub,Employee Benefits,0.0,0.0,0.0,0.0,60.0,60.0
+Operations and Mainten,826190,O&M Custodial Care CO,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.0,11.84,58.18
+Superintendent School,823190,School Committee,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.0,0.0,56.0
+Improvement of Instruc,822199,Teaching and Learning 9-12,8100,Dues,Other / Dues / Debt,50.0,0.0,0.0,10.0,50.0,50.0
+Student Health,821331,Student Health HS,4300,Rep & Main,Property Services,0.0,0.0,0.0,0.0,40.0,40.0
+Student Transportation,827014,Field Trips FHH MS,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.0,6.68,32.0
+Student Transportation,827031,Field Trips High School,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.0,5.85,28.0
+Regular Program,813131,Regular Programs Inst HS 9-12,8117,SCI DUES,Other / Dues / Debt,0.0,0.0,0.0,0.0,25.0,25.0
+Student Transportation,827013,Field Trips  YES,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.0,4.18,20.0
+Student Transportation,827012,Field Trips Rowe School,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.0,3.51,16.8
+Student Transportation,827114,Co Curricula K-8,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.0,3.34,16.0
+Regular Program,811212,Regular Programs Inst Rowe,3200,Pur P Serv,Prof/Technical Services,0.0,255.0,268.75,0.0,0.0,0.0
+Student Health,821312,Student Health Rowe,1020,Sal Health,Salaries & Wages,16736.52,0.0,0.0,0.0,44924.88,0.0
+Student Health,821312,Student Health Rowe,2120,Insur ET,Employee Benefits,0.0,0.0,0.0,0.0,3546.2,0.0
+Student Health,821312,Student Health Rowe,2220,FICA ET,Employee Benefits,0.0,0.0,0.0,0.0,651.41,0.0
+Student Health,821312,Student Health Rowe,2320,Ret edtc g,Employee Benefits,0.0,0.0,0.0,0.0,2008.14,0.0
+Student Health,821312,Student Health Rowe,2625,PFML,Employee Benefits,0.0,0.0,0.0,0.0,75.02,0.0
+Student Transportation,827012,Field Trips Rowe School,5801,Meal & Mlg,Other Purchased Services,0.0,0.0,15.0,9.0,0.0,0.0
+Guidance,821213,Guidance YES,2200,FICA Stipn,Employee Benefits,0.0,0.0,3.68,0.0,0.0,0.0
+Student Health,821313,Student Health YES,2220,FICA ET,Employee Benefits,0.0,0.0,8.28,0.0,0.0,0.0
+Student Health,821313,Student Health YES,2230,FICA Sub,Employee Benefits,0.0,0.0,0.92,0.0,0.0,0.0
+Student Health,821313,Student Health YES,3252,PHYS,Prof/Technical Services,180.0,0.0,248.0,0.0,0.0,0.0
+Student Health,821313,Student Health YES,4300,Rep & Main,Property Services,0.0,150.0,0.0,0.0,0.0,0.0
+Library,822213,Library YES,2220,FICA ET,Employee Benefits,0.0,0.0,20.73,0.0,0.0,0.0
+Technology - Instructi,822313,Instruction Technology YES,2280,FICAReg,Employee Benefits,0.0,206.0,0.0,0.0,0.0,0.0
+Technology - Instructi,822313,Instruction Technology YES,2380,RetSupprt,Employee Benefits,0.0,1400.16,4698.91,4587.42,0.0,0.0
+Student Transportation,827013,Field Trips  YES,5801,Meal & Mlg,Other Purchased Services,0.0,0.0,15.0,4.5,0.0,0.0
+Extra and Co Curr Acti,891306,Extra and Co Curicular YES,2180,Ins Sup,Employee Benefits,0.0,0.0,159.9,254.76,0.0,0.0
+Extra and Co Curr Acti,891306,Extra and Co Curicular YES,2280,FICA Sup,Employee Benefits,12.34,0.0,10.62,17.09,0.0,0.0
+Extra and Co Curr Acti,891306,Extra and Co Curicular YES,2380,Ret Sup,Employee Benefits,65.36,0.0,119.52,83.1,0.0,0.0
+Extra and Co Curr Acti,891306,Extra and Co Curicular YES,2685,PFML,Employee Benefits,0.0,0.0,0.0,0.01,0.0,0.0
+Regular Program,811414,Regular Programs Inst MS,7320,Cop Eq,Property & Equipment,20800.37,24437.47,0.0,11940.64,11750.0,0.0
+Guidance,821214,Guidance MS,1500,Sal Stip,Salaries & Wages,1218.0,0.0,0.0,0.0,0.0,0.0
+Guidance,821214,Guidance MS,2200,FICA Stipn,Employee Benefits,11.46,0.0,0.0,0.0,0.0,0.0
+Student Health,821314,Student Health MS,2230,FICA Sub,Employee Benefits,2.3,76.89,97.37,108.18,0.0,0.0
+Student Health,821314,Student Health MS,5810,Pro Dev Ml,Other Purchased Services,90.0,0.0,295.0,0.0,0.0,0.0
+Library,822214,Library MS,5810,Pro Dev Ml,Other Purchased Services,0.0,176.9,25.0,64.0,280.0,0.0
+Student Transportation,827014,Field Trips FHH MS,3401,Pur Tran,Prof/Technical Services,16411.5,0.0,0.0,0.0,0.0,0.0
+Student Transportation,827014,Field Trips FHH MS,5801,Meal & Mlg,Other Purchased Services,0.0,6.0,27.0,15.0,0.0,0.0
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,2310,Ret Grant,Employee Benefits,248.09,618.69,311.54,464.23,0.0,0.0
+Extra and Co Curr Acti,891407,Extra and Co Curricular MS,2320,Ret edtc g,Employee Benefits,74.76,0.0,8.94,0.05,0.0,0.0
+Extra and Co Curr Acti,891414,Extra and Co Curicular MS,8930,Misc Gen,Other / Dues / Debt,0.0,38.71,0.0,62.39,0.0,0.0
+Regular Program,813131,Regular Programs Inst HS 9-12,4307,Rep Health,Property Services,0.0,48.59,0.0,0.0,0.0,0.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6402,Book Media,Supplies,0.0,0.0,0.0,2348.91,0.0,0.0
+Regular Program,813131,Regular Programs Inst HS 9-12,6407,Books HLSC,Supplies,983.76,0.0,0.0,0.0,0.0,0.0
+Regular Program,813131,Regular Programs Inst HS 9-12,7301,Equip Art,Property & Equipment,0.0,0.0,0.0,680.09,0.0,0.0
+Guidance,821230,Guidance Sal & Ben 9-12,2120,Insur ET,Employee Benefits,0.0,0.0,0.0,42.21,0.0,0.0
+Guidance,821230,Guidance Sal & Ben 9-12,2220,FICA ET,Employee Benefits,0.0,0.0,38.11,-305.53,0.0,0.0
+Guidance,821230,Guidance Sal & Ben 9-12,2320,Ret edtc g,Employee Benefits,0.0,33.63,9.27,480.28,0.0,0.0
+Guidance,821231,Guidance HS,3201,SW Guid,Prof/Technical Services,1745.3,0.0,0.0,0.0,0.0,0.0
+Student Health,821331,Student Health HS,2230,FICASubTmp,Employee Benefits,0.0,28.05,36.11,93.77,0.0,0.0
+Student Health,821331,Student Health HS,2635,PFML,Employee Benefits,0.0,0.0,0.0,0.01,0.0,0.0
+Office of the Principa,824030,Off of the Prin Sal Ben 9-12,1284,sub Cler,Salaries & Wages,1675.0,0.0,0.0,0.0,0.0,0.0
+Office of the Principa,824030,Off of the Prin Sal Ben 9-12,2230,FICA Sub,Employee Benefits,24.29,0.0,0.0,0.0,0.0,0.0
+Student Transportation,827031,Field Trips High School,5801,Meal & Mlg,Other Purchased Services,0.0,0.0,25.5,3.0,0.0,0.0
+Student Transportation,827531,Co-Curricular High School,5801,Meal & Mlg,Other Purchased Services,0.0,6.0,70.5,33.0,0.0,0.0
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,1146,YPAC Tech,Salaries & Wages,373.29,165.23,0.0,0.0,0.0,0.0
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,2110,Insur T,Employee Benefits,0.0,665.84,820.19,361.05,0.0,0.0
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,2310,Ret Grant,Employee Benefits,1691.6,1350.22,2797.88,1717.31,0.0,0.0
+Extra and Co Curr Acti,895030,Extra and Co Curr 9-12,2320,Ret edtc g,Employee Benefits,7.14,0.0,123.75,439.19,0.0,0.0
+Special Ed Programs,820001,no longer in use,1020,Sal ET,Salaries & Wages,0.0,-2293.24,2825.69,0.0,0.0,0.0
+Special Ed Programs,820012,Special Program Resource Room,1010,Sal Teach,Salaries & Wages,49794.32,11841.96,73404.73,57567.54,84227.97,0.0
+Special Ed Programs,820012,Special Program Resource Room,2110,Insur T,Employee Benefits,11942.74,2969.02,18391.83,5057.66,18252.83,0.0
+Special Ed Programs,820012,Special Program Resource Room,2210,FICA T,Employee Benefits,549.71,166.65,930.85,633.73,1221.31,0.0
+Special Ed Programs,820012,Special Program Resource Room,2230,FICASubTmp,Employee Benefits,0.0,76.83,0.0,0.0,0.0,0.0
+Special Ed Programs,820012,Special Program Resource Room,2310,Ret Grant,Employee Benefits,1912.1,663.2,3281.27,1884.66,3764.99,0.0
+Special Ed Programs,820012,Special Program Resource Room,2615,PFML,Employee Benefits,0.0,0.0,0.0,0.15,140.66,0.0
+Special Ed Programs,820013,Special Program Resource Room,2230,FICASubTmp,Employee Benefits,1.81,0.0,19.84,0.0,0.0,0.0
+Special Ed Programs,820101,no longer in use,1020,Sal ET,Salaries & Wages,6760.82,0.0,0.0,0.0,0.0,0.0
+Special Ed Programs,820113,Special Program Reg Classroom,2230,FICASubTmp,Employee Benefits,6.09,7.33,0.0,0.0,0.0,0.0
+Special Ed Programs,820114,Special Program Reg Classroom,2230,FICASubTmp,Employee Benefits,0.0,1.45,5.8,0.0,0.0,0.0
+Special Ed Programs,820131,Special Program Reg Classroom,2230,FICASubTmp,Employee Benefits,243.85,1.9,0.0,0.0,0.0,0.0
+Special Ed Programs,821490,Student Psychological Services,3200,Pur P Serv,Prof/Technical Services,0.0,0.0,0.0,300.0,0.0,0.0
+Student Support 504,821931,Student Support 504 HS,1501,Stip other,Salaries & Wages,2787.09,1576.35,0.0,0.0,0.0,0.0
+Student Support 504,821931,Student Support 504 HS,2200,FICA Stipn,Employee Benefits,97.15,22.86,2.99,0.0,0.0,0.0
+Student Support 504,821931,Student Support 504 HS,2310,Ret Teach,Employee Benefits,0.0,25.49,0.0,0.0,0.0,0.0
+Student Support 504,821931,Student Support 504 HS,2320,Ret edtc g,Employee Benefits,27.77,0.0,0.0,0.0,0.0,0.0
+Student Transportation,827099,Sped Transport 9-12,5801,Meal & Mlg,Other Purchased Services,0.0,416.4,0.0,309.0,0.0,0.0
+Student Transportation,827214,Extra-Curricular Athletics K-8,5801,Meal & Mlg,Other Purchased Services,0.0,0.0,13.5,9.0,0.0,0.0
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,2110,Insur T,Employee Benefits,0.0,183.67,0.0,0.0,0.0,0.0
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,2210,FICA AD,Employee Benefits,107.57,112.96,118.6,61.74,0.0,0.0
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,2280,FICA Sup,Employee Benefits,240.53,241.49,253.55,0.0,0.0,0.0
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,2300,Ret Sup,Employee Benefits,530.34,713.15,822.56,394.46,0.0,0.0
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,2310,Ret Sup,Employee Benefits,974.41,518.47,428.9,871.45,0.0,0.0
+Extra Curr Athletics,892007,Extra Curr Athletics 5-8,2380,RetSupprt,Employee Benefits,0.0,0.0,0.0,156.51,0.0,0.0
+Extra Curr Athletics,892014,Extra Curr Athletics 5-8,2605,PFML,Employee Benefits,0.0,0.0,0.0,-36.58,0.0,0.0
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,1129,OFFICIALS,Salaries & Wages,1332.5,215.0,0.0,0.0,0.0,0.0
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,2100,Ins Sup,Employee Benefits,16624.8,16789.44,17667.25,10641.83,0.0,0.0
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,2210,FICA AD,Employee Benefits,0.0,0.0,78.59,0.0,0.0,0.0
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,2300,Ret Sup,Employee Benefits,465.18,2392.97,931.21,484.06,0.0,0.0
+Extra Curr Athletics,896030,Extra Curr Athletics 9-12,2310,Ret Sup,Employee Benefits,2830.14,1775.62,3083.19,2396.92,0.0,0.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,2200,FICA Stipn,Employee Benefits,6.61,8.58,95.66,157.81,0.0,0.0
+Extra Curr Athletics,896031,Extra Curr Athletics 9-12,2605,PFML,Employee Benefits,0.0,0.0,0.0,0.04,0.0,0.0
+Technology - Instructi,822390,Technology Sal & Ben Adm k-12,1286,Sal Temp,Salaries & Wages,0.0,0.0,0.0,0.0,3700.0,0.0
+Operations and Mainten,826092,Operations and Maint Cent Off,6000,Supplies,Supplies,0.0,0.0,250.0,0.0,0.0,0.0
+Operations and Mainten,826112,O&M Custodial Care Rowe,2635,PFML,Employee Benefits,0.0,0.0,0.0,0.01,0.0,0.0
+Operations and Mainten,826113,O&M Custodial YES,2635,PFML,Employee Benefits,0.0,0.0,0.0,0.05,0.0,0.0
+Operations and Mainten,826190,O&M Custodial Care CO,2180,GrpInSupp,Employee Benefits,2705.06,0.0,0.0,0.0,288.0,0.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,1286,Sal Temp,Salaries & Wages,104.98,0.0,0.0,0.0,0.0,0.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,1310,Sal OT Plw,Salaries & Wages,0.0,0.0,2365.13,0.0,0.0,0.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,2170,Gr In Sprv,Employee Benefits,12021.6,12036.09,13922.4,11789.72,0.0,0.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,2370,Ret Sprvr,Employee Benefits,0.0,0.0,0.0,9.64,0.0,0.0
+Operations and Mainten,826290,O&M Maintenance Districtwide,2675,PFML,Employee Benefits,0.0,0.0,0.0,0.24,0.0,0.0
+Student Transportation,827090,Student Transportation,1180,Sal Sup Cl,Salaries & Wages,13026.0,0.0,0.0,-375.23,0.0,0.0
+Student Transportation,827090,Student Transportation,7360,Bus,Property & Equipment,120750.0,0.0,0.0,0.0,0.0,0.0
+Superintendent School,823190,School Committee,2200,FICA SC,Employee Benefits,382.6,382.6,158.02,114.76,0.0,0.0
+Superintendent School,823290,Office of the Superintendent,1280,Sub Sup Cl,Salaries & Wages,0.0,262.0,0.0,0.0,0.0,0.0
+Superintendent School,823290,Office of the Superintendent,2230,FICA Sub,Employee Benefits,0.0,3.8,0.0,0.0,0.0,0.0
+Superintendent School,823290,Office of the Superintendent,3400,Pur Serv,Prof/Technical Services,3202.01,0.0,0.0,0.0,0.0,0.0
+Regular Program,814913,Gifted and Talented YES,3200,Pur P Serv,Prof/Technical Services,238.0,203.0,149.0,0.0,1000.0,0.0
+Improvement of Instruc,822195,Teaching and Learning K-8,2110,Insur T,Employee Benefits,0.0,1494.32,1356.6,1766.43,0.0,0.0
+Improvement of Instruc,822195,Teaching and Learning K-8,2115,Ins Admin,Employee Benefits,9374.86,7499.94,0.0,0.0,0.0,0.0
+Improvement of Instruc,822195,Teaching and Learning K-8,2300,RetStip,Employee Benefits,0.0,688.69,279.18,294.87,0.0,0.0
+Improvement of Instruc,822195,Teaching and Learning K-8,2310,Ret Tchrs,Employee Benefits,431.29,1203.68,976.51,1392.94,0.0,0.0
+Improvement of Instruc,822199,Teaching and Learning 9-12,2300,RetStip,Employee Benefits,0.0,286.75,127.32,83.49,0.0,0.0
+Improvement of Instruc,822199,Teaching and Learning 9-12,2310,Ret Tchrs,Employee Benefits,1281.88,278.36,221.68,793.44,0.0,0.0
+English Language Learn,841095,Multi Language Learners k-8,1020,Sal ET,Salaries & Wages,34178.95,32735.54,17393.28,0.0,0.0,0.0
+English Language Learn,841095,Multi Language Learners k-8,2120,Insur ET,Employee Benefits,2532.0,2534.31,8333.91,0.0,0.0,0.0
+English Language Learn,841095,Multi Language Learners k-8,2220,FICA ET,Employee Benefits,524.51,486.11,239.47,0.0,0.0,0.0
+English Language Learn,841095,Multi Language Learners k-8,2320,Ret edtc g,Employee Benefits,1312.45,1463.27,777.47,0.0,0.0,0.0
+English Language Learn,841099,Multi Language Learners 9-12,1020,Sal ET,Salaries & Wages,0.0,0.0,25296.58,47987.5,44924.88,0.0
+English Language Learn,841099,Multi Language Learners 9-12,2120,Insur ET,Employee Benefits,0.0,0.0,10157.93,2988.54,19821.08,0.0
+English Language Learn,841099,Multi Language Learners 9-12,2220,FICA ET,Employee Benefits,0.0,0.0,498.95,736.88,651.41,0.0
+English Language Learn,841099,Multi Language Learners 9-12,2320,Ret edtc g,Employee Benefits,0.0,0.0,1130.77,1571.91,2008.14,0.0
+English Language Learn,841099,Multi Language Learners 9-12,2625,PFML,Employee Benefits,0.0,0.0,0.0,0.11,75.02,0.0
+English Language Learn,841099,Multi Language Learners 9-12,6000,NM-Supply,Supplies,804.17,0.0,0.0,0.0,0.0,0.0
+English Language Learn,841099,Multi Language Learners 9-12,6100,Supplies,Supplies,233.68,0.0,0.0,0.0,0.0,0.0
+Superintendent School,825090,Off of Finance and Operations,6100,Supplies,Supplies,0.0,0.0,736.0,0.0,0.0,0.0
+Superintendent School,825790,OTHER PERSONNEL SERVICES,2200,FICA Stipn,Employee Benefits,243.77,61.7,0.0,0.0,0.0,0.0

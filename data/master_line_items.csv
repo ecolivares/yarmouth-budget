@@ -1,0 +1,384 @@
+section,fund,account,dept_code,department,category,name,budget_2024,budget_2025,budget_2026,budget_2027,actual_2023,actual_2024,actual_2025
+expenditure,municipal,1100-51011,1100,Administration,General Government,Salaries and Wages,652046.0,825875.0,768190.0,805439.0,567434.0,649568.0,715905.0
+expenditure,municipal,1100-51012,1100,Administration,General Government,Part-Time Wages,14824.0,0.0,4420.0,4597.0,20063.0,2936.0,34450.0
+expenditure,municipal,1100-51013,1100,Administration,General Government,Overtime,12000.0,12000.0,9000.0,9000.0,9151.0,6771.0,3021.0
+expenditure,municipal,1100-51018,1100,Administration,General Government,Town Council Stipends,7000.0,7000.0,7000.0,7000.0,7000.0,7000.0,7000.0
+expenditure,municipal,1100-51020,1100,Administration,General Government,Volunteer Development,4500.0,4500.0,4500.0,4500.0,3270.0,0.0,3096.0
+expenditure,municipal,1100-52024,1100,Administration,General Government,Dues/Memberships,2280.0,3080.0,4260.0,4260.0,1061.0,2224.0,2158.0
+expenditure,municipal,1100-52026,1100,Administration,General Government,Professional Development,8350.0,9450.0,9850.0,9850.0,3437.0,6651.0,4270.0
+expenditure,municipal,1100-52027,1100,Administration,General Government,Supplies,19000.0,19000.0,19000.0,19000.0,20566.0,21632.0,15026.0
+expenditure,municipal,1100-52032,1100,Administration,General Government,Telephone,5400.0,5400.0,5400.0,8640.0,4778.0,6454.0,7183.0
+expenditure,municipal,1100-52037,1100,Administration,General Government,Auto Allowances/Mileage,2000.0,3600.0,3600.0,3600.0,1469.0,2025.0,1962.0
+expenditure,municipal,1100-52065,1100,Administration,General Government,Audit,17500.0,17500.0,20000.0,23000.0,15000.0,23000.0,25750.0
+expenditure,municipal,1100-52067,1100,Administration,General Government,Elections,17500.0,19500.0,17500.0,17500.0,9861.0,10766.0,20030.0
+expenditure,municipal,1100-52069,1100,Administration,General Government,Annual Report,2600.0,2600.0,2000.0,2000.0,142.0,1505.0,1118.0
+expenditure,municipal,1100-52070,1100,Administration,General Government,Sewer Billing,8500.0,9100.0,9100.0,9100.0,9661.0,7776.0,8510.0
+expenditure,municipal,1100-52071,1100,Administration,General Government,Postage,16500.0,16500.0,16500.0,17500.0,11652.0,12234.0,16595.0
+expenditure,municipal,1100-52073,1100,Administration,General Government,Printing,3000.0,3000.0,3000.0,3000.0,2807.0,3625.0,2530.0
+expenditure,municipal,1100-52077,1100,Administration,General Government,Advertising,12000.0,12000.0,9000.0,9000.0,13895.0,8304.0,7097.0
+expenditure,municipal,1100-52079,1100,Administration,General Government,Legal and Professional,93000.0,83000.0,83000.0,83000.0,74354.0,83948.0,92653.0
+expenditure,municipal,1100-52080,1100,Administration,General Government,Contracted Services-Assessing,124594.0,128846.0,142107.0,147372.0,115944.0,124594.0,125758.0
+expenditure,municipal,1100-52081,1100,Administration,General Government,Tax Maps,5900.0,5900.0,5900.0,5900.0,4830.0,3250.0,3094.0
+expenditure,municipal,1100-52082,1100,Administration,General Government,Transfer to Technology Reserve,5000.0,,,,,,
+expenditure,municipal,1100-52083,1100,Administration,General Government,Registry Service,1600.0,2100.0,1600.0,1600.0,1350.0,858.0,969.0
+expenditure,municipal,1100-53001,1100,Administration,General Government,Gen Gov't Capital Outlays,5000.0,5000.0,5000.0,5000.0,6000.0,4771.0,4931.0
+expenditure,municipal,1110-52085,1110,Insurances,General Government,Property Insurance,42000.0,53800.0,60434.0,66727.0,44013.0,45984.0,54397.0
+expenditure,municipal,1110-52087,1110,Insurances,General Government,Automobile Insurance,46262.0,50800.0,60000.0,68304.0,46414.0,48650.0,58229.0
+expenditure,municipal,1110-52089,1110,Insurances,General Government,Workers' Compensation Insurance,195746.0,213111.0,240196.0,208919.0,132935.0,182082.0,206825.0
+expenditure,municipal,1110-52091,1110,Insurances,General Government,Liability Insurance,47165.0,50100.0,52245.0,49395.0,42663.0,47480.0,47839.0
+expenditure,municipal,1115-51101,1115,Benefits,General Government,Other Insurance Benefits,16050.0,16050.0,18400.0,18400.0,9934.0,15462.0,5895.0
+expenditure,municipal,1115-52093,1115,Benefits,General Government,Group Life Insurance,36895.0,42531.0,46523.0,49263.0,28415.0,33920.0,37591.0
+expenditure,municipal,1115-52095,1115,Benefits,General Government,Retirement Plans,564179.0,604894.0,632629.0,722920.0,486971.0,585841.0,611383.0
+expenditure,municipal,1115-52097,1115,Benefits,General Government,FICA,510470.0,558686.0,583971.0,618326.0,435840.0,498838.0,527252.0
+expenditure,municipal,1115-52099,1115,Benefits,General Government,Health & Dental Insurance,1366726.0,1404621.0,1495285.0,1655427.0,1068890.0,1265687.0,1343326.0
+expenditure,municipal,1120-52030,1120,Town Buildings,General Government,Fuel Oil/Propane,16754.0,16754.0,12118.0,12207.0,15558.0,9678.0,10431.0
+expenditure,municipal,1120-52031,1120,Town Buildings,General Government,Power,9000.0,15900.0,20000.0,20000.0,13099.0,23761.0,21124.0
+expenditure,municipal,1120-52033,1120,Town Buildings,General Government,Water,2583.0,2820.0,3665.0,4215.0,2565.0,2506.0,2668.0
+expenditure,municipal,1120-52043,1120,Town Buildings,General Government,Building Repairs and Maintenance,35975.0,36840.0,38810.0,43810.0,23712.0,46205.0,36538.0
+expenditure,municipal,1120-52044,1120,Town Buildings,General Government,Furniture and Equipment,4200.0,4200.0,4200.0,4200.0,1363.0,1873.0,606.0
+expenditure,municipal,1120-52047,1120,Town Buildings,General Government,Cleaning Services,54000.0,63000.0,71328.0,72655.0,48091.0,52057.0,63406.0
+expenditure,municipal,1120-52103,1120,Town Buildings,General Government,Grounds Maintenance,1000.0,1000.0,1000.0,1000.0,149.0,0.0,720.0
+expenditure,municipal,1120-52105,1120,Town Buildings,General Government,East Main St. Community House,3829.0,3945.0,4292.0,7075.0,4967.0,4891.0,6368.0
+expenditure,municipal,1120-52106,1120,Town Buildings,General Government,North Road House,1000.0,1000.0,1000.0,1000.0,800.0,848.0,683.0
+expenditure,municipal,1120-52107,1120,Town Buildings,General Government,CI Community House,647.0,3300.0,3300.0,3350.0,1152.0,2434.0,3068.0
+expenditure,municipal,1120-52109,1120,Town Buildings,General Government,Old Baptist Meeting House,1800.0,1800.0,3800.0,3920.0,1582.0,888.0,4043.0
+expenditure,municipal,1120-52111,1120,Town Buildings,General Government,Log Cabin,15524.0,15429.0,15680.0,18757.0,13036.0,14840.0,15326.0
+expenditure,municipal,1120-52114,1120,Town Buildings,General Government,Masonic Hall (new),15485.0,15832.0,,,11794.0,,
+expenditure,municipal,1120-53001,1120,Town Buildings,General Government,Capital Outlay,0.0,0.0,0.0,,0.0,0.0,0.0
+expenditure,municipal,1200-51011,1200,Police,Public Safety,Salaries and Wages,1100912.0,1155203.0,1243047.0,1301902.0,1066676.0,1098320.0,1096463.0
+expenditure,municipal,1200-51012,1200,Police,Public Safety,Part-Time Wages,28250.0,29138.0,29456.0,30314.0,18619.0,21601.0,17857.0
+expenditure,municipal,1200-51013,1200,Police,Public Safety,Overtime,113170.0,118349.0,127025.0,137089.0,137537.0,160338.0,175204.0
+expenditure,municipal,1200-51014,1200,Police,Public Safety,Contract Incentives,12850.0,4600.0,4600.0,4100.0,800.0,1107.0,3806.0
+expenditure,municipal,1200-51019,1200,Police,Public Safety,Uniform Cleaning,8000.0,8000.0,8000.0,8000.0,7800.0,7075.0,7100.0
+expenditure,municipal,1200-52021,1200,Police,Public Safety,Gas/Oil,25920.0,28560.0,19390.0,17451.0,15848.0,17758.0,16857.0
+expenditure,municipal,1200-52022,1200,Police,Public Safety,Vehicle Repairs and Maintenance,25900.0,26120.0,26000.0,27000.0,18238.0,14561.0,21671.0
+expenditure,municipal,1200-52023,1200,Police,Public Safety,Uniforms,19750.0,21600.0,21600.0,24200.0,12562.0,10151.0,22052.0
+expenditure,municipal,1200-52026,1200,Police,Public Safety,Professional Development,31875.0,33125.0,33125.0,33125.0,18179.0,16646.0,33606.0
+expenditure,municipal,1200-52027,1200,Police,Public Safety,Supplies,15085.0,15525.0,15525.0,15525.0,11085.0,9661.0,13876.0
+expenditure,municipal,1200-52032,1200,Police,Public Safety,Telephone,4500.0,5100.0,6000.0,6600.0,2535.0,2069.0,2553.0
+expenditure,municipal,1200-52082,1200,Police,Public Safety,Transfer to Technology Reserve,4000.0,,,,,,
+expenditure,municipal,1200-52119,1200,Police,Public Safety,Photo/Ammo/Print,12005.0,12680.0,11590.0,14089.0,11095.0,11468.0,12604.0
+expenditure,municipal,1200-52121,1200,Police,Public Safety,Radio Repairs,19800.0,21200.0,22900.0,24760.0,15632.0,12517.0,21141.0
+expenditure,municipal,1200-52122,1200,Police,Public Safety,Metro Regional Crime Lab,5110.0,5110.0,5110.0,5110.0,5051.0,4720.0,4936.0
+expenditure,municipal,1200-53001,1200,Police,Public Safety,Police Capital Outlays,10000.0,9000.0,9000.0,9000.0,7446.0,5342.0,9010.0
+expenditure,municipal,1210-51011,1210,Fire-Rescue,Public Safety,Salaries and Wages,736740.0,783214.0,896025.0,930841.0,273965.0,719101.0,816757.0
+expenditure,municipal,1210-51012,1210,Fire-Rescue,Public Safety,Part-Time Wages,110000.0,100000.0,75000.0,81000.0,74323.0,76971.0,56415.0
+expenditure,municipal,1210-51013,1210,Fire-Rescue,Public Safety,Overtime,11000.0,35060.0,38000.0,38000.0,20041.0,25082.0,27749.0
+expenditure,municipal,1210-51017,1210,Fire-Rescue,Public Safety,Stipends,4000.0,4000.0,9000.0,4500.0,4000.0,4000.0,4000.0
+expenditure,municipal,1210-51123,1210,Fire-Rescue,Public Safety,Paramedic,123650.0,129215.0,129215.0,134385.0,231847.0,133680.0,123354.0
+expenditure,municipal,1210-52021,1210,Fire-Rescue,Public Safety,Gas/Oil,26220.0,26220.0,25000.0,25000.0,19371.0,25266.0,24316.0
+expenditure,municipal,1210-52022,1210,Fire-Rescue,Public Safety,Vehicle Repairs & Maintenance,20000.0,20000.0,28000.0,29500.0,24387.0,29879.0,27036.0
+expenditure,municipal,1210-52023,1210,Fire-Rescue,Public Safety,Uniforms,13350.0,13350.0,13350.0,13000.0,8259.0,10398.0,6630.0
+expenditure,municipal,1210-52024,1210,Fire-Rescue,Public Safety,Dues/Memberships,7000.0,7000.0,7000.0,7500.0,7034.0,3431.0,5868.0
+expenditure,municipal,1210-52026,1210,Fire-Rescue,Public Safety,Professional Development,3500.0,3000.0,4000.0,4000.0,5168.0,5492.0,3621.0
+expenditure,municipal,1210-52027,1210,Fire-Rescue,Public Safety,Supplies,3250.0,3500.0,3500.0,3650.0,1416.0,2855.0,3424.0
+expenditure,municipal,1210-52030,1210,Fire-Rescue,Public Safety,Fuel Oil/Propane,0.0,,,,,,
+expenditure,municipal,1210-52031,1210,Fire-Rescue,Public Safety,Power,0.0,,,,,,
+expenditure,municipal,1210-52032,1210,Fire-Rescue,Public Safety,Telephone,5000.0,5000.0,5000.0,5000.0,4304.0,4508.0,3891.0
+expenditure,municipal,1210-52033,1210,Fire-Rescue,Public Safety,Water,0.0,,,,,,
+expenditure,municipal,1210-52037,1210,Fire-Rescue,Public Safety,Auto Allowances/Mileage,500.0,250.0,250.0,250.0,0.0,84.0,620.0
+expenditure,municipal,1210-52040,1210,Fire-Rescue,Public Safety,Equipment Repairs & Maintenance,19000.0,19000.0,23000.0,27150.0,16519.0,9311.0,42376.0
+expenditure,municipal,1210-52043,1210,Fire-Rescue,Public Safety,Building Repairs & Maintenance,0.0,,,,,,
+expenditure,municipal,1210-52060,1210,Fire-Rescue,Public Safety,Miscellaneous,6000.0,6000.0,6000.0,5000.0,5196.0,5563.0,4268.0
+expenditure,municipal,1210-52082,1210,Fire-Rescue,Public Safety,Transfer to Technology Reserve,4000.0,,,,,,
+expenditure,municipal,1210-52125,1210,Fire-Rescue,Public Safety,Fire-Rescue Equipment,16500.0,16500.0,16500.0,16500.0,14967.0,16253.0,18782.0
+expenditure,municipal,1210-52127,1210,Fire-Rescue,Public Safety,Schools/Meetings,8500.0,8500.0,8500.0,9000.0,6446.0,4122.0,6853.0
+expenditure,municipal,1210-52129,1210,Fire-Rescue,Public Safety,Oxygen/Medical Supplies,22000.0,23500.0,26000.0,28500.0,24761.0,21674.0,20399.0
+expenditure,municipal,1210-53001,1210,Fire-Rescue,Public Safety,Fire-rescue Capital Outlays,10000.0,10000.0,10000.0,10000.0,5093.0,10000.0,7741.0
+expenditure,municipal,1220-52030,1220,Public Safety Building,Public Safety,Fuel/Heating,22834.0,22834.0,24853.0,24942.0,29231.0,19922.0,21814.0
+expenditure,municipal,1220-52031,1220,Public Safety Building,Public Safety,Electricity,11880.0,15200.0,25000.0,25000.0,19752.0,34685.0,30273.0
+expenditure,municipal,1220-52032,1220,Public Safety Building,Public Safety,Telephone / Internet,13200.0,14400.0,14400.0,14400.0,11270.0,12114.0,15087.0
+expenditure,municipal,1220-52033,1220,Public Safety Building,Public Safety,Water,3360.0,3500.0,4000.0,4400.0,3118.0,2339.0,3421.0
+expenditure,municipal,1220-52043,1220,Public Safety Building,Public Safety,Building Repair & Maintenance,19500.0,20805.0,20805.0,22355.0,20340.0,11331.0,19965.0
+expenditure,municipal,1220-52047,1220,Public Safety Building,Public Safety,Cleaning Services & Consumables,31000.0,31000.0,31000.0,31000.0,23538.0,24039.0,28271.0
+expenditure,municipal,1220-52060,1220,Public Safety Building,Public Safety,Miscellaneous Expenses,9875.0,10655.0,10655.0,13155.0,6538.0,784.0,10528.0
+expenditure,municipal,1220-53001,1220,Public Safety Building,Public Safety,Capital Outlay,1000.0,1500.0,1500.0,2000.0,0.0,680.0,1500.0
+expenditure,municipal,1240-52048,1240,Dispatch / PS Communications,Public Safety,Contract Town of Falmouth,205564.0,227315.0,238681.0,250614.0,193015.0,198805.0,227315.0
+expenditure,municipal,1240-52060,1240,Dispatch / PS Communications,Public Safety,Annual operating expenses,42360.0,43135.0,45385.0,46333.0,29432.0,34807.0,37891.0
+expenditure,municipal,1240-51012,1240,Dispatch / PS Communications,Public Safety,Part-Time Wages,3662.0,3500.0,3500.0,2483.0,2717.0,858.0,363.0
+expenditure,municipal,1240-53001,1240,Dispatch / PS Communications,Public Safety,Communications Capital Outlay,4500.0,4500.0,4500.0,4500.0,0.0,2279.0,2060.0
+expenditure,municipal,1260-51011,1260,Harbor & Water,Public Safety,Salaries and Wages,41936.0,47742.0,59008.0,62898.0,37572.0,45014.0,50913.0
+expenditure,municipal,1260-51012,1260,Harbor & Water,Public Safety,Part-Time Wages,11331.0,14140.0,7500.0,11000.0,1811.0,4505.0,4836.0
+expenditure,municipal,1260-51013,1260,Harbor & Water,Public Safety,Overtime,6000.0,7800.0,6923.0,6923.0,2757.0,3882.0,4768.0
+expenditure,municipal,1260-52021,1260,Harbor & Water,Public Safety,Gas/Oil,4950.0,4600.0,4502.0,3884.0,1730.0,2495.0,2299.0
+expenditure,municipal,1260-52023,1260,Harbor & Water,Public Safety,Uniforms,1720.0,1820.0,1520.0,1770.0,2033.0,1694.0,1813.0
+expenditure,municipal,1260-52026,1260,Harbor & Water,Public Safety,Professional Development,2200.0,2200.0,1300.0,1300.0,2016.0,2200.0,2156.0
+expenditure,municipal,1260-52027,1260,Harbor & Water,Public Safety,Supplies,2040.0,2160.0,2310.0,2510.0,1882.0,1563.0,2085.0
+expenditure,municipal,1260-52031,1260,Harbor & Water,Public Safety,Power,1080.0,1945.0,2400.0,2400.0,1031.0,1788.0,2389.0
+expenditure,municipal,1260-52032,1260,Harbor & Water,Public Safety,Telephone,2220.0,2280.0,3180.0,4020.0,1451.0,2995.0,2447.0
+expenditure,municipal,1260-52041,1260,Harbor & Water,Public Safety,Equip Repairs and Maintenance,5000.0,6000.0,15000.0,15000.0,5219.0,5722.0,5599.0
+expenditure,municipal,1260-52043,1260,Harbor & Water,Public Safety,Building Maintenance,1650.0,1750.0,1750.0,2350.0,1550.0,851.0,1750.0
+expenditure,municipal,1260-52047,1260,Harbor & Water,Public Safety,Cleaning & Consumables,500.0,600.0,750.0,850.0,500.0,405.0,600.0
+expenditure,municipal,1260-52048,1260,Harbor & Water,Public Safety,Contracted Services,17820.0,19940.0,23440.0,23440.0,18804.0,17820.0,21320.0
+expenditure,municipal,1260-52060,1260,Harbor & Water,Public Safety,Miscellaneous,2260.0,3020.0,3120.0,3450.0,1859.0,2260.0,3288.0
+expenditure,municipal,1260-52082,1260,Harbor & Water,Public Safety,Transfer to Technology Reserve,300.0,,,,,,
+expenditure,municipal,1260-52137,1260,Harbor & Water,Public Safety,Boat Repairs,5200.0,6000.0,6500.0,7500.0,4423.0,5850.0,5259.0
+expenditure,municipal,1260-53001,1260,Harbor & Water,Public Safety,Harbor Capital Outlays,7500.0,9000.0,9000.0,9000.0,6500.0,7500.0,8520.0
+expenditure,municipal,1270-52139,1270,Public Safety Misc.,Public Safety,Street Lights,70228.0,84829.0,89278.0,94928.0,84862.0,86732.0,111074.0
+expenditure,municipal,1270-52141,1270,Public Safety Misc.,Public Safety,Traffic Signals,13100.0,15100.0,17000.0,17000.0,17159.0,16326.0,20935.0
+expenditure,municipal,1270-52143,1270,Public Safety Misc.,Public Safety,Canine Control,40462.0,41473.0,43090.0,45525.0,22609.0,38381.0,40519.0
+expenditure,municipal,1270-52145,1270,Public Safety Misc.,Public Safety,Chebeague Parking,3400.0,3400.0,3500.0,4375.0,3400.0,3400.0,3500.0
+expenditure,municipal,1270-52147,1270,Public Safety Misc.,Public Safety,Informational Signs,500.0,500.0,500.0,500.0,-2804.0,-32.0,-6700.0
+expenditure,municipal,1270-52149,1270,Public Safety Misc.,Public Safety,Hydrant Rental,574919.0,583876.0,671445.0,718296.0,543136.0,543136.0,583868.0
+expenditure,municipal,1310-51011,1310,Highways,Public Works,Salaries and Wages,655545.0,685805.0,719296.0,751798.0,517044.0,608479.0,539000.0
+expenditure,municipal,1310-51012,1310,Highways,Public Works,Part-Time Wages,8300.0,18000.0,20300.0,20300.0,27301.0,21512.0,9822.0
+expenditure,municipal,1310-51013,1310,Highways,Public Works,Overtime,144500.0,150000.0,150000.0,150000.0,102434.0,84975.0,106215.0
+expenditure,municipal,1310-51014,1310,Highways,Public Works,Contract Incentives,5350.0,5350.0,5350.0,5350.0,5016.0,4041.0,3756.0
+expenditure,municipal,1310-52023,1310,Highways,Public Works,Uniforms,17455.0,25246.0,25246.0,25246.0,21233.0,25657.0,13939.0
+expenditure,municipal,1310-52026,1310,Highways,Public Works,Professional Development,1800.0,1800.0,1800.0,1800.0,1863.0,2129.0,2715.0
+expenditure,municipal,1310-52042,1310,Highways,Public Works,Equipment Rental/Contracted Services,91270.0,118070.0,142880.0,112580.0,85007.0,109501.0,85370.0
+expenditure,municipal,1310-52060,1310,Highways,Public Works,Miscellaneous,6500.0,6500.0,6500.0,7000.0,7027.0,6039.0,6750.0
+expenditure,municipal,1310-52082,1310,Highways,Public Works,Transfer to Technology Reserve,5000.0,,,,,,
+expenditure,municipal,1310-52151,1310,Highways,Public Works,Salt,163758.0,175800.0,175800.0,175800.0,165263.0,109139.0,166687.0
+expenditure,municipal,1310-52153,1310,Highways,Public Works,Sand,10000.0,10000.0,10000.0,10400.0,114.0,5014.0,6626.0
+expenditure,municipal,1310-52155,1310,Highways,Public Works,Street Signs,7500.0,7500.0,10000.0,10000.0,6350.0,8696.0,9043.0
+expenditure,municipal,1310-52159,1310,Highways,Public Works,Road Patch,6500.0,6500.0,6500.0,6500.0,7595.0,6633.0,8558.0
+expenditure,municipal,1310-52161,1310,Highways,Public Works,Gravel,4000.0,4000.0,4000.0,4000.0,2672.0,4687.0,2860.0
+expenditure,municipal,1310-52163,1310,Highways,Public Works,Storm Drains,3000.0,3000.0,3000.0,3000.0,1186.0,3268.0,5480.0
+expenditure,municipal,1310-52165,1310,Highways,Public Works,Minor Equipment,7000.0,15000.0,17500.0,17500.0,6298.0,8010.0,17474.0
+expenditure,municipal,1310-52167,1310,Highways,Public Works,Mailboxes,500.0,500.0,800.0,915.0,925.0,828.0,700.0
+expenditure,municipal,1310-52168,1310,Highways,Public Works,Technology new FY,5500.0,5500.0,,,675.0,,
+expenditure,municipal,1310-53001,1310,Highways,Public Works,Capital outlays,0.0,0.0,0.0,,0.0,0.0,0.0
+expenditure,municipal,1310-52170,1310,Highways,Public Works,Paving (Contingent),0.0,0.0,,,0.0,0.0,
+expenditure,municipal,1320-51011,1320,Solid Waste,Public Works,Salaries and Wages,202242.0,218831.0,231826.0,243568.0,156534.0,158275.0,209331.0
+expenditure,municipal,1320-51012,1320,Solid Waste,Public Works,Part-Time Wages,62414.0,66865.0,75000.0,75000.0,77019.0,120331.0,118145.0
+expenditure,municipal,1320-51013,1320,Solid Waste,Public Works,Overtime,34087.0,38666.0,41890.0,41890.0,46259.0,53104.0,42904.0
+expenditure,municipal,1320-51014,1320,Solid Waste,Public Works,Contract Inventives,1625.0,1625.0,1625.0,1625.0,1286.0,872.0,1114.0
+expenditure,municipal,1320-52021,1320,Solid Waste,Public Works,Gas/Oil,12005.0,11265.0,11400.0,11400.0,11272.0,13116.0,17286.0
+expenditure,municipal,1320-52023,1320,Solid Waste,Public Works,Uniforms,4242.0,4242.0,4242.0,4242.0,4247.0,3175.0,7334.0
+expenditure,municipal,1320-52026,1320,Solid Waste,Public Works,Professional Development,1000.0,1000.0,1000.0,1000.0,0.0,0.0,0.0
+expenditure,municipal,1320-52027,1320,Solid Waste,Public Works,Supplies,1925.0,1800.0,2500.0,2500.0,2229.0,2275.0,3741.0
+expenditure,municipal,1320-52030,1320,Solid Waste,Public Works,Fuel Oil/Propane,3662.0,17500.0,12000.0,13500.0,2428.0,7379.0,9726.0
+expenditure,municipal,1320-52031,1320,Solid Waste,Public Works,Power,1960.0,8700.0,8700.0,9000.0,4917.0,8280.0,7742.0
+expenditure,municipal,1320-52032,1320,Solid Waste,Public Works,Telephone,5676.0,4896.0,5148.0,5148.0,2181.0,5038.0,4012.0
+expenditure,municipal,1320-52033,1320,Solid Waste,Public Works,Water,315.0,315.0,315.0,315.0,237.0,237.0,261.0
+expenditure,municipal,1320-52040,1320,Solid Waste,Public Works,Equipment Repairs and Maintenance,4500.0,4500.0,7500.0,7500.0,9461.0,13987.0,15850.0
+expenditure,municipal,1320-52043,1320,Solid Waste,Public Works,Building Repairs and Maintenance,7800.0,7800.0,11000.0,11500.0,5048.0,11012.0,9643.0
+expenditure,municipal,1320-52060,1320,Solid Waste,Public Works,Miscellaneous,4500.0,4500.0,4950.0,5500.0,5654.0,4778.0,5146.0
+expenditure,municipal,1320-52082,1320,Solid Waste,Public Works,Transfer to Technology Reserve,1500.0,,,,,,
+expenditure,municipal,1320-52171,1320,Solid Waste,Public Works,Tipping Fees/assessment- EcoMaine,220600.0,255150.0,250750.0,250750.0,172100.0,175768.0,206459.0
+expenditure,municipal,1320-52173,1320,Solid Waste,Public Works,Tip Fee - CDD,83320.0,102120.0,102120.0,102120.0,58280.0,71381.0,53770.0
+expenditure,municipal,1320-52175,1320,Solid Waste,Public Works,Well Testing,10000.0,10000.0,11000.0,14380.0,5514.0,10863.0,12355.0
+expenditure,municipal,1320-52181,1320,Solid Waste,Public Works,Recycling/ hhw,14500.0,14500.0,14500.0,21000.0,5048.0,10930.0,11611.0
+expenditure,municipal,1320-52183,1320,Solid Waste,Public Works,Composting,9000.0,10500.0,2500.0,2500.0,8805.0,10464.0,11254.0
+expenditure,municipal,1320-52185,1320,Solid Waste,Public Works,Transportation,133398.0,121000.0,84118.0,84418.0,104403.0,71579.0,71513.0
+expenditure,municipal,1330-51011,1330,Wastewater,Public Works,Salaries and Wages,456123.0,474413.0,517112.0,546538.0,410930.0,453763.0,468032.0
+expenditure,municipal,1330-51012,1330,Wastewater,Public Works,Part-Time Wages,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+expenditure,municipal,1330-51013,1330,Wastewater,Public Works,Overtime,46000.0,46000.0,48000.0,48000.0,47323.0,50455.0,44254.0
+expenditure,municipal,1330-51014,1330,Wastewater,Public Works,Contract Incentives,6750.0,6750.0,7000.0,7000.0,7152.0,7172.0,6085.0
+expenditure,municipal,1330-52021,1330,Wastewater,Public Works,Gas/Oil,18920.0,17745.0,21000.0,21000.0,16151.0,25197.0,18050.0
+expenditure,municipal,1330-52022,1330,Wastewater,Public Works,Vehicle Repairs and Maintenance,18000.0,18000.0,18000.0,18000.0,15618.0,9339.0,14199.0
+expenditure,municipal,1330-52023,1330,Wastewater,Public Works,Uniforms,9000.0,9000.0,9000.0,9000.0,7944.0,8194.0,8358.0
+expenditure,municipal,1330-52026,1330,Wastewater,Public Works,Professional Development,5500.0,5500.0,5500.0,5500.0,3410.0,4997.0,2834.0
+expenditure,municipal,1330-52027,1330,Wastewater,Public Works,Supplies,6100.0,6300.0,6500.0,6750.0,5751.0,6257.0,4497.0
+expenditure,municipal,1330-52030,1330,Wastewater,Public Works,Fuel Oil/Propane,19713.0,22520.0,17040.0,18655.0,20324.0,17915.0,17379.0
+expenditure,municipal,1330-52031,1330,Wastewater,Public Works,Power,58575.0,108795.0,110000.0,115000.0,86183.0,106959.0,134483.0
+expenditure,municipal,1330-52032,1330,Wastewater,Public Works,Telephone,8000.0,8000.0,8000.0,8500.0,5710.0,7621.0,7837.0
+expenditure,municipal,1330-52033,1330,Wastewater,Public Works,Water,11000.0,11500.0,12000.0,12500.0,8661.0,9231.0,10173.0
+expenditure,municipal,1330-52041,1330,Wastewater,Public Works,Repairs and Maintenance,20500.0,22000.0,22000.0,24000.0,24515.0,15652.0,20638.0
+expenditure,municipal,1330-52042,1330,Wastewater,Public Works,Equipment Rental,2500.0,2500.0,2500.0,2500.0,249.0,621.0,621.0
+expenditure,municipal,1330-52060,1330,Wastewater,Public Works,Miscellaneous,14000.0,17000.0,17000.0,21000.0,12139.0,14093.0,24306.0
+expenditure,municipal,1330-52082,1330,Wastewater,Public Works,Transfer to Technology Reserve,3000.0,,,,,,
+expenditure,municipal,1330-52187,1330,Wastewater,Public Works,Chemicals,70000.0,72000.0,77000.0,81000.0,62468.0,77215.0,76804.0
+expenditure,municipal,1330-52189,1330,Wastewater,Public Works,System Repairs,70000.0,75000.0,70000.0,75000.0,70505.0,68770.0,69854.0
+expenditure,municipal,1330-52191,1330,Wastewater,Public Works,Composting Bark/Landfill Disposal,98000.0,98000.0,,,85632.0,,
+expenditure,municipal,1330-52193,1330,Wastewater,Public Works,Lab Work,28500.0,29000.0,40000.0,40000.0,17112.0,23292.0,28817.0
+expenditure,municipal,1330-53001,1330,Wastewater,Public Works,Wastewater Capital Outlay,14000.0,20000.0,20000.0,20000.0,46532.0,13812.0,26004.0
+expenditure,municipal,1340-51011,1340,Mechanical,Public Works,Salaries and Wages,136476.0,134850.0,160463.0,178020.0,85212.0,122027.0,140183.0
+expenditure,municipal,1340-51013,1340,Mechanical,Public Works,Overtime,32484.0,32870.0,34121.0,34121.0,24563.0,31862.0,33708.0
+expenditure,municipal,1340-51014,1340,Mechanical,Public Works,Contract Incentives,4400.0,4400.0,4400.0,4400.0,3603.0,4004.0,5200.0
+expenditure,municipal,1340-52021,1340,Mechanical,Public Works,Gas/Oil,78900.0,84955.0,83390.0,83390.0,85663.0,75793.0,68377.0
+expenditure,municipal,1340-52022,1340,Mechanical,Public Works,Vehicle Repairs and Maintenance,42350.0,46585.0,51244.0,51244.0,41336.0,57754.0,46092.0
+expenditure,municipal,1340-52023,1340,Mechanical,Public Works,Uniforms,133.0,0.0,,,0.0,0.0,
+expenditure,municipal,1340-52026,1340,Mechanical,Public Works,Professional Development,2000.0,2000.0,2000.0,2000.0,1594.0,1523.0,1898.0
+expenditure,municipal,1340-52027,1340,Mechanical,Public Works,Supplies,3000.0,3300.0,3300.0,3300.0,2317.0,3420.0,2403.0
+expenditure,municipal,1340-52030,1340,Mechanical,Public Works,Fuel Oil/Propane,23794.0,23794.0,14433.0,17301.0,17767.0,11246.0,15504.0
+expenditure,municipal,1340-52031,1340,Mechanical,Public Works,Power,4350.0,9886.0,11000.0,13800.0,8150.0,14412.0,13873.0
+expenditure,municipal,1340-52032,1340,Mechanical,Public Works,Telephone,4747.0,4747.0,7300.0,10000.0,3940.0,7401.0,7886.0
+expenditure,municipal,1340-52033,1340,Mechanical,Public Works,Water,2625.0,3360.0,3500.0,4500.0,2339.0,3118.0,4011.0
+expenditure,municipal,1340-52043,1340,Mechanical,Public Works,Building Repairs and Maintenance,33050.0,35000.0,35200.0,35200.0,31020.0,52102.0,33454.0
+expenditure,municipal,1340-52060,1340,Mechanical,Public Works,Miscellaneous,8800.0,9600.0,10560.0,12760.0,11953.0,10337.0,11030.0
+expenditure,municipal,1340-52082,1340,Mechanical,Public Works,Transfer to Technology Reserve,1000.0,,,,,,
+expenditure,municipal,1340-52197,1340,Mechanical,Public Works,Tires,7000.0,7700.0,7700.0,7700.0,7669.0,4713.0,6442.0
+expenditure,municipal,1340-52199,1340,Mechanical,Public Works,Winter Maintenance,30000.0,30000.0,30000.0,45000.0,44214.0,27554.0,31478.0
+expenditure,municipal,1340-53001,1340,Mechanical,Public Works,PW Capital Outlay,66000.0,75000.0,114000.0,104000.0,61013.0,60378.0,71142.0
+expenditure,municipal,1370-52201,1370,Trees,Public Works,Tree Care,73500.0,74000.0,74000.0,74000.0,63848.0,74966.0,65644.0
+expenditure,municipal,1400-52048,1400,General Assistance,Health & Welfare,Contracted Services/ Part Time Admin,48520.0,50602.0,,,15000.0,,
+expenditure,municipal,1400-52026,1400,General Assistance,Health & Welfare,Professional Development,550.0,550.0,550.0,550.0,0.0,0.0,45.0
+expenditure,municipal,1400-52203,1400,General Assistance,Health & Welfare,Food,10000.0,10500.0,10500.0,1890.0,39757.0,20059.0,3166.0
+expenditure,municipal,1400-52205,1400,General Assistance,Health & Welfare,Utilities and Heating Fuel,12000.0,1950.0,1950.0,297.0,4589.0,1542.0,199.0
+expenditure,municipal,1400-52207,1400,General Assistance,Health & Welfare,Rent,50000.0,42000.0,42000.0,43500.0,113429.0,150789.0,20978.0
+expenditure,municipal,1400-52209,1400,General Assistance,Health & Welfare,Unclassified,6000.0,750.0,750.0,2850.0,8985.0,8737.0,2132.0
+expenditure,municipal,1410-52211,1410,Human Service Agencies,Health & Welfare,Home Health Visiting Nurses,0.0,0.0,0.0,,0.0,0.0,
+expenditure,municipal,1410-52212,1410,Human Service Agencies,Health & Welfare,Yarmouth CAN,0.0,0.0,0.0,,0.0,0.0,
+expenditure,municipal,1410-52213,1410,Human Service Agencies,Health & Welfare,PROP nka Opportunity Alliance,2500.0,2500.0,2500.0,2500.0,2500.0,2500.0,2500.0
+expenditure,municipal,1410-52215,1410,Human Service Agencies,Health & Welfare,AREA AGENCY ON AGING,700.0,700.0,700.0,700.0,700.0,700.0,700.0
+expenditure,municipal,1410-52217,1410,Human Service Agencies,Health & Welfare,REGIONAL TRANSPORTATION,1400.0,1400.0,1400.0,1400.0,1400.0,1400.0,1400.0
+expenditure,municipal,1410-52223,1410,Human Service Agencies,Health & Welfare,FAMILY CRISIS CENTER,250.0,250.0,250.0,250.0,250.0,250.0,250.0
+expenditure,municipal,1500-51011,1500,Library,Public Services,Salaries and Wages,394127.0,411156.0,490926.0,515349.0,354771.0,385334.0,414459.0
+expenditure,municipal,1500-51012,1500,Library,Public Services,Part-Time Wages,79500.0,86062.0,50161.0,61167.0,59227.0,75210.0,75059.0
+expenditure,municipal,1500-51013,1500,Library,Public Services,Overtime,0.0,0.0,0.0,0.0,0.0,215.0,0.0
+expenditure,municipal,1500-52026,1500,Library,Public Services,Professional Development,2000.0,2000.0,2000.0,2000.0,1344.0,2109.0,2410.0
+expenditure,municipal,1500-52027,1500,Library,Public Services,Supplies,11000.0,11000.0,13000.0,14000.0,10443.0,11858.0,13601.0
+expenditure,municipal,1500-52030,1500,Library,Public Services,Fuel Oil/Propane,15250.0,15250.0,10728.0,10817.0,10982.0,8709.0,9207.0
+expenditure,municipal,1500-52031,1500,Library,Public Services,Power,7029.0,11037.0,12500.0,14000.0,8897.0,10583.0,18171.0
+expenditure,municipal,1500-52032,1500,Library,Public Services,Telephone,2200.0,2200.0,4500.0,4500.0,1897.0,4313.0,5244.0
+expenditure,municipal,1500-52033,1500,Library,Public Services,Water,2450.0,2700.0,3500.0,3500.0,2506.0,2506.0,2681.0
+expenditure,municipal,1500-52040,1500,Library,Public Services,Equipment Repairs and Maintenance,3000.0,3000.0,3000.0,3000.0,1413.0,1375.0,3741.0
+expenditure,municipal,1500-52043,1500,Library,Public Services,Building Repairs and Maintenance,31000.0,31000.0,33000.0,33000.0,23097.0,34093.0,31285.0
+expenditure,municipal,1500-52044,1500,Library,Public Services,Furniture and Equipment,2000.0,2000.0,2500.0,3000.0,371.0,1975.0,1780.0
+expenditure,municipal,1500-52047,1500,Library,Public Services,Cleaning Services,3000.0,3000.0,3000.0,3000.0,0.0,480.0,757.0
+expenditure,municipal,1500-52082,1500,Library,Public Services,Transfer to Technology Reserve,3000.0,,,,,,
+expenditure,municipal,1500-52225,1500,Library,Public Services,Adult Books,23000.0,23000.0,23000.0,23000.0,19954.0,18578.0,17377.0
+expenditure,municipal,1500-52227,1500,Library,Public Services,Childrens Books,7500.0,7500.0,8000.0,8250.0,4662.0,5932.0,6389.0
+expenditure,municipal,1500-52229,1500,Library,Public Services,Reference,2000.0,2000.0,2000.0,2000.0,1075.0,1391.0,654.0
+expenditure,municipal,1500-52231,1500,Library,Public Services,Periodicals,6300.0,6300.0,6300.0,6300.0,6391.0,5343.0,5235.0
+expenditure,municipal,1500-52233,1500,Library,Public Services,Audio Visual,5250.0,5250.0,5250.0,5550.0,2726.0,3257.0,5835.0
+expenditure,municipal,1500-52235,1500,Library,Public Services,Technology,17000.0,21000.0,22000.0,26000.0,14532.0,17003.0,22588.0
+expenditure,municipal,1500-53001,1500,Library,Public Services,Capital Outlay,0.0,0.0,0.0,,0.0,0.0,0.0
+expenditure,municipal,1530-51011,1530,Parks & Recreation,Public Services,Salaries and Wages,312469.0,329905.0,365762.0,371308.0,289404.0,326802.0,325896.0
+expenditure,municipal,1530-51012,1530,Parks & Recreation,Public Services,Part-Time Wages,72396.0,72396.0,72396.0,82800.0,41917.0,49004.0,72369.0
+expenditure,municipal,1530-51013,1530,Parks & Recreation,Public Services,Overtime,16000.0,20000.0,20000.0,25000.0,21307.0,17592.0,17321.0
+expenditure,municipal,1530-51014,1530,Parks & Recreation,Public Services,Contract Incentives,1200.0,1200.0,1200.0,1500.0,1100.0,1050.0,1527.0
+expenditure,municipal,1530-52021,1530,Parks & Recreation,Public Services,Gas/Oil,16000.0,17000.0,17000.0,17000.0,15673.0,16300.0,14035.0
+expenditure,municipal,1530-52023,1530,Parks & Recreation,Public Services,Uniforms,3300.0,3300.0,3600.0,6000.0,3385.0,3600.0,4140.0
+expenditure,municipal,1530-52026,1530,Parks & Recreation,Public Services,Professional Development,1000.0,1000.0,1200.0,1200.0,883.0,1665.0,2822.0
+expenditure,municipal,1530-52027,1530,Parks & Recreation,Public Services,Supplies,16000.0,20000.0,21000.0,25000.0,18992.0,18193.0,23823.0
+expenditure,municipal,1530-52030,1530,Parks & Recreation,Public Services,Fuel Oil/Propane,5874.0,5874.0,4476.0,5955.0,4768.0,3835.0,5140.0
+expenditure,municipal,1530-52031,1530,Parks & Recreation,Public Services,Power,1440.0,3770.0,4500.0,6300.0,2573.0,3652.0,5619.0
+expenditure,municipal,1530-52032,1530,Parks & Recreation,Public Services,Telephone,3200.0,1500.0,1500.0,800.0,1545.0,883.0,692.0
+expenditure,municipal,1530-52033,1530,Parks & Recreation,Public Services,Water,1200.0,3330.0,4000.0,5000.0,2962.0,2311.0,4334.0
+expenditure,municipal,1530-52037,1530,Parks & Recreation,Public Services,Mileage,200.0,200.0,200.0,200.0,0.0,0.0,919.0
+expenditure,municipal,1530-52040,1530,Parks & Recreation,Public Services,Equipment Repairs & Maintenance,13500.0,17000.0,20000.0,20000.0,16709.0,20968.0,22505.0
+expenditure,municipal,1530-52042,1530,Parks & Recreation,Public Services,Equipment Rental,11100.0,19000.0,20000.0,20000.0,10159.0,17970.0,18166.0
+expenditure,municipal,1530-52048,1530,Parks & Recreation,Public Services,Contracted Services,37000.0,82000.0,82000.0,80000.0,57062.0,45643.0,70082.0
+expenditure,municipal,1530-52082,1530,Parks & Recreation,Public Services,Transfer to Technology Reserve,2400.0,,,,,,
+expenditure,municipal,1530-52238,1530,Parks & Recreation,Public Services,Athletic Field Maintenance,28000.0,32000.0,35000.0,32000.0,23923.0,48079.0,28656.0
+expenditure,municipal,1530-52239,1530,Parks & Recreation,Public Services,Horticulture,2600.0,2600.0,2000.0,2000.0,1524.0,0.0,356.0
+expenditure,municipal,1530-52240,1530,Parks & Recreation,Public Services,Conservation Land Maintenance,24000.0,27600.0,27600.0,28000.0,24871.0,15835.0,25392.0
+expenditure,municipal,1530-53001,1530,Parks & Recreation,Public Services,Parks Capital Outlay,24000.0,24000.0,25000.0,25000.0,24239.0,21536.0,32816.0
+expenditure,municipal,1560-52048,1560,Cemeteries,Public Services,Contracted Services,41700.0,41700.0,23700.0,30000.0,42300.0,20454.0,30937.0
+expenditure,municipal,1560-52060,1560,Cemeteries,Public Services,Miscellaneous,750.0,750.0,750.0,750.0,807.0,468.0,527.0
+expenditure,municipal,1560-52113,1560,Cemeteries,Public Services,Cousins Island Cemetary Appropriation,3000.0,3000.0,3000.0,3000.0,3000.0,3000.0,3000.0
+expenditure,municipal,1570-52243,1570,Community Services,Public Services,Community Services/Recreation,55000.0,40000.0,20000.0,0.0,65000.0,55000.0,40000.0
+expenditure,municipal,1570-52244,1570,Community Services,Public Services,Historical Society,27000.0,27000.0,27000.0,27000.0,27000.0,27000.0,27000.0
+expenditure,municipal,1570-52245,1570,Community Services,Public Services,Shellfish Conservation,7000.0,18100.0,18100.0,7000.0,7000.0,7000.0,18100.0
+expenditure,municipal,1570-52247,1570,Community Services,Public Services,GPCOG,18879.0,18879.0,19351.0,20228.0,17082.0,18880.0,18879.0
+expenditure,municipal,1570-52249,1570,Community Services,Public Services,Memorial Day,2000.0,2000.0,2000.0,2000.0,2550.0,990.0,1903.0
+expenditure,municipal,1570-52251,1570,Community Services,Public Services,MMA,13616.0,13616.0,15831.0,15831.0,13616.0,14610.0,15222.0
+expenditure,municipal,1570-52252,1570,Community Services,Public Services,Aging In Place,34750.0,34750.0,41000.0,41000.0,34750.0,39000.0,40200.0
+expenditure,municipal,1570-52256,1570,Community Services,Public Services,Metro Subsidy,89055.0,95766.0,118101.0,131547.0,86170.0,89055.0,95766.0
+expenditure,municipal,1570-52258,1570,Community Services,Public Services,RRCT subsidy (partnership contribution),4500.0,4500.0,4500.0,4500.0,4500.0,4300.0,0.0
+expenditure,municipal,1580-51011,1580,Planning & Development,Public Services,Salaries and Wages,328758.0,348584.0,369075.0,388416.0,310671.0,338703.0,349902.0
+expenditure,municipal,1580-51012,1580,Planning & Development,Public Services,Part-Time Wages,59428.0,61107.0,61617.0,65791.0,46604.0,40126.0,34530.0
+expenditure,municipal,1580-51013,1580,Planning & Development,Public Services,Overtime,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+expenditure,municipal,1580-52024,1580,Planning & Development,Public Services,Dues/Memberships,19010.0,19610.0,22710.0,23060.0,13189.0,16851.0,20255.0
+expenditure,municipal,1580-52026,1580,Planning & Development,Public Services,Professional Development,7150.0,7650.0,7650.0,7650.0,3117.0,2101.0,3851.0
+expenditure,municipal,1580-52027,1580,Planning & Development,Public Services,Supplies,4750.0,5250.0,5250.0,6350.0,3378.0,1831.0,2432.0
+expenditure,municipal,1580-52032,1580,Planning & Development,Public Services,Telephone,1800.0,1800.0,1800.0,1800.0,923.0,907.0,800.0
+expenditure,municipal,1580-52037,1580,Planning & Development,Public Services,Auto Allowances/Mileage,8500.0,10500.0,10500.0,10500.0,9231.0,8154.0,10500.0
+expenditure,municipal,1580-52075,1580,Planning & Development,Public Services,Technology/Software,3000.0,0.0,0.0,0.0,3508.0,5269.0,2597.0
+expenditure,municipal,1580-52082,1580,Planning & Development,Public Services,Transfer to Technology Reserve,2500.0,,,,,,
+expenditure,municipal,1580-52253,1580,Planning & Development,Public Services,Zoning Board,450.0,450.0,450.0,450.0,0.0,368.0,70.0
+expenditure,municipal,1580-52257,1580,Planning & Development,Public Services,Special Projects (includes council directed projects),33200.0,33200.0,33200.0,33200.0,110331.0,30721.0,26686.0
+expenditure,municipal,1580-52259,1580,Planning & Development,Public Services,Planning Board,450.0,450.0,450.0,450.0,160.0,84.0,150.0
+expenditure,municipal,1580-52261,1580,Planning & Development,Public Services,Publications/Codes,750.0,750.0,750.0,750.0,1973.0,301.0,434.0
+expenditure,municipal,1580-52265,1580,Planning & Development,Public Services,GIS,3000.0,4000.0,4000.0,4000.0,0.0,1620.0,1620.0
+expenditure,municipal,1580-52266,1580,Planning & Development,Public Services,Stormwater Compliance,19077.0,19077.0,20076.0,20076.0,17557.0,14974.0,17559.0
+expenditure,municipal,1600-52267,1600,Debt Service,Capital Programs,Bond and Lease Principal Payments,866767.0,960498.0,942193.0,1003527.0,840409.0,866767.0,960498.0
+expenditure,municipal,1600-52269,1600,Debt Service,Capital Programs,Bond and Lease Interest,517308.0,483971.0,610651.0,552200.0,539959.0,516360.0,483971.0
+expenditure,municipal,1600-52271,1600,Debt Service,Capital Programs,TAN Interest,13000.0,13000.0,13000.0,13000.0,0.0,0.0,0.0
+expenditure,municipal,1600-52273,1600,Debt Service,Capital Programs,Fees,5500.0,5500.0,5500.0,5500.0,1809.0,2330.0,2567.0
+expenditure,municipal,1800-53101,1800,Capital Reserves,Capital Programs,Fire-Rescue Equipment 0 0 Fees Fees,,,,,,,
+expenditure,municipal,1800-53102,1800,Capital Reserves,Capital Programs,Public Works Equipment,210000.0,280000.0,290000.0,300000.0,210000.0,210000.0,280000.0
+expenditure,municipal,1800-53103,1800,Capital Reserves,Capital Programs,Road Improvements,725000.0,730000.0,560000.0,567000.0,675000.0,725000.0,730000.0
+expenditure,municipal,1800-53104,1800,Capital Reserves,Capital Programs,Municipal Buildings,40000.0,35000.0,60000.0,25000.0,80000.0,40000.0,35000.0
+expenditure,municipal,1800-53105,1800,Capital Reserves,Capital Programs,Unemployment,6000.0,3000.0,3000.0,0.0,6000.0,6000.0,3000.0
+expenditure,municipal,1800-53106,1800,Capital Reserves,Capital Programs,Parks and Playgrounds,205000.0,205000.0,215000.0,215000.0,165000.0,205000.0,205000.0
+expenditure,municipal,1800-53107,1800,Capital Reserves,Capital Programs,Wastewater net net Fees Fees,,,,,,,
+expenditure,municipal,1800-53108,1800,Capital Reserves,Capital Programs,Tax Revaluation,26000.0,30000.0,5000.0,25000.0,25000.0,26000.0,30000.0
+expenditure,municipal,1800-53109,1800,Capital Reserves,Capital Programs,Library Building,25000.0,25000.0,30000.0,30000.0,25000.0,25000.0,25000.0
+expenditure,municipal,1800-53110,1800,Capital Reserves,Capital Programs,Cousins Island Dock,5974.0,6213.0,6462.0,6720.0,5745.0,5974.0,6213.0
+expenditure,municipal,1800-53111,1800,Capital Reserves,Capital Programs,Historical Buildings,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0
+expenditure,municipal,1800-53112,1800,Capital Reserves,Capital Programs,MDOT Match funds,100000.0,100000.0,0.0,40000.0,120000.0,100000.0,100000.0
+expenditure,municipal,1800-53120,1800,Capital Reserves,Capital Programs,Hillside,0.0,,,,0.0,,
+expenditure,municipal,1800-53113,1800,Capital Reserves,Capital Programs,Property Acquisitions,25000.0,5000.0,15000.0,0.0,25000.0,25000.0,5000.0
+expenditure,municipal,1800-53114,1800,Capital Reserves,Capital Programs,Police Equipment,90000.0,120000.0,150000.0,160000.0,90000.0,90000.0,120000.0
+expenditure,municipal,1800-53115,1800,Capital Reserves,Capital Programs,Harbor and Waterfront,31500.0,40000.0,45000.0,0.0,27500.0,31500.0,40000.0
+expenditure,municipal,1800-53116,1800,Capital Reserves,Capital Programs,Dredging,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+expenditure,municipal,1800-53117,1800,Capital Reserves,Capital Programs,Dam Inspections,70000.0,70000.0,20000.0,0.0,70000.0,70000.0,70000.0
+expenditure,municipal,1800-53119,1800,Capital Reserves,Capital Programs,Septic System Subsidy,0.0,,,,0.0,,
+expenditure,municipal,1800-53122,1800,Capital Reserves,Capital Programs,Sidewalk Improvements,30000.0,30000.0,15000.0,0.0,0.0,30000.0,30000.0
+expenditure,municipal,1800-53129,1800,Capital Reserves,Capital Programs,New affordable housing reserve,10000.0,5000.0,,,0.0,,
+expenditure,municipal,1800-53127,1800,Capital Reserves,Capital Programs,Streetlight Reserve,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0
+expenditure,municipal,1800-53128,1800,Capital Reserves,Capital Programs,New Climate Action (proposed for FY 23) Sligo Lease Sligo Lease,,,,,,,
+expenditure,municipal,1800-53124,1800,Capital Reserves,Capital Programs,Solid Waste Reserve,51000.0,51000.0,70000.0,70000.0,51000.0,51000.0,51000.0
+expenditure,municipal,1800-53125,1800,Capital Reserves,Capital Programs,Technology Reserve,82000.0,82000.0,82000.0,82000.0,82000.0,82000.0,82000.0
+expenditure,municipal,1800-53123,1800,Capital Reserves,Capital Programs,STAY Program,125000.0,128000.0,238000.0,238000.0,125000.0,125000.0,128000.0
+expenditure,municipal,1800-53130,1800,Capital Reserves,Capital Programs,Bridges,40000.0,50000.0,50000.0,50000.0,0.0,40000.0,50000.0
+expenditure,municipal,1800-53126,1800,Capital Reserves,Capital Programs,BROWN TAIL MOTH: (ART. 29 Up to,0.0,,,,0.0,,
+expenditure,county,1850-54319,1850,Cumberland County,County,Cumberland County tax,1525119.0,1593135.0,1680359.0,1904994.0,1313701.0,1525119.0,1579547.0
+revenue,municipal,1000-41301,1000,Town Revenues,Revenue,EXCISE TAX-M.V.,2260000.0,2450000.0,2450000.0,2480000.0,,2348741.0,2484246.0
+revenue,municipal,1000-41302,1000,Town Revenues,Revenue,EXCISE TAX-BOATS,28000.0,30000.0,30000.0,30000.0,,30187.0,31825.0
+revenue,municipal,1000-42100,1000,Town Revenues,Revenue,AGENT FEES,30000.0,31000.0,31000.0,31000.0,,33403.0,37348.0
+revenue,municipal,1000-42200,1000,Town Revenues,Revenue,VITAL RECORDS FEES,7100.0,7500.0,7500.0,7500.0,,8223.0,8001.0
+revenue,municipal,1000-42300,1000,Town Revenues,Revenue,BUSINESS LICENSES,1300.0,1400.0,1400.0,1400.0,,1010.0,1320.0
+revenue,municipal,1000-42400,1000,Town Revenues,Revenue,NOTARY FEES,800.0,1000.0,1000.0,1000.0,,1230.0,1340.0
+revenue,municipal,1000-43100,1000,Town Revenues,Revenue,CODE ENFORCEMENT PERMITS/FEES,210000.0,340000.0,340000.0,275000.0,,323262.0,269362.0
+revenue,municipal,1000-43200,1000,Town Revenues,Revenue,CONCEALED WEAPONS,400.0,300.0,300.0,300.0,,180.0,162.0
+revenue,municipal,1000-43300,1000,Town Revenues,Revenue,ALARM PERMITS,4200.0,4600.0,4600.0,4600.0,,4785.0,4150.0
+revenue,municipal,1000-43400,1000,Town Revenues,Revenue,PARKING TICKETS,1500.0,1500.0,1500.0,1500.0,,455.0,1480.0
+revenue,municipal,1000-43500,1000,Town Revenues,Revenue,COURT OFFICERS,500.0,1200.0,1200.0,1200.0,,550.0,210.0
+revenue,municipal,1000-43600,1000,Town Revenues,Revenue,INSURANCE REPORTS,900.0,900.0,900.0,900.0,,1110.0,1102.0
+revenue,municipal,1000-44150,1000,Town Revenues,Revenue,PARAMEDIC SUPPORT (NY),24500.0,24400.0,24400.0,10500.0,,24400.0,24400.0
+revenue,municipal,1000-44200,1000,Town Revenues,Revenue,RESCUE BILLING,220000.0,200000.0,200000.0,200000.0,,220000.0,200000.0
+revenue,municipal,1000-44301,1000,Town Revenues,Revenue,MOORING FEES,65000.0,72000.0,72000.0,72000.0,,71227.0,72860.0
+revenue,municipal,1000-44302,1000,Town Revenues,Revenue,LAUNCH FEES,18000.0,18000.0,18000.0,18000.0,,15589.0,17444.0
+revenue,municipal,1000-44303,1000,Town Revenues,Revenue,SEASON PASSES,18000.0,18000.0,19000.0,19000.0,,19130.0,17230.0
+revenue,municipal,1000-45100,1000,Town Revenues,Revenue,OTHER REVENUE,462000.0,12000.0,12000.0,7500.0,,12465.0,7361.0
+revenue,municipal,1000-45300,1000,Town Revenues,Revenue,RECYCLING REVENUES,47000.0,42000.0,42000.0,42000.0,,38253.0,48458.0
+revenue,municipal,1000-42400,1000,Town Revenues,Revenue,INTEREST EARNINGS,7000.0,180000.0,200000.0,200000.0,,270150.0,236339.0
+revenue,municipal,1000-45500,1000,Town Revenues,Revenue,TAX INTEREST/LIEN FEES,42000.0,40000.0,40000.0,40000.0,,42506.0,58680.0
+revenue,municipal,1000-45550,1000,Town Revenues,Revenue,Sewer interest and lien fees,5800.0,5800.0,5800.0,5800.0,,6934.0,6686.0
+revenue,municipal,1000-46102,1000,Town Revenues,Revenue,HOMESTEAD REIMBURSEMENTS,616827.0,656599.0,563823.0,548207.0,,619565.0,574055.0
+revenue,municipal,1000-45900,1000,Town Revenues,Revenue,SEWER FEES,570000.0,380000.0,380000.0,380000.0,,532628.0,365461.0
+revenue,municipal,1000-45800,1000,Town Revenues,Revenue,TRANSFER STATION WINDOW STICKERS,5600.0,5600.0,7000.0,8000.0,,8464.0,8342.0
+revenue,municipal,1000-46103,1000,Town Revenues,Revenue,VETERANS REIMBURSEMENTS,6200.0,5400.0,5400.0,5400.0,,5377.0,4858.0
+revenue,municipal,1000-46104,1000,Town Revenues,Revenue,STATE REVENUE SHAR.,1520000.0,1790000.0,2000000.0,2300000.0,,1671980.0,1910821.0
+revenue,municipal,1000-46105,1000,Town Revenues,Revenue,SNOWMOBILE REIMBURSEMENTS,700.0,200.0,200.0,200.0,,0.0,596.0
+revenue,municipal,1000-46106,1000,Town Revenues,Revenue,BETE REIMBURSEMENT,262130.0,250000.0,190592.0,170224.0,,217915.0,190862.0
+revenue,municipal,1000-46200,1000,Town Revenues,Revenue,BUDGETED USE OF SURPLUS,780000.0,750000.0,750000.0,750000.0,,780000.0,750000.0
+expenditure,municipal,1100-52075,1100,Administration,General Government,Transfer to Technology Reserve,5000.0,5000.0,5000.0,5000.0,,5000.0,5000.0
+expenditure,municipal,1115-FMLA State Insurance,1115,Benefits,General Government,FMLA State Insurance Act (1/2 1% of wages),0.0,16501.0,,,0.0,,
+expenditure,municipal,1200-52075,1200,Police,Public Safety,Transfer to Technology Reserve,4000.0,4000.0,4000.0,4000.0,,4000.0,4000.0
+expenditure,municipal,1210-52075,1210,Fire-Rescue,Public Safety,Transfer to Technology Reserve,4000.0,4000.0,4000.0,4000.0,,4000.0,4000.0
+expenditure,municipal,1260-52075,1260,Harbor & Water,Public Safety,Transfer to Technology Reserve,300.0,300.0,300.0,300.0,,300.0,300.0
+expenditure,municipal,1310-52075,1310,Highways,Public Works,Transfer to Technology Reserve,5000.0,5000.0,5000.0,5000.0,,5000.0,5000.0
+expenditure,municipal,1320-52075,1320,Solid Waste,Public Works,Transfer to Technology Reserve,1500.0,1500.0,1500.0,1500.0,,1500.0,1500.0
+expenditure,municipal,1330-52075,1330,Wastewater,Public Works,Transfer to Technology Reserve,3000.0,3000.0,3000.0,3000.0,,4015.0,3000.0
+expenditure,municipal,1340-52075,1340,Mechanical,Public Works,Transfer to Technology Reserve,1000.0,1000.0,1000.0,1000.0,,1000.0,1000.0
+expenditure,municipal,1500-52075,1500,Library,Public Services,Transfer to Technology Reserve,3000.0,3000.0,0.0,,,3000.0,
+expenditure,municipal,1530-52075,1530,Parks & Recreation,Public Services,Transfer to Technology Reserve,2400.0,2400.0,2400.0,2400.0,,2400.0,2400.0
+expenditure,municipal,1570-52260,1570,Community Services,Public Services,Community Behavioral Health Liason,0.0,11975.0,24299.0,41393.0,0.0,0.0,11975.0
+expenditure,municipal,1570-52262,1570,Community Services,Public Services,Sustainability Coordinator,0.0,54102.0,91986.0,95465.0,0.0,0.0,43415.0
+expenditure,municipal,1580-52075,1580,Planning & Development,Public Services,Transfer to Technology Reserve,2500.0,2500.0,2500.0,2500.0,,0.0,2500.0
+expenditure,municipal,1800-53101,1800,Capital Reserves,Capital Programs,Fire-Rescue Equipment 0 Fees Fees Fees Fees,,,,,,,
+expenditure,municipal,1800-53107,1800,Capital Reserves,Capital Programs,Wastewater net Fees Fees Fees Fees,,,,,,,
+expenditure,municipal,1800-53128,1800,Capital Reserves,Capital Programs,New Climate Action (proposed for FY 23) Sligo Lease Sligo Lease Sligo Lease Sligo Lease,,,,,,,
+revenue,municipal,1000-46101,1000,Town Revenues,Revenue,"GENERAL ASSISTANCE 54,600 125,512 net net",,,,,,,
+revenue,municipal,1000-45901,1000,Town Revenues,Revenue,SEPTAGE FEE,0.0,0.0,19000.0,0.0,,0.0,0.0
+revenue,municipal,1000-46109,1000,Town Revenues,Revenue,SOLAR/WIND REIMBURSEMENT,14408.0,0.0,0.0,12000.0,,0.0,18552.0
+expenditure,municipal,1110-52090,1110,Insurances,General Government,FMLA State Insurance Act (1/2 1% of wages),0.0,15601.0,39468.0,41830.0,,0.0,5547.0
+expenditure,municipal,1120-52114,1120,Town Buildings,General Government,Masonic Hall,15485.0,15832.0,16155.0,20491.0,,12324.0,13379.0
+expenditure,municipal,1210-51014,1210,Fire-Rescue,Public Safety,Contract Incentives,0.0,0.0,6000.0,6000.0,,0.0,1094.0
+expenditure,municipal,1310-52168,1310,Highways,Public Works,Technology,5500.0,5500.0,5500.0,5500.0,,3063.0,495.0
+expenditure,municipal,1330-52191,1330,Wastewater,Public Works,Sludge Management,98000.0,98000.0,100000.0,114000.0,,81631.0,77176.0
+expenditure,municipal,1400-51012,1400,General Assistance,Health & Welfare,Wages - Part Time,48520.0,50602.0,49828.0,51821.0,,31162.0,44947.0
+expenditure,municipal,1800-53101,1800,Capital Reserves,Capital Programs,Fire-Rescue Equipment Fees Fees Fees Fees,,,,,,,
+expenditure,municipal,1800-53129,1800,Capital Reserves,Capital Programs,Affordable housing reserve,10000.0,5000.0,5000.0,,,10000.0,
+expenditure,municipal,1800-53126,1800,Capital Reserves,Capital Programs,Enviromental Health & Hazards,0.0,0.0,0.0,,,0.0,0.0
+revenue,municipal,1000-46101,1000,Town Revenues,Revenue,GENERAL ASSISTANCE net net net net,,,,,,,
+expenditure,municipal,1120-51011,1120,Town Buildings,General Government,Salaries and Wages,,0.0,0.0,37502.0,,,0.0
+expenditure,municipal,1800-53101,1800,Capital Reserves,Capital Programs,Fire-Rescue Equipment Fees Fees Fees,,,,,,,
+expenditure,municipal,1800-53107,1800,Capital Reserves,Capital Programs,Wastewater Fees 0 Fees Fees,,,,,,,
+expenditure,municipal,1800-53121,1800,Capital Reserves,Capital Programs,Affordable housing reserve,,5000.0,5000.0,0.0,,,5000.0

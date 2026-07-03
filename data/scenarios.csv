@@ -1,0 +1,26 @@
+group,scenario,annual_dollars,type,feasibility,rate_impact,home_500k_impact,note
+Muni · Climate/Conservation,Eliminate Sustainability Coordinator (position),95465,cut,town-controlled,0.03,15,Cuts a staff position; ends in-house climate/energy work
+Muni · Climate/Conservation,Cut Conservation Land Maintenance,28000,cut,town-controlled,0.009,4,Defer/volunteer-shift trail & open-space upkeep
+Muni · Climate/Conservation,Cut Shellfish Conservation,7000,cut,town-controlled,0.002,1,Clam-flat mgmt; may have state license-revenue tie
+Muni · Climate/Conservation,End RRCT (Royal River Conservation Trust) subsidy,4500,cut,town-controlled,0.001,1,Discretionary partner contribution
+Muni · Climate/Conservation,Cut Tree Care / urban forestry,74000,cut,caution,0.023,11,Liability + canopy/property-value risk; deferral safer than elimination
+Muni · Senior/Social,Eliminate STAY Program reserve,238000,cut,VERIFY / self-defeating?,0.074,37,Appears to be senior tax-relief/aging support — cutting it hurts the residents most squeezed by property tax. Confirm purpose before listing
+Muni · Senior/Social,Cut Aging In Place program,41000,cut,town-controlled,0.013,6,Senior services
+Muni · Senior/Social,Eliminate Community Behavioral Health Liaison (position),41393,cut,town-controlled,0.013,6,New social-services position
+Muni · Senior/Social,End Metro regional transit subsidy,131547,cut,caution,0.041,20,Regional bus service; equity/access + possible regional-compact obligation
+Muni · Senior/Social,End Historical Society appropriation,27000,cut,town-controlled,0.008,4,Discretionary grant
+Muni · Senior/Social,Zero out Human Service Agencies (1410),4850,cut,town-controlled,0.002,1,"Opportunity Alliance, Family Crisis Center, Area Agency on Aging, etc."
+Muni · Senior/Social,Cut GPCOG / regional planning dues,20228,cut,caution,0.006,3,Regional planning council membership
+Muni · Capital defer,Defer Parks & Playgrounds reserve,215000,one-time,town-controlled,0.067,33,One-year deferral
+Muni · Capital defer,Defer Library Building reserve,30000,one-time,town-controlled,0.009,5,One-year deferral
+Muni · Capital defer,Cut municipal CAPITAL RESERVES contribution 50%,909360,one-time,town-controlled,0.282,141,Broad one-year deferral of capital set-asides
+Muni · Broad,Eliminate the Community Services dept (1570) entirely,385964,cut,aggressive,0.12,60,Wipes climate+senior+regional+historical+shellfish at once
+Muni · Broad,5% across-the-board cut to municipal OPERATING (excl debt/capital),808404,cut,town-controlled,0.251,125,Operating = municipal minus debt & capital
+Amenities (named),Town library — hours/consolidate (not eliminate),369216,cut,caution,0.115,57,Full elimination forfeits MaineCat/ILL + property value
+Amenities (named),Parks & Rec — reduced maintenance / Friends model,378732,cut,caution,0.118,59,Deed restrictions (LWCF) bar full closure of some parks
+Amenities (named),School athletics — pay-to-play (realistic recovery),719891,cut,caution,0.223,112,Title IX + fee waivers cap recovery ~65%
+Amenities (named),School transportation — route optimization (not elimination),455292,cut,constrained,0.141,71,SpEd/walk-zone mandates + EPS state-aid clawback limit net savings
+Compensation,"0% COLA vs 3% step, town+school (1 yr, negotiated)",1068000,cut,bargained,0.332,166,~$356k per 1% across both payrolls; no service loss
+Revenue,Waterfront recapture (mooring/commercial fees + reassessment + excise audit),450000,revenue,study needed,0.14,70,Mid of $300-600k range; boats themselves are excise-capped
+Revenue,NYA non-exempt-use audit + service charges / PILOT,250000,revenue,negotiated/legal,0.078,39,Mid of $100-400k; cannot force exemption removal
+Revenue,Fee/cost-recovery (rescue billing + STR fees + stormwater utility),400000,revenue,town-controlled,0.124,62,Mid of $250-650k range

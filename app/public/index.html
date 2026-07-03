@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yarmouth Budget Explorer</title>
+  <meta name="description" content="Understand the Town of Yarmouth, Maine budget and test property-tax-cut scenarios against the real numbers." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%9B%EF%B8%8F%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">
+        <span class="brand-mark">🏛️</span>
+        <div>
+          <h1>Yarmouth Budget Explorer</h1>
+          <p class="tagline">Where the money goes, and what it really takes to move your tax bill.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <!-- HERO / HEADLINE NUMBERS -->
+    <section class="hero">
+      <div class="stat-row" id="statRow"><!-- filled by app.js --></div>
+      <p class="hero-note" id="heroNote"></p>
+    </section>
+
+    <!-- MECHANICS -->
+    <section class="card mechanics" id="mechanics">
+      <h2>How a cut becomes a tax change</h2>
+      <div class="mech-grid">
+        <div class="mech-lead" id="mechLead"></div>
+        <div class="callout warn">
+          <strong>⚠️ Watch the levy, not the rate.</strong>
+          <p>The tax <em>rate</em> fell from $25.67 to $14.55 between FY25 and FY26 — that was a
+          <strong>revaluation</strong> (the town's taxable value roughly doubled), <em>not</em> a tax cut.
+          The amount actually raised from property taxes (the <em>levy</em>) rose every single year.
+          Always compare the levy across that boundary.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPOSITION -->
+    <section class="card">
+      <h2>Where the FY27 money goes</h2>
+      <p class="section-sub">General Fund, <span id="gfTotal"></span> total. Schools are two-thirds of it —
+        any large tax change runs through them.</p>
+      <div class="composition" id="composition"></div>
+      <div class="split-cols">
+        <div>
+          <h3>Inside the school budget (FY27)</h3>
+          <div class="bars" id="schoolBars"></div>
+          <p class="fine">~83% of the school budget is staff pay &amp; benefits — the central constraint on cutting.</p>
+        </div>
+        <div>
+          <h3>Inside the municipal budget (FY27)</h3>
+          <div class="bars" id="muniBars"></div>
+          <p class="fine">County tax is a pass-through the town can't set.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCENARIOS -->
+    <section class="card">
+      <h2>Cut &amp; revenue scenarios we've modeled</h2>
+      <p class="section-sub">Each is a real line (or realistic estimate) converted to its rate impact and the
+        savings on a <span id="homeLabel"></span> home. Filter and sort, then take any idea to the chat below.</p>
+
+      <div class="controls">
+        <label>Group
+          <select id="filterGroup"><option value="">All</option></select>
+        </label>
+        <label>Sort
+          <select id="sortBy">
+            <option value="home">Biggest savings</option>
+            <option value="alpha">Name (A–Z)</option>
+            <option value="group">Group</option>
+          </select>
+        </label>
+        <span class="count" id="scenarioCount"></span>
+      </div>
+
+      <div class="scenario-grid" id="scenarioGrid"></div>
+      <p class="fine" id="scenariosDisclaimer"></p>
+    </section>
+
+    <!-- CHAT -->
+    <section class="card chat-card" id="chat">
+      <h2>Ask the budget</h2>
+      <p class="section-sub">Describe any cut, combination, or question. The assistant evaluates it against the
+        real dataset above — dollars, rate impact, per-home savings, and the feasibility catches.</p>
+
+      <div class="chat-window" id="chatWindow">
+        <div class="msg assistant">
+          <div class="bubble" id="introBubble"></div>
+        </div>
+      </div>
+
+      <div class="suggestions" id="suggestions"></div>
+
+      <form class="chat-input" id="chatForm">
+        <textarea id="chatText" rows="1" placeholder="e.g. What if we flat-funded the schools and cut capital reserves in half?" autocomplete="off"></textarea>
+        <button type="submit" id="sendBtn" aria-label="Send">Send</button>
+      </form>
+      <p class="fine chat-disclaimer">
+        Answers are AI-generated from the budget dataset and can be wrong — verify against the official budget
+        book before quoting. FY27 figures are a <strong>draft</strong>. This is a civic tool, not an official town resource.
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Built from four years of Yarmouth, ME town &amp; school budget books (FY2024 approved → FY2027 draft),
+         parsed to a validated dataset. Not affiliated with the Town of Yarmouth.</p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

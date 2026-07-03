@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.pyc
+app/node_modules/
+app/.vercel/
+app/.env
+app/.env.local
+app/.env*.local

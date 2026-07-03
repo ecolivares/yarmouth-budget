@@ -1,0 +1,115 @@
+==============================================================================
+YARMOUTH, ME — BUDGET ANALYSIS  (FY2024–FY2027 draft)
+==============================================================================
+
+1. WHERE THE MONEY GOES — FY27 General Fund = $65,577,938
+   Education (schools)      $   44,111,921    67.3%
+   Municipal (town)         $   19,561,023    29.8%
+   Cumberland County tax    $    1,904,994     2.9%
+
+   Municipal $ 19,561,023 breaks down by function:
+      General Government     $   4,954,551    25.3% of muni    7.6% of total
+      Public Safety          $   4,525,442    23.1% of muni    6.9% of total
+      Public Works           $   4,101,724    21.0% of muni    6.3% of total
+      Capital Programs       $   3,392,947    17.3% of muni    5.2% of total
+      Public Services        $   2,480,603    12.7% of muni    3.8% of total
+      Health & Welfare       $     105,758     0.5% of muni    0.2% of total
+
+   Education $ 44,111,921 breaks down by function (top 10):
+      Regular Program          $  19,763,704    44.8% of school
+      Special Ed Programs      $   7,433,166    16.9% of school
+      Operations and Mainten   $   3,557,044     8.1% of school
+      Debt Service             $   2,451,132     5.6% of school
+      Office of the Principa   $   1,923,956     4.4% of school
+      Student Transportation   $   1,821,170     4.1% of school
+      Technology - Instructi   $   1,438,104     3.3% of school
+      Extra Curr Athletics     $   1,107,525     2.5% of school
+      Superintendent School    $   1,065,602     2.4% of school
+      Guidance                 $   1,035,422     2.3% of school
+
+==============================================================================
+2. GROWTH — FY24 → FY27 (3-year change)
+==============================================================================
+   TOTAL General Fund       $  54,858,277 → $  65,577,938   +19.5%  (CAGR +6.1%/yr)  $+10,719,661
+   Education                $  36,590,456 → $  44,111,921   +20.6%  (CAGR +6.4%/yr)  $ +7,521,465
+   Municipal                $  16,742,702 → $  19,561,023   +16.8%  (CAGR +5.3%/yr)  $ +2,818,321
+   County tax               $   1,525,119 → $   1,904,994   +24.9%  (CAGR +7.7%/yr)  $   +379,875
+   Net property tax levy    $  39,299,961 → $  48,761,761   +24.1%  (CAGR +7.5%/yr)  $ +9,461,800
+
+   Municipal categories, FY24 → FY27:
+      General Government     $  4,047,869 → $  4,954,551   +22.4%  $  +906,682
+      Public Safety          $  3,780,688 → $  4,525,442   +19.7%  $  +744,754
+      Public Works           $  3,616,539 → $  4,101,724   +13.4%  $  +485,185
+      Public Services        $  2,006,458 → $  2,480,603   +23.6%  $  +474,145
+      Capital Programs       $  3,320,049 → $  3,392,947    +2.2%  $   +72,898
+      Health & Welfare       $    180,440 → $    105,758   -41.4%  $   -74,682
+
+==============================================================================
+3. BIGGEST MUNICIPAL LINE-ITEM INCREASES, FY24 → FY27
+==============================================================================
+   Benefits         Health & Dental Insurance      $1,366,726→$1,655,427 $ +288,701
+   Police           Salaries and Wages             $1,100,912→$1,301,902 $ +200,990
+   Fire-Rescue      Salaries and Wages             $  736,740→$  930,841 $ +194,101
+   Benefits         Retirement Plans               $  564,179→$  722,920 $ +158,741
+   Administration   Salaries and Wages             $  652,046→$  805,439 $ +153,393
+   Public Safety Misc. Hydrant Rental                 $  574,919→$  718,296 $ +143,377
+   Debt Service     Bond and Lease Principal Payme $  866,767→$1,003,527 $ +136,760
+   Library          Salaries and Wages             $  394,127→$  515,349 $ +121,222
+   Capital Reserves STAY Program                   $  125,000→$  238,000 $ +113,000
+   Benefits         FICA                           $  510,470→$  618,326 $ +107,856
+   Highways         Salaries and Wages             $  655,545→$  751,798 $  +96,253
+   Community Services Sustainability Coordinator     $        0→$   95,465 $  +95,465
+   Wastewater       Salaries and Wages             $  456,123→$  546,538 $  +90,415
+   Capital Reserves Public Works Equipment         $  210,000→$  300,000 $  +90,000
+   Capital Reserves Police Equipment               $   90,000→$  160,000 $  +70,000
+
+==============================================================================
+4. REVENUE TRENDS (non-tax) — share of budget funded WITHOUT property tax
+==============================================================================
+   FY2024: non-tax revenue $  14,679,359   property-tax levy $  40,178,918   (26.8% non-tax funded)
+   FY2025: non-tax revenue $  15,094,368   property-tax levy $  43,745,095   (25.7% non-tax funded)
+   FY2026: non-tax revenue $  15,823,987   property-tax levy $  46,901,548   (25.2% non-tax funded)
+   FY2027: non-tax revenue $  16,097,746   property-tax levy $  49,480,192   (24.5% non-tax funded)
+
+   Largest municipal non-tax revenue lines (FY27):
+      EXCISE TAX-M.V.                    $  2,480,000
+      STATE REVENUE SHAR.                $  2,300,000
+      BUDGETED USE OF SURPLUS            $    750,000
+      HOMESTEAD REIMBURSEMENTS           $    548,207
+      SEWER FEES                         $    380,000
+      CODE ENFORCEMENT PERMITS/FEES      $    275,000
+      RESCUE BILLING                     $    200,000
+      INTEREST EARNINGS                  $    200,000
+
+==============================================================================
+5. PROPERTY-TAX MECHANICS (FY27)
+==============================================================================
+   Net taxable value (tax base): $3,221,025,900
+   Tax rate: $15.25 per $1,000
+   Standard example home: $500,000  →  annual tax $7,625
+   *** CONVERSION FACTOR ***
+   Every $1,000,000 cut from appropriations lowers:
+      • the tax rate by $0.310 per $1,000
+      • the bill on a $500k home by $155/year
+   NOTE: the FY25→FY26 rate drop ($25.67→$14.55) is a REVALUATION, not a
+   cut — the tax base ~doubled. Compare the LEVY ($ raised), not the rate.
+
+==============================================================================
+6. CANNED BUDGET-CUT SCENARIOS  (savings on the $500k example home)
+==============================================================================
+   Scenario                                                  Cut $    Rate  $/home
+   ----------------------------------------------------------------------------
+   Flat-fund SCHOOLS at FY26 (0% vs +4.4%)               1,863,871   -0.58    -289
+   Flat-fund MUNICIPAL at FY26 (0% vs +4.1%)               763,897   -0.24    -119
+   Flat-fund SCHOOL+TOWN at FY26 (county is fixed)       2,627,768   -0.82    -408
+   Hold TOTAL increase to 2.5% (inflation)               1,284,265   -0.40    -199
+   Eliminate school ATHLETICS entirely                   1,107,525   -0.34    -172
+   Cut municipal CAPITAL RESERVES contribution 50%         909,360   -0.28    -141
+   5% across-the-board cut to MUNICIPAL OPERATING (excl. debt/capital)    808,404   -0.25    -125
+   Eliminate the Community Services dept                   385,964   -0.12     -60
+   Double the Budgeted Use of Surplus (+$750k, ONE-TIME)    750,000   -0.23    -116
+
+   For reference, the FY27 budget as proposed ADDS about +$375/yr to the
+   $500k home's bill. The biggest single 'easy' targets (athletics, a dept)
+   each move the bill <$175/yr — real savings require touching schools,
+   public safety, benefits, or capital, which are 85%+ of the budget.

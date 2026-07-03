@@ -1,0 +1,8 @@
+{
+  "name": "yarmouth-budget-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static explainer + AI chat evaluator for the Town of Yarmouth, ME budget.",
+  "engines": { "node": ">=18" }
+}

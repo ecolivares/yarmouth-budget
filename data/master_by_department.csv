@@ -1,0 +1,25 @@
+dept_code,department,category,budget_2024,budget_2025,budget_2026,budget_2027
+1100,Administration,General Government,1045094,1199951,1154927,1204858
+1110,Insurances,General Government,331173,383412,452343,435175
+1115,Benefits,General Government,2494320,2643283,2776808,3064336
+1120,Town Buildings,General Government,177282,197652,195348,250182
+1200,Police,Public Safety,1441127,1497310,1586368,1662265
+1210,Fire-Rescue,Public Safety,1154210,1217309,1333340,1382776
+1220,Public Safety Building,Public Safety,112649,119894,132213,137252
+1240,Dispatch / PS Communications,Public Safety,256086,278450,292066,303930
+1260,Harbor & Water,Public Safety,114007,131297,148503,158595
+1270,Public Safety Misc.,Public Safety,702609,729178,824813,880624
+1310,Highways,Public Works,1153978,1249071,1309472,1312689
+1320,Solid Waste,Public Works,821771,907275,885584,910356
+1330,Wastewater,Public Works,1085181,1171023,1130652,1196943
+1340,Mechanical,Public Works,482109,509047,573611,607736
+1370,Trees,Public Works,73500,74000,74000,74000
+1400,General Assistance,Health & Welfare,175590,156954,105578,100908
+1410,Human Service Agencies,Health & Welfare,4850,4850,4850,4850
+1500,Library,Public Services,619606,648455,695365,738433
+1530,Parks & Recreation,Public Services,595279,686075,730834,757463
+1560,Cemeteries,Public Services,45450,45450,27450,33750
+1570,Community Services,Public Services,251800,320688,382168,385964
+1580,Planning & Development,Public Services,494323,514928,540028,564993
+1600,Debt Service,Capital Programs,1402575,1462969,1571344,1574227
+1800,Capital Reserves,Capital Programs,1917474,2015213,1874462,1818720
