@@ -255,25 +255,25 @@ body {
 }
 .summary-strip .stat-row { margin: 0; }
 
-/* folder-style tabs — active tab connects to the shelf line, inactive tabs blend into the page */
+/* segmented-control tabs — an obvious switcher that blends on the page */
 .tabbar {
   position: sticky; top: 0; z-index: 30;
   background: var(--bg);
-  border-bottom: 1px solid var(--line);
+  padding: 12px 0;
 }
-.tabbar .wrap { padding-top: 10px; }
-.tabs { display: flex; gap: 4px; overflow-x: auto; }
+.tabs {
+  display: inline-flex; gap: 4px; padding: 5px;
+  background: var(--line-soft); border: 1px solid var(--line); border-radius: 13px;
+}
 .tab {
-  font: inherit; font-size: 14.5px; font-weight: 600; white-space: nowrap; cursor: pointer;
-  color: var(--ink-faint); background: transparent;
-  border: 1px solid transparent; border-bottom: none;
-  border-radius: 10px 10px 0 0; padding: 11px 18px; margin-bottom: -1px;
+  font: inherit; font-size: 14px; font-weight: 600; white-space: nowrap; cursor: pointer;
+  color: var(--ink-soft); background: transparent; border: none;
+  border-radius: 9px; padding: 9px 18px;
 }
-.tab:hover { color: var(--ink); background: color-mix(in srgb, var(--surface) 45%, var(--bg)); }
+.tab:hover { color: var(--ink); }
 .tab.active {
   color: var(--ink); font-weight: 700; background: var(--surface);
-  border-color: var(--line); border-bottom: 1px solid var(--surface);
-  position: relative; z-index: 1;
+  box-shadow: 0 1px 3px rgba(20,30,45,.12);
 }
 
 .panel { display: none; padding-top: 22px; }

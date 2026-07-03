@@ -138,7 +138,7 @@
     return "ok";
   }
 
-  var bState = { goal: "freeze", school: 0, town: 0, homeValue: M.home };
+  var bState = { school: 0, town: 0, homeValue: M.home };
   function factor() { return bState.homeValue / BASE; }
   function homeFor(dollars) { return Math.round(dollars * factor()); }
 
@@ -201,12 +201,6 @@
     var b27 = Math.round(S.rate["2027"] * bState.homeValue / 1000);
     return { b26: b26, b27: b27, inc: b27 - b26 };
   }
-  function goalReduction(inc) {
-    if (bState.goal === "freeze") return inc;
-    if (bState.goal === "0") return 0;
-    return parseInt(bState.goal, 10);
-  }
-
   function recompute() {
     var recD = 0, oneD = 0, picked = [];
     document.querySelectorAll(".opt-cb").forEach(function (cb) {
@@ -229,9 +223,6 @@
     var bills = anchorBills();
     var newBill = bills.b27 - totalHome;
     var vs26 = newBill - bills.b26;
-    var goalRed = goalReduction(bills.inc);
-    var met = goalRed > 0 && totalHome >= goalRed - 0.5;
-    var pctGoal = goalRed > 0 ? Math.min(100, totalHome / goalRed * 100) : 0;
 
     readout.innerHTML =
       '<div class="ro-context">This year (FY26): <strong>' + usdFull(bills.b26) + '</strong> · ' +
@@ -246,13 +237,6 @@
             '</b><span>vs this year</span></div>' +
         '</div></div>' +
       billBar(newBill, bills) +
-      (goalRed > 0
-        ? '<div class="ro-goal ' + (met ? "met" : "") + '"><div class="goal-track"><div class="goal-fill" style="width:' +
-            pctGoal.toFixed(0) + '%"></div></div><div class="goal-text">' + (met
-              ? "🎯 Goal met — you cut " + usdFull(Math.round(totalHome)) + " off the bill."
-              : "Found <strong>" + usdFull(Math.round(totalHome)) + "</strong> of your <strong>" + usdFull(goalRed) + "</strong> goal.") +
-            '</div></div>'
-        : "") +
       (oneHome > 0.5
         ? '<div class="ro-note">⚠️ ' + usdFull(Math.round(oneHome)) + ' of this is <strong>one-time</strong> ' +
           '(deferrals / surplus) and returns next year. Recurring cut: −' + usdFull(Math.round(recHome)) + '.</div>'
@@ -311,11 +295,6 @@
   });
 
   // ---- wiring ----
-  document.querySelector(".goalbar").addEventListener("click", function (e) {
-    var b = e.target.closest(".gchip"); if (!b) return;
-    this.querySelectorAll(".gchip").forEach(function (c) { c.classList.remove("active"); });
-    b.classList.add("active"); bState.goal = b.dataset.goal; recompute();
-  });
   body.addEventListener("change", function (e) { if (e.target.classList.contains("opt-cb")) recompute(); });
   body.addEventListener("input", function (e) {
     if (!e.target.classList.contains("staff-range")) return;
