@@ -336,28 +336,9 @@
   var chatHistory = [];
 
   document.getElementById("introBubble").innerHTML =
-    "Hi — I can help you understand the Yarmouth budget and test tax-cut ideas against the real numbers.<br><br>" +
-    "Tap a suggestion below (it just fills the box — you decide when to send), or ask me anything like " +
-    "<em>“how much would cutting $2 million save my house?”</em>";
-
-  var suggestions = [
-    "How much would a $2M cut save on my home?",
-    "What are the three biggest levers to lower my taxes?",
-    "Why did the budget go up so much — was it wasteful?",
-    "What would it take to freeze my bill next year?"
-  ];
-  document.getElementById("suggestions").innerHTML = suggestions.map(function (q) {
-    return '<button class="chip-btn" data-q="' + q.replace(/"/g, "&quot;") + '">' + q + "</button>";
-  }).join("");
-
-  // suggestion chips PREFILL only — never auto-send, so a click never spends tokens
-  document.addEventListener("click", function (e) {
-    var btn = e.target.closest("[data-q]"); if (!btn) return;
-    showTab("build");
-    textEl.value = btn.getAttribute("data-q");
-    textEl.focus(); textEl.dispatchEvent(new Event("input"));
-    document.getElementById("chat").scrollIntoView({ behavior: "smooth", block: "start" });
-  });
+    "Hi — ask me anything about the Yarmouth budget or a tax-cut idea, and I'll answer with the real numbers. " +
+    "For example: <em>“how much would cutting $2 million save my house?”</em> or " +
+    "<em>“why did the budget go up so much?”</em><br><br>Type your question below to start.";
 
   textEl.addEventListener("input", function () {
     textEl.style.height = "auto"; textEl.style.height = Math.min(textEl.scrollHeight, 160) + "px";

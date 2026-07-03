@@ -183,7 +183,7 @@ body {
 /* ---------- chat ---------- */
 .chat-window {
   border: 1px solid var(--line); border-radius: 12px; background: var(--bg);
-  padding: 16px; min-height: 130px; max-height: 460px; overflow-y: auto;
+  padding: 16px; min-height: 220px; max-height: 460px; overflow-y: auto;
   display: flex; flex-direction: column; gap: 14px;
 }
 .msg { display: flex; }
@@ -207,17 +207,28 @@ body {
 }
 .chip:hover { border-color: var(--accent); color: var(--accent); }
 
-.chat-input { display: flex; gap: 10px; align-items: flex-end; }
+/* chat composer — one bordered box that clearly invites typing */
+.chat-input {
+  display: flex; gap: 8px; align-items: flex-end; margin-top: 12px;
+  background: var(--surface); border: 1.5px solid var(--line); border-radius: 16px;
+  padding: 8px 8px 8px 6px; transition: border-color .12s, box-shadow .12s;
+}
+.chat-input:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent);
+}
 .chat-input textarea {
-  flex: 1; font: inherit; font-size: 14px; padding: 11px 14px; border-radius: 12px; resize: none;
-  border: 1px solid var(--line); background: var(--surface); color: var(--ink); max-height: 160px;
+  flex: 1; font: inherit; font-size: 15px; line-height: 1.5; padding: 9px 8px 9px 12px; resize: none;
+  border: none; background: none; color: var(--ink); max-height: 160px; min-height: 24px;
 }
-.chat-input textarea:focus { outline: 2px solid color-mix(in srgb, var(--accent) 45%, transparent); outline-offset: 1px; border-color: var(--accent); }
+.chat-input textarea:focus { outline: none; }
+.chat-input textarea::placeholder { color: var(--ink-faint); }
 .chat-input button {
-  font: inherit; font-weight: 600; font-size: 14px; padding: 11px 20px; border-radius: 12px; cursor: pointer;
-  border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink);
+  font: inherit; font-weight: 700; font-size: 14px; padding: 10px 20px; border-radius: 11px; cursor: pointer;
+  border: none; background: var(--accent); color: var(--accent-ink); align-self: stretch;
 }
-.chat-input button:disabled { opacity: .5; cursor: default; }
+.chat-input button:hover { background: color-mix(in srgb, var(--accent) 88%, #000); }
+.chat-input button:disabled { opacity: .45; cursor: default; }
 .chat-disclaimer { margin-top: 12px; }
 
 /* ---------- footer ---------- */
