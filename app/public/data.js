@@ -502,5 +502,239 @@ window.YB_DATA = {
     "homeBillFY27": 7625,
     "ratePerMillion": 0.31,
     "homePerMillion": 155
+  },
+  "builder": {
+    "anchor": {
+      "fy26Rate": 14.55,
+      "fy26Bill": 7275,
+      "fy27Rate": 15.25,
+      "fy27Bill": 7625,
+      "increase": 350
+    },
+    "options": [
+      {
+        "id": "sustainability-coordinator",
+        "group": "small",
+        "label": "Sustainability Coordinator",
+        "annual": 95465,
+        "oneTime": false,
+        "feasibility": "town-controlled",
+        "cost": "Ends in-house climate/energy work; one staff position.",
+        "target": "municipal",
+        "home": 15
+      },
+      {
+        "id": "tree-care-urban-forestry",
+        "group": "small",
+        "label": "Tree care / urban forestry",
+        "annual": 74000,
+        "oneTime": false,
+        "feasibility": "caution",
+        "cost": "Defers hazard-tree removal; liability + canopy risk.",
+        "target": "municipal",
+        "home": 11
+      },
+      {
+        "id": "stay-senior-tax-relief-reserve",
+        "group": "small",
+        "label": "STAY senior tax-relief reserve",
+        "annual": 238000,
+        "oneTime": false,
+        "feasibility": "verify",
+        "cost": "This IS senior property-tax relief \u2014 cutting it hits the residents most squeezed by taxes.",
+        "target": "municipal",
+        "home": 37
+      },
+      {
+        "id": "metro-regional-transit-subsidy",
+        "group": "small",
+        "label": "Metro regional transit subsidy",
+        "annual": 131547,
+        "oneTime": false,
+        "feasibility": "caution",
+        "cost": "Ends regional bus access for residents who rely on it.",
+        "target": "municipal",
+        "home": 20
+      },
+      {
+        "id": "aging-in-place-program",
+        "group": "small",
+        "label": "Aging-in-Place program",
+        "annual": 41000,
+        "oneTime": false,
+        "feasibility": "town-controlled",
+        "cost": "Cuts senior support services.",
+        "target": "municipal",
+        "home": 6
+      },
+      {
+        "id": "community-behavioral-health-liaison",
+        "group": "small",
+        "label": "Community Behavioral Health Liaison",
+        "annual": 41393,
+        "oneTime": false,
+        "feasibility": "town-controlled",
+        "cost": "Removes the town's mental-health response role; one position.",
+        "target": "municipal",
+        "home": 6
+      },
+      {
+        "id": "conservation-land-maintenance",
+        "group": "small",
+        "label": "Conservation land maintenance",
+        "annual": 28000,
+        "oneTime": false,
+        "feasibility": "town-controlled",
+        "cost": "Trail & open-space upkeep shifts to volunteers or lapses.",
+        "target": "municipal",
+        "home": 4
+      },
+      {
+        "id": "historical-society-appropriation",
+        "group": "small",
+        "label": "Historical Society appropriation",
+        "annual": 27000,
+        "oneTime": false,
+        "feasibility": "town-controlled",
+        "cost": "Ends a small heritage grant.",
+        "target": "municipal",
+        "home": 4
+      },
+      {
+        "id": "gpcog-regional-planning-dues",
+        "group": "small",
+        "label": "GPCOG regional planning dues",
+        "annual": 20228,
+        "oneTime": false,
+        "feasibility": "caution",
+        "cost": "Drops regional planning membership.",
+        "target": "municipal",
+        "home": 3
+      },
+      {
+        "id": "shellfish-conservation",
+        "group": "small",
+        "label": "Shellfish conservation",
+        "annual": 7000,
+        "oneTime": false,
+        "feasibility": "town-controlled",
+        "cost": "Clam-flat management; may risk state license revenue.",
+        "target": "municipal",
+        "home": 1
+      },
+      {
+        "id": "human-service-agencies-grants",
+        "group": "small",
+        "label": "Human Service Agencies grants",
+        "annual": 4850,
+        "oneTime": false,
+        "feasibility": "town-controlled",
+        "cost": "Zeroes grants to Opportunity Alliance, family-crisis & aging services.",
+        "target": "municipal",
+        "home": 1
+      },
+      {
+        "id": "rrct-land-trust-contribution",
+        "group": "small",
+        "label": "RRCT land-trust contribution",
+        "annual": 4500,
+        "oneTime": false,
+        "feasibility": "town-controlled",
+        "cost": "Ends a conservation-partner contribution.",
+        "target": "municipal",
+        "home": 1
+      },
+      {
+        "id": "school-athletics-pay-to-play",
+        "group": "amenity",
+        "label": "School athletics \u2192 pay-to-play",
+        "annual": 719891,
+        "oneTime": false,
+        "feasibility": "caution",
+        "cost": "Families pay fees; Title IX + waivers cap recovery; some kids priced out.",
+        "target": "schools",
+        "home": 112
+      },
+      {
+        "id": "school-transportation-route-optimization",
+        "group": "amenity",
+        "label": "School transportation \u2014 route optimization",
+        "annual": 455292,
+        "oneTime": false,
+        "feasibility": "constrained",
+        "cost": "Longer/combined routes; SpEd + walk-zone mandates limit real savings.",
+        "target": "schools",
+        "home": 71
+      },
+      {
+        "id": "town-library-reduce-hours",
+        "group": "amenity",
+        "label": "Town library \u2014 reduce hours",
+        "annual": 369216,
+        "oneTime": false,
+        "feasibility": "caution",
+        "cost": "Fewer open hours & staff; keeps the branch open.",
+        "target": "municipal",
+        "home": 57
+      },
+      {
+        "id": "parks-rec-reduced-maintenance",
+        "group": "amenity",
+        "label": "Parks & Rec \u2014 reduced maintenance",
+        "annual": 378732,
+        "oneTime": false,
+        "feasibility": "caution",
+        "cost": "Fields & parks decline; some deed restrictions bar closure.",
+        "target": "municipal",
+        "home": 59
+      },
+      {
+        "id": "freeze-cost-of-living-raises-town-school-1-yr",
+        "group": "lever",
+        "label": "Freeze cost-of-living raises (town + school, 1 yr)",
+        "annual": 1068000,
+        "oneTime": false,
+        "feasibility": "bargained",
+        "cost": "No COLA for teachers, police, fire & staff \u2014 requires union agreement.",
+        "target": "both",
+        "home": 166
+      },
+      {
+        "id": "defer-half-of-capital-reserve-contributions",
+        "group": "lever",
+        "label": "Defer half of capital-reserve contributions",
+        "annual": 909360,
+        "oneTime": true,
+        "feasibility": "town-controlled",
+        "cost": "Pushes equipment/building savings to later years \u2014 the cost returns.",
+        "target": "municipal",
+        "home": 141
+      },
+      {
+        "id": "draw-down-more-surplus-one-time",
+        "group": "lever",
+        "label": "Draw down more surplus (one-time)",
+        "annual": 750000,
+        "oneTime": true,
+        "feasibility": "town-controlled",
+        "cost": "Spends one-time savings; can't repeat without rebuilding reserves.",
+        "target": "municipal",
+        "home": 116
+      }
+    ],
+    "staffing": {
+      "perPosition": 90000,
+      "note": "Assumes ~$90,000 average all-in cost per position (salary + benefits) \u2014 an ESTIMATE; the dataset has payroll totals but not headcount.",
+      "school": {
+        "maxPositions": 40,
+        "label": "Cut school staff (teachers, aides, specialists)",
+        "cost": "Larger class sizes; fewer teachers, aides, specialists, or programs."
+      },
+      "town": {
+        "maxPositions": 15,
+        "label": "Cut town staff (police, fire, public works)",
+        "cost": "Slower emergency response and thinner town services."
+      }
+    }
   }
 };

@@ -73,7 +73,6 @@
     "/year</b> on a " + usd(M.home) + " home.</span>";
 
   document.getElementById("gfTotal").textContent = usdFull(tot27);
-  document.getElementById("homeLabel").textContent = usd(M.home);
 
   var parts = [
     { key: "edu", name: "Education (schools)", v: S.education[fy27] },
@@ -101,124 +100,192 @@
   renderBars(document.getElementById("schoolBars"), D.school, "--edu", 8);
   renderBars(document.getElementById("muniBars"), D.categories, "--muni", 6);
 
-  // ============ SCENARIOS EXPLORER ============
-  var state = { side: "cut", target: "all", impact: "all" };
-  var scenBody = document.getElementById("scenBody");
-  var targetChips = document.getElementById("targetChips");
-  var viewNote = document.getElementById("viewNote");
-
-  var TIERS = [
-    { key: "high", title: "High impact", desc: "over $100 a year on a $500k home" },
-    { key: "moderate", title: "Moderate impact", desc: "roughly $30–100 a year" },
-    { key: "small", title: "Small impact", desc: "under $30 a year — symbolic more than material" }
-  ];
-  var TARGET_LABEL = { schools: "Schools", municipal: "Town", both: "Town + Schools", revenue: "Revenue" };
-  var TARGET_CLASS = { schools: "t-edu", municipal: "t-muni", both: "t-both", revenue: "t-rev" };
+  // ============ BUILD YOUR OWN CUTS ============
+  var B = D.builder, A = B.anchor;
+  var perDollarHome = M.home / M.taxBaseFY27;         // $ off the home bill per $1 cut
+  var perDollarRate = 1000 / M.taxBaseFY27;           // rate Δ per $1 cut
 
   function feasClass(f) {
     f = (f || "").toLowerCase();
-    if (f.indexOf("verify") >= 0 || f.indexOf("aggressive") >= 0) return "verify";
-    if (f.indexOf("caution") >= 0 || f.indexOf("constrained") >= 0 || f.indexOf("study") >= 0 ||
-        f.indexOf("legal") >= 0 || f.indexOf("bargain") >= 0) return "caution";
+    if (f.indexOf("verify") >= 0) return "verify";
+    if (f.indexOf("caution") >= 0 || f.indexOf("constrained") >= 0 || f.indexOf("bargain") >= 0) return "caution";
     return "ok";
   }
+  var GROUPS = [
+    { key: "small", title: "The stuff people assume is “the waste”",
+      sub: "small discretionary lines and subsidies" },
+    { key: "amenity", title: "Amenities & services",
+      sub: "visible programs residents actually use" },
+    { key: "lever", title: "Pay & one-time moves",
+      sub: "bigger levers — a raise freeze, deferring capital, spending savings" }
+  ];
 
-  function card(s) {
-    var typ = s.type === "revenue" ? "new revenue/yr" : (s.type === "one-time" ? "one-time" : "annual cut");
-    return '<div class="scenario">' +
-      '<div class="scen-top">' +
-        '<span class="tbadge ' + TARGET_CLASS[s.target] + '">' + TARGET_LABEL[s.target] + '</span>' +
-        (s.type === "one-time" ? '<span class="tbadge t-once">one-time</span>' : '') +
-      '</div>' +
-      '<div class="title">' + s.scenario + '</div>' +
-      '<div class="nums">' +
-        '<div class="n save"><b>−$' + s.home + '</b><span class="cap">/home/yr</span></div>' +
-        '<div class="n"><b>' + usd(s.annual) + '</b><span class="cap">' + typ + '</span></div>' +
-        '<div class="n"><b>−$' + s.rate.toFixed(2) + '</b><span class="cap">rate /$1k</span></div>' +
-      '</div>' +
-      '<span class="badge ' + feasClass(s.feasibility) + '">' + s.feasibility + '</span>' +
-      '<div class="note">' + s.note + '</div>' +
-      '<button class="ask" data-q="Evaluate this idea in detail: ' +
-        s.scenario.replace(/"/g, "&quot;") + '">Ask about this →</button>' +
-    '</div>';
-  }
+  var bState = { goal: "freeze", school: 0, town: 0 };
 
-  function renderScenarios() {
-    // toggle target row visibility (revenue has no target split)
-    targetChips.style.display = state.side === "revenue" ? "none" : "";
+  document.getElementById("builderIntro").innerHTML =
+    "The typical " + usd(M.home) + " home pays <strong>" + usdFull(A.fy26Bill) + "</strong> in property tax this year (FY26). " +
+    "The draft FY27 budget raises that to <strong>" + usdFull(A.fy27Bill) + "</strong> — about <strong>+$" + A.increase + "</strong>. " +
+    "Your job: cut the budget and watch your bill. Every toggle updates instantly — no cost, nothing sent anywhere.";
 
-    var rows = D.scenarios.filter(function (s) {
-      if (s.side !== state.side) return false;
-      if (state.side === "cut" && state.target !== "all" && s.target !== state.target) return false;
-      if (state.impact !== "all" && s.impact !== state.impact) return false;
-      return true;
+  document.getElementById("builderDisclaimer").innerHTML =
+    B.staffing.note + " Items are curated not to overlap, so the running total doesn't double-count. " +
+    "One-time moves (★) lower one year's bill but return the next.";
+
+  // ---- build the controls ----
+  var body = document.getElementById("builderBody");
+  var html = "";
+  GROUPS.forEach(function (g) {
+    var opts = B.options.filter(function (o) { return o.group === g.key; });
+    html += '<div class="bgroup"><div class="bgroup-head"><span class="bg-title">' + g.title +
+      '</span><span class="bg-sub">' + g.sub + '</span></div>';
+    opts.forEach(function (o) {
+      html += '<label class="opt"><input type="checkbox" class="opt-cb" data-annual="' + o.annual +
+        '" data-home="' + o.home + '" data-onetime="' + (o.oneTime ? 1 : 0) + '" data-label="' +
+        o.label.replace(/"/g, "&quot;") + '" data-cost="' + o.cost.replace(/"/g, "&quot;") + '">' +
+        '<span class="opt-main"><span class="opt-label">' + o.label +
+        (o.oneTime ? ' <span class="once">★ one-time</span>' : '') +
+        ' <span class="badge ' + feasClass(o.feasibility) + '">' + o.feasibility + '</span></span>' +
+        '<span class="opt-cost">' + o.cost + '</span></span>' +
+        '<span class="opt-home">−$' + o.home + '</span></label>';
     });
-
-    // contextual note
-    viewNote.innerHTML = noteFor(state, rows.length);
-
-    if (!rows.length) {
-      scenBody.innerHTML = '<p class="empty">No modeled scenarios match this filter. Try widening it, or ask a custom idea in <strong>Ask the budget</strong>.</p>';
-      return;
-    }
-
-    var html = "";
-    TIERS.forEach(function (tier) {
-      if (state.impact !== "all" && state.impact !== tier.key) return;
-      var group = rows.filter(function (s) { return s.impact === tier.key; })
-                      .sort(function (a, b) { return b.home - a.home; });
-      if (!group.length) return;
-      html += '<div class="tier">' +
-        '<div class="tier-head"><span class="tier-title">' + tier.title + '</span>' +
-        '<span class="tier-desc">' + tier.desc + '</span>' +
-        '<span class="tier-count">' + group.length + '</span></div>' +
-        '<div class="scenario-grid">' + group.map(card).join("") + '</div></div>';
-    });
-    scenBody.innerHTML = html;
-  }
-
-  function noteFor(st, n) {
-    if (st.side === "revenue") {
-      return "Revenue grows the pie without cutting services — but these are estimates that need study, " +
-        "and (unlike surplus draws) they're recurring. Every dollar raised lowers the levy dollar-for-dollar.";
-    }
-    if (st.target === "schools") {
-      return "Only a couple of discrete school cuts are modeled here — yet schools are <strong>67% of the budget</strong> " +
-        "and ~83% staff pay, so the real school lever is staffing/compensation, not programs. See the " +
-        "<em>Town + Schools</em> compensation scenario, or ask a custom school idea in <strong>Ask the budget</strong>.";
-    }
-    if (st.target === "municipal") {
-      return "The town (municipal) budget is only ~30% of spending, so even deep town cuts move the bill modestly. " +
-        "The biggest single town levers are capital reserves and across-the-board operating trims.";
-    }
-    return "";
-  }
-
-  function wireChips(container, keyName) {
-    container.addEventListener("click", function (e) {
-      var b = e.target.closest(".fchip"); if (!b) return;
-      container.querySelectorAll(".fchip").forEach(function (c) { c.classList.remove("active"); });
-      b.classList.add("active");
-      state[keyName] = b.dataset[keyName];
-      renderScenarios();
-    });
-  }
-  wireChips(targetChips, "target");
-  wireChips(document.getElementById("impactChips"), "impact");
-
-  document.getElementById("sideSeg").addEventListener("click", function (e) {
-    var b = e.target.closest(".seg"); if (!b) return;
-    this.querySelectorAll(".seg").forEach(function (c) { c.classList.remove("active"); });
-    b.classList.add("active");
-    state.side = b.dataset.side;
-    renderScenarios();
+    html += '</div>';
   });
 
-  document.getElementById("scenariosDisclaimer").textContent =
-    'Feasibility flags are starting points, not legal advice. "one-time" items (deferrals, surplus) lower one ' +
-    "year's bill but don't repeat. Figures use the FY27 draft conversion factor.";
+  // staffing sliders
+  html += '<div class="bgroup levers"><div class="bgroup-head"><span class="bg-title">The real levers — staffing</span>' +
+    '<span class="bg-sub">where the big money actually is (~83% of schools is people)</span></div>';
+  html += sliderHTML("school", B.staffing.school);
+  html += sliderHTML("town", B.staffing.town);
+  html += '</div>';
+  body.innerHTML = html;
 
-  renderScenarios();
+  function sliderHTML(key, cfg) {
+    return '<div class="slider"><div class="slider-top"><span class="opt-label">' + cfg.label +
+      '</span><span class="slider-val" id="val-' + key + '">0 positions · −$0</span></div>' +
+      '<input type="range" class="staff-range" id="range-' + key + '" data-key="' + key +
+      '" min="0" max="' + cfg.maxPositions + '" value="0">' +
+      '<span class="opt-cost">' + cfg.cost + '</span></div>';
+  }
+
+  // ---- recompute ----
+  var readout = document.getElementById("readout");
+  var cutlist = document.getElementById("cutlist");
+
+  function goalReduction() {
+    if (bState.goal === "freeze") return A.increase;
+    if (bState.goal === "0") return 0;
+    return parseInt(bState.goal, 10);
+  }
+
+  function recompute() {
+    var recDollars = 0, oneDollars = 0, picked = [];
+    document.querySelectorAll(".opt-cb").forEach(function (cb) {
+      if (!cb.checked) return;
+      var annual = +cb.dataset.annual, one = cb.dataset.onetime === "1";
+      if (one) oneDollars += annual; else recDollars += annual;
+      picked.push({ label: cb.dataset.label, home: +cb.dataset.home, one: one, cost: cb.dataset.cost });
+    });
+    // staffing sliders (recurring)
+    ["school", "town"].forEach(function (key) {
+      var n = bState[key];
+      if (n > 0) {
+        var d = n * B.staffing.perPosition;
+        recDollars += d;
+        picked.push({
+          label: B.staffing[key].label + " — " + n + " position" + (n > 1 ? "s" : ""),
+          home: Math.round(d * perDollarHome), one: false, cost: B.staffing[key].cost
+        });
+      }
+    });
+
+    var totalDollars = recDollars + oneDollars;
+    var recHome = recDollars * perDollarHome;
+    var oneHome = oneDollars * perDollarHome;
+    var totalHome = recHome + oneHome;
+    var newBill = A.fy27Bill - totalHome;
+    var vs26 = newBill - A.fy26Bill;
+
+    // ---- readout ----
+    var goalRed = goalReduction();
+    var metGoal = goalRed > 0 && totalHome >= goalRed - 0.5;
+    var pctToGoal = goalRed > 0 ? Math.min(100, totalHome / goalRed * 100) : 0;
+
+    readout.innerHTML =
+      '<div class="ro-top">' +
+        '<div class="ro-bill"><span class="ro-num">' + usdFull(Math.round(newBill)) + '</span>' +
+          '<span class="ro-cap">your projected FY27 bill</span></div>' +
+        '<div class="ro-stats">' +
+          '<div><b class="save">−' + usdFull(Math.round(totalHome)) + '</b><span>off your bill</span></div>' +
+          '<div><b>' + usd(totalDollars) + '</b><span>cut from budget</span></div>' +
+          '<div><b class="' + (vs26 > 0 ? "" : "save") + '">' + (vs26 >= 0 ? "+" : "−") + usdFull(Math.abs(Math.round(vs26))) +
+            '</b><span>vs this year</span></div>' +
+        '</div>' +
+      '</div>' +
+      billBar(newBill) +
+      (goalRed > 0
+        ? '<div class="ro-goal ' + (metGoal ? "met" : "") + '">' +
+            '<div class="goal-track"><div class="goal-fill" style="width:' + pctToGoal.toFixed(0) + '%"></div></div>' +
+            '<div class="goal-text">' + (metGoal
+              ? "🎯 Goal met — you've cut $" + Math.round(totalHome) + " off the bill."
+              : "Found <strong>$" + Math.round(totalHome) + "</strong> of your <strong>$" + goalRed + "</strong> goal.") +
+            '</div></div>'
+        : "") +
+      (oneHome > 0.5
+        ? '<div class="ro-note">⚠️ ' + usdFull(Math.round(oneHome)) + ' of this is <strong>one-time</strong> ' +
+          '(deferrals / surplus) and returns next year. Recurring cut: −' + usdFull(Math.round(recHome)) + '.</div>'
+        : "");
+
+    // ---- what you're cutting ----
+    if (!picked.length) {
+      cutlist.innerHTML = '<div class="cut-empty">Nothing cut yet. Start toggling above — notice how far the ' +
+        '“easy” stuff gets you before you have to touch teachers, police, or fire.</div>';
+    } else {
+      picked.sort(function (a, b) { return b.home - a.home; });
+      cutlist.innerHTML = '<div class="cut-head">What you\'re cutting — and what it costs</div>' +
+        picked.map(function (p) {
+          return '<div class="cut-item"><span class="ci-home">−$' + p.home + '</span>' +
+            '<span class="ci-body"><span class="ci-label">' + p.label +
+            (p.one ? ' <span class="once">★</span>' : '') + '</span>' +
+            '<span class="ci-cost">' + p.cost + '</span></span></div>';
+        }).join("");
+    }
+  }
+
+  function billBar(newBill) {
+    var lo = 6000, hi = A.fy27Bill + 75;
+    function pos(x) { return Math.max(0, Math.min(100, (x - lo) / (hi - lo) * 100)); }
+    var youPct = pos(newBill), draftPct = pos(A.fy27Bill), todayPct = pos(A.fy26Bill);
+    return '<div class="bar-wrap">' +
+      '<div class="bill-bar">' +
+        '<div class="bb-fill" style="left:' + youPct + '%;width:' + Math.max(0, draftPct - youPct) + '%"></div>' +
+        '<div class="bb-tick today" style="left:' + todayPct + '%"><span>this year $' + A.fy26Bill + '</span></div>' +
+        '<div class="bb-tick draft" style="left:' + draftPct + '%"><span>draft $' + A.fy27Bill + '</span></div>' +
+        '<div class="bb-you" style="left:' + youPct + '%"></div>' +
+      '</div></div>';
+  }
+
+  // ---- wiring ----
+  document.querySelector(".goalbar").addEventListener("click", function (e) {
+    var b = e.target.closest(".gchip"); if (!b) return;
+    this.querySelectorAll(".gchip").forEach(function (c) { c.classList.remove("active"); });
+    b.classList.add("active");
+    bState.goal = b.dataset.goal;
+    recompute();
+  });
+  body.addEventListener("change", function (e) {
+    if (e.target.classList.contains("opt-cb")) recompute();
+  });
+  body.addEventListener("input", function (e) {
+    if (!e.target.classList.contains("staff-range")) return;
+    var key = e.target.dataset.key, n = +e.target.value;
+    bState[key] = n;
+    var d = n * B.staffing.perPosition;
+    document.getElementById("val-" + key).textContent =
+      n + " position" + (n === 1 ? "" : "s") + " · −" + usdFull(Math.round(d * perDollarHome));
+    recompute();
+  });
+
+  recompute();
 
   // ============ CHAT ============
   var chatWindow = document.getElementById("chatWindow");
@@ -229,7 +296,7 @@
 
   document.getElementById("introBubble").innerHTML =
     "Hi — I can help you understand the Yarmouth budget and test tax-cut ideas against the real numbers.<br><br>" +
-    "Try a scenario's “Ask about this”, tap a suggestion below, or ask me anything like " +
+    "Tap a suggestion below (it just fills the box — you decide when to send), or ask me anything like " +
     "<em>“how much would cutting $2 million save my house?”</em>";
 
   var suggestions = [
@@ -242,13 +309,15 @@
     return '<button class="chip-btn" data-q="' + q.replace(/"/g, "&quot;") + '">' + q + "</button>";
   }).join("");
 
+  // Suggestion chips only PREFILL the box — they never auto-send, so a click
+  // never spends tokens. The user must deliberately press Send.
   document.addEventListener("click", function (e) {
     var btn = e.target.closest("[data-q]");
     if (!btn) return;
-    var q = btn.getAttribute("data-q");
     showTab("chat");
-    textEl.value = q;
-    submit();
+    textEl.value = btn.getAttribute("data-q");
+    textEl.focus();
+    textEl.dispatchEvent(new Event("input"));
   });
 
   textEl.addEventListener("input", function () {

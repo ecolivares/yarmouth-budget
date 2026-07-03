@@ -80,40 +80,26 @@
       </div>
     </section>
 
-    <!-- ===================== SCENARIOS ===================== -->
+    <!-- ===================== BUILD YOUR OWN CUTS ===================== -->
     <section class="panel active" id="panel-scenarios" role="tabpanel">
-      <div class="card">
-        <p class="section-sub">Every idea below is a real budget line (or a realistic estimate) converted to its
-          rate impact and the savings on a <span id="homeLabel"></span> home. Pick a side, narrow by what it
-          touches and how much it moves your bill, then take any idea to <strong>Ask the budget</strong>.</p>
+      <div class="card builder">
+        <h2>You try to cut it</h2>
+        <p class="section-sub" id="builderIntro"></p>
 
-        <!-- primary: cuts vs revenue -->
-        <div class="segmented" id="sideSeg" role="tablist" aria-label="Cuts or revenue">
-          <button class="seg active" data-side="cut">✂️ Spending cuts</button>
-          <button class="seg" data-side="revenue">＋ New revenue</button>
+        <div class="goalbar">
+          <span class="goal-label">Goal</span>
+          <button class="gchip active" data-goal="freeze">Freeze the increase</button>
+          <button class="gchip" data-goal="500">Cut $500 off my bill</button>
+          <button class="gchip" data-goal="1000">Cut $1,000</button>
+          <button class="gchip" data-goal="0">Free explore</button>
         </div>
 
-        <!-- secondary filters -->
-        <div class="filters">
-          <div class="chip-row" id="targetChips">
-            <span class="chip-label">What it touches</span>
-            <button class="fchip active" data-target="all">All</button>
-            <button class="fchip" data-target="schools">Schools</button>
-            <button class="fchip" data-target="municipal">Town</button>
-            <button class="fchip" data-target="both">Town + Schools</button>
-          </div>
-          <div class="chip-row" id="impactChips">
-            <span class="chip-label">Impact on your bill</span>
-            <button class="fchip active" data-impact="all">All</button>
-            <button class="fchip" data-impact="high">High</button>
-            <button class="fchip" data-impact="moderate">Moderate</button>
-            <button class="fchip" data-impact="small">Small</button>
-          </div>
-        </div>
+        <div class="readout" id="readout"></div>
 
-        <p class="view-note" id="viewNote"></p>
-        <div id="scenBody"></div>
-        <p class="fine" id="scenariosDisclaimer"></p>
+        <div class="builder-body" id="builderBody"></div>
+
+        <div class="cutlist" id="cutlist"></div>
+        <p class="fine" id="builderDisclaimer"></p>
       </div>
     </section>
 

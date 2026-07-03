@@ -12,6 +12,7 @@ Run from the repo root:  python3 build_data.py
 import csv
 import json
 import os
+import re
 
 DATA = "data"
 OUT_PUBLIC = "app/public/data.js"
@@ -124,6 +125,89 @@ def build():
         "homePerMillion": round(home_per_million),
     }
 
+    # ---- "build your own cuts" — curated, NON-OVERLAPPING menu ----
+    # Amounts are the validated scenario figures; each item is independent so the
+    # running tally can't double-count. Sliders (staffing) are distinct pools.
+    def home_of(dollars):
+        return round(dollars * HOME / TAX_BASE_FY27)
+
+    STAFF_PER_POSITION = 90_000  # ESTIMATE: avg all-in comp (salary+benefits). Labeled in UI.
+
+    builder_opts = [
+        # group: the small discretionary stuff people assume is "the waste"
+        ("small", "Sustainability Coordinator", 95_465, False, "town-controlled",
+         "Ends in-house climate/energy work; one staff position."),
+        ("small", "Tree care / urban forestry", 74_000, False, "caution",
+         "Defers hazard-tree removal; liability + canopy risk."),
+        ("small", "STAY senior tax-relief reserve", 238_000, False, "verify",
+         "This IS senior property-tax relief — cutting it hits the residents most squeezed by taxes."),
+        ("small", "Metro regional transit subsidy", 131_547, False, "caution",
+         "Ends regional bus access for residents who rely on it."),
+        ("small", "Aging-in-Place program", 41_000, False, "town-controlled",
+         "Cuts senior support services."),
+        ("small", "Community Behavioral Health Liaison", 41_393, False, "town-controlled",
+         "Removes the town's mental-health response role; one position."),
+        ("small", "Conservation land maintenance", 28_000, False, "town-controlled",
+         "Trail & open-space upkeep shifts to volunteers or lapses."),
+        ("small", "Historical Society appropriation", 27_000, False, "town-controlled",
+         "Ends a small heritage grant."),
+        ("small", "GPCOG regional planning dues", 20_228, False, "caution",
+         "Drops regional planning membership."),
+        ("small", "Shellfish conservation", 7_000, False, "town-controlled",
+         "Clam-flat management; may risk state license revenue."),
+        ("small", "Human Service Agencies grants", 4_850, False, "town-controlled",
+         "Zeroes grants to Opportunity Alliance, family-crisis & aging services."),
+        ("small", "RRCT land-trust contribution", 4_500, False, "town-controlled",
+         "Ends a conservation-partner contribution."),
+
+        # group: amenities & services (bigger, more visible)
+        ("amenity", "School athletics → pay-to-play", 719_891, False, "caution",
+         "Families pay fees; Title IX + waivers cap recovery; some kids priced out.", "schools"),
+        ("amenity", "School transportation — route optimization", 455_292, False, "constrained",
+         "Longer/combined routes; SpEd + walk-zone mandates limit real savings.", "schools"),
+        ("amenity", "Town library — reduce hours", 369_216, False, "caution",
+         "Fewer open hours & staff; keeps the branch open."),
+        ("amenity", "Parks & Rec — reduced maintenance", 378_732, False, "caution",
+         "Fields & parks decline; some deed restrictions bar closure."),
+
+        # group: pay & one-time levers
+        ("lever", "Freeze cost-of-living raises (town + school, 1 yr)", 1_068_000, False, "bargained",
+         "No COLA for teachers, police, fire & staff — requires union agreement.", "both"),
+        ("lever", "Defer half of capital-reserve contributions", 909_360, True, "town-controlled",
+         "Pushes equipment/building savings to later years — the cost returns."),
+        ("lever", "Draw down more surplus (one-time)", 750_000, True, "town-controlled",
+         "Spends one-time savings; can't repeat without rebuilding reserves."),
+    ]
+
+    builder = {
+        "anchor": {
+            "fy26Rate": summary["rate"]["2026"],
+            "fy26Bill": round(summary["rate"]["2026"] * HOME / 1000),
+            "fy27Rate": summary["rate"]["2027"],
+            "fy27Bill": round(summary["rate"]["2027"] * HOME / 1000),
+        },
+        "options": [],
+        "staffing": {
+            "perPosition": STAFF_PER_POSITION,
+            "note": "Assumes ~$" + format(STAFF_PER_POSITION, ",") + " average all-in cost per position "
+                    "(salary + benefits) — an ESTIMATE; the dataset has payroll totals but not headcount.",
+            "school": {"maxPositions": 40, "label": "Cut school staff (teachers, aides, specialists)",
+                       "cost": "Larger class sizes; fewer teachers, aides, specialists, or programs."},
+            "town": {"maxPositions": 15, "label": "Cut town staff (police, fire, public works)",
+                     "cost": "Slower emergency response and thinner town services."},
+        },
+    }
+    for opt in builder_opts:
+        group, label, annual, one_time, feas, cost = opt[:6]
+        target = opt[6] if len(opt) > 6 else "municipal"
+        builder["options"].append({
+            "id": re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-"),
+            "group": group, "label": label, "annual": annual, "oneTime": one_time,
+            "feasibility": feas, "cost": cost, "target": target,
+            "home": home_of(annual),
+        })
+    builder["anchor"]["increase"] = builder["anchor"]["fy27Bill"] - builder["anchor"]["fy26Bill"]
+
     return {
         "meta": {
             "generated": "phase-1 dataset",
@@ -134,6 +218,7 @@ def build():
         "school": school,
         "scenarios": scenarios,
         "mechanics": mechanics,
+        "builder": builder,
     }
 
 
