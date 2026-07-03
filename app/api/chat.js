@@ -15,7 +15,7 @@ export const config = { runtime: "edge" };
 
 // ---- tunables (env-overridable) ----
 const MODEL = globalThis.process?.env?.CHAT_MODEL || "claude-sonnet-5";
-const MAX_TOKENS = int(globalThis.process?.env?.MAX_TOKENS, 1024);
+const MAX_TOKENS = int(globalThis.process?.env?.MAX_TOKENS, 1500);
 const MAX_TURNS = int(globalThis.process?.env?.MAX_TURNS, 16);   // messages kept
 const MAX_MSG_CHARS = int(globalThis.process?.env?.MAX_MSG_CHARS, 4000);
 const RL_LIMIT = int(globalThis.process?.env?.RL_LIMIT, 20);     // requests
@@ -69,6 +69,10 @@ export default async function handler(req) {
       body: JSON.stringify({
         model: MODEL,
         max_tokens: MAX_TOKENS,
+        // Sonnet 5 runs adaptive thinking when `thinking` is omitted, which would
+        // consume the max_tokens budget before the answer finishes. This is a
+        // short grounded Q&A — turn thinking off so the whole budget is the reply.
+        thinking: { type: "disabled" },
         system: systemPrompt(),
         messages: msgs,
         stream: true
